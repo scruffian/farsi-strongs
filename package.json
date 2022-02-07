@@ -1,0 +1,9 @@
+{
+	"name": "farsi-strongs",
+	"devDependencies": {},
+	"dependencies": {
+		"@google-cloud/translate": "^6.3.1",
+		"natural": "^5.1.13",
+		"node-fetch": "^3.2.0"
+	}
+}
