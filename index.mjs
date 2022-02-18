@@ -26,9 +26,9 @@ const { Translate } = v2; */
 	}
 
 	// const wordnet = new natural.WordNet()
-	const esv = await fs.readFile( 'ESV.json', 'utf8' );
-	const JsonESV = JSON.parse( esv );
-	const ESVBooks = JsonESV.books;
+	// const esv = await fs.readFile( 'ESV.json', 'utf8' );
+	// const JsonESV = JSON.parse( esv );
+	// const ESVBooks = JsonESV.books;
 	/*Object.keys( ESVBooks ).forEach( book => {
 		ESVBooks[ book ].forEach( chapter => {
 			chapter.forEach( verse => {
@@ -112,7 +112,7 @@ const { Translate } = v2; */
 			// console.log({farsi:faWord, similarities:similarities})
 		}
 		nChapter++
-		fs.writeFile("NMV_translations.json", JSON.stringify(outjson))
+		fs.writeFile("NMV_translations_"+book+".json", JSON.stringify(outjson))
 	} ;
 
 }
