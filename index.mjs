@@ -17,6 +17,14 @@ const { Translate } = v2; */
 }); */
 
 (async function start() {
+	let args = process.argv.slice(2);
+	let book = args?.[0];
+
+	if ( ! book ) {
+		console.log( 'Please specify a book' );
+		return;
+	}
+
 	// const wordnet = new natural.WordNet()
 	const esv = await fs.readFile( 'ESV.json', 'utf8' );
 	const JsonESV = JSON.parse( esv );
@@ -38,82 +46,79 @@ const { Translate } = v2; */
 	// const book = 'Genesis'
 	const outjson = {books:{}}
 
-	for (const book of Object.keys( NMVBooks )) {
-		// console.log(book)
-		outjson.books[book]=[]
-		var nChapter = 0
+	outjson.books[book]=[]
+	var nChapter = 0
 
-		for (const chapter of NMVBooks[ book ]) {
-			// console.log(nChapter + 1)
-			outjson.books[book].push([])
-			var nVerse = 0
-			const verse = NMVBooks[book][nChapter][nVerse]
+	for (const chapter of NMVBooks[ book ]) {
+		// console.log(nChapter + 1)
+		outjson.books[book].push([])
+		var nVerse = 0
+		const verse = NMVBooks[book][nChapter][nVerse]
 
-			for (const verse of chapter) {
-				console.log([book, nChapter +1, nVerse + 1])
-				outjson.books[book][nChapter].push([])
-				for (const faWord of verse.split( ' ' )) {
-					const res = await extendedTranslateText( faWord );
-					const translations = []
-					if (res['translations'] instanceof Object){
-						for (const wordType of Object.keys(res['translations'])) {
-							for (const translationChoice of res['translations'][wordType]) {
-								translations.push(translationChoice);
-							};
+		for (const verse of chapter) {
+			console.log([book, nChapter +1, nVerse + 1])
+			outjson.books[book][nChapter].push([])
+			for (const faWord of verse.split( ' ' )) {
+				const res = await extendedTranslateText( faWord );
+				const translations = []
+				if (res['translations'] instanceof Object){
+					for (const wordType of Object.keys(res['translations'])) {
+						for (const translationChoice of res['translations'][wordType]) {
+							translations.push(translationChoice);
 						};
-						//console.log(res['word'], translations);
-					}
-					else if (res['translations'] instanceof Array) {
-						translations.push(res['translations']);
 					};
-					
-					outjson.books[book][nChapter][nVerse].push([faWord, translations])
-
-
-					/* const similarities = []
-					for (const englishWord of ESVBooks['Genesis'][0][0]) {
-						if ( englishWord[1] ) {
-							for (const translatedWord of translations) {
-								const options = {
-									mode: 'text',
-									pythonPath: '...\\python.exe',
-									pythonOptions: ['-u'], // get print results in real-time
-									scriptPath: '...\\farsi-strongs',
-									args: [translatedWord, englishWord[0]]
-								};
-								
-								PythonShell.run('wupsimilarity.py', options, function (err, results) {
-									if (err) throw err;
-									// results is an array consisting of messages collected during execution
-									similarities.push(
-										{
-											similarity: results, 
-											translation:translatedWord, 
-											ESVword:englishWord[0], 
-											strongs:englishWord[1]
-										}
-									);
-								});
-								if (translatedWord == englishWord[0]) {
-									console.log([faWord, translatedWord, englishWord])
-								}	
-							}; 
-								
-						};
-					}; */
+					//console.log(res['word'], translations);
+				}
+				else if (res['translations'] instanceof Array) {
+					translations.push(res['translations']);
 				};
-				nVerse++
-				// console.log({farsi:faWord, similarities:similarities})
-			}
-			nChapter++
-			fs.writeFile("NMV_translations.json", JSON.stringify(outjson))
-		} ;
-	}
-	
+
+				outjson.books[book][nChapter][nVerse].push([faWord, translations])
+
+
+				/* const similarities = []
+				for (const englishWord of ESVBooks['Genesis'][0][0]) {
+					if ( englishWord[1] ) {
+						for (const translatedWord of translations) {
+							const options = {
+								mode: 'text',
+								pythonPath: '...\\python.exe',
+								pythonOptions: ['-u'], // get print results in real-time
+								scriptPath: '...\\farsi-strongs',
+								args: [translatedWord, englishWord[0]]
+							};
+
+							PythonShell.run('wupsimilarity.py', options, function (err, results) {
+								if (err) throw err;
+								// results is an array consisting of messages collected during execution
+								similarities.push(
+									{
+										similarity: results,
+										translation:translatedWord,
+										ESVword:englishWord[0],
+										strongs:englishWord[1]
+									}
+								);
+							});
+							if (translatedWord == englishWord[0]) {
+								console.log([faWord, translatedWord, englishWord])
+							}
+						};
+
+					};
+				}; */
+			};
+			nVerse++
+			// console.log({farsi:faWord, similarities:similarities})
+		}
+		nChapter++
+		fs.writeFile("NMV_translations.json", JSON.stringify(outjson))
+	} ;
+
 }
-	
+
 	// const faWord = verse[1]
-		
+
 
 
 			// const faWordTranslations = { faWord: translations}
@@ -126,12 +131,12 @@ const { Translate } = v2; */
 				});
 
 			}); */
-	
-	
+
+
 	/* translatedVerse.forEach( translatedWord => {
 		ESVBooks['Genesis'][0][0].forEach( englishWord => {
 			if ( englishWord[1] ) {
-				
+
 				const esvWord = natural.PorterStemmer.stem(englishWord[0]);
 				if (' ' in translatedWord) {
 					const farsiWord = natural.PorterStemmer.attach(translatedWord.tokenizeAndStem());
@@ -194,6 +199,6 @@ return res;
 			};
 		});
 	});
-  
-	
+
+
 } */
