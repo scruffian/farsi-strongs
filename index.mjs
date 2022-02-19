@@ -59,8 +59,8 @@ const { Translate } = v2; */
 			console.log([book, nChapter +1, nVerse + 1])
 			outjson.books[book][nChapter].push([])
 			for (const faWord of verse.split( ' ' )) {
-				const res = await extendedTranslateText( faWord );
-				const translations = []
+				const res = await translate(text, "fa", "en", {detailedTranslationsSynonyms: false});
+				const translations = [];
 				if (res['translations'] instanceof Object){
 					for (const wordType of Object.keys(res['translations'])) {
 						for (const translationChoice of res['translations'][wordType]) {
@@ -175,10 +175,6 @@ const { Translate } = v2; */
 		console.log(`${text[i]} => (${target}) ${translation}`);
 	});
 } */
-async function extendedTranslateText (text) {
-	const res = translate(text, "fa", "en", {detailedTranslationsSynonyms: false});
-return res;
-}
 
 /* function semanticSimilarity (string1, string2) {
 	use.load().then(model => {
