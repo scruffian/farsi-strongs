@@ -1,6 +1,7 @@
 import { promises as fs, constants, link } from 'fs';
 // import natural from 'natural';
 import translate from 'extended-google-translate-api';
+import {exit } from 'process';
 //import WordNet from 'natural/lib/natural/wordnet/wordnet';
 // import * as use from '@tensorflow-models/universal-sentence-encoder';
 // import child_process from 'child_process';
@@ -25,6 +26,69 @@ const { Translate } = v2; */
 		return;
 	}
 
+	const nmv = await fs.readFile( 'NMV.json' );
+	const JsonNMV = JSON.parse( nmv );
+	const NMVBooks = JsonNMV.books;
+	// const verse = NMVBooks['Genesis'][0][0];
+	// const book = 'Genesis'
+	const outjson = {books:{}};
+
+	outjson.books[book]=[];
+	var nChapter = 0;
+	
+	for (const chapter of NMVBooks[ book ]) {
+		// console.log(nChapter + 1)
+		outjson.books[book].push([]);
+		var nVerse = 0;
+		const verse = NMVBooks[book][nChapter][nVerse];
+
+		for (const verse of chapter) {
+			console.log([book, nChapter +1, nVerse + 1]);
+			const splitVerse = verse.split(' ');
+			const verseWordPromises = splitVerse.map(async faWord => {
+				const wordResult = await translate(faWord, "fa", "en").then(res => {
+					//console.log(res);
+					const translations = [];
+					if (res['translations'] instanceof Object){
+						for (const wordType of Object.keys(res['translations'])) {
+							for (const translationChoiceObj of res['translations'][wordType]){
+								translations.push(translationChoiceObj);
+							};
+						};
+					}
+					else if (res['translations'] instanceof Array) {
+						for (const translationChoiceArr of res['translations']){
+							translations.push(translationChoiceArr);
+						};
+					};
+					return [faWord, translations];
+				});
+				
+				return wordResult;
+			});
+
+			try {
+				const verseResult = await Promise.all(verseWordPromises)
+				// console.log(verseResult)
+				outjson.books[book][nChapter].push(verseResult);
+			} catch (error) {
+				if (error['message'] == 'HTTPError') {
+					console.log('API call limit reached');
+					await fs.writeFile('NMV_translations_'+book+'.json', JSON.stringify(outjson));
+					exit(0);
+				}
+			};
+
+			nVerse++;
+		};
+
+		nChapter++;
+	};
+		
+	await fs.writeFile("NMV_translations_"+book+".json", JSON.stringify(outjson));
+})();
+
+
 	// const wordnet = new natural.WordNet()
 	// const esv = await fs.readFile( 'ESV.json', 'utf8' );
 	// const JsonESV = JSON.parse( esv );
@@ -38,43 +102,6 @@ const { Translate } = v2; */
 			} );
 		})
 	})*/
-
-	const nmv = await fs.readFile( 'NMV.json' );
-	const JsonNMV = JSON.parse( nmv );
-	const NMVBooks = JsonNMV.books;
-	// const verse = NMVBooks['Genesis'][0][0];
-	// const book = 'Genesis'
-	const outjson = {books:{}}
-
-	outjson.books[book]=[]
-	var nChapter = 0
-
-	for (const chapter of NMVBooks[ book ]) {
-		// console.log(nChapter + 1)
-		outjson.books[book].push([])
-		var nVerse = 0
-		const verse = NMVBooks[book][nChapter][nVerse]
-
-		for (const verse of chapter) {
-			console.log([book, nChapter +1, nVerse + 1])
-			outjson.books[book][nChapter].push([])
-			for (const faWord of verse.split( ' ' )) {
-				const res = await translate(text, "fa", "en", {detailedTranslationsSynonyms: false});
-				const translations = [];
-				if (res['translations'] instanceof Object){
-					for (const wordType of Object.keys(res['translations'])) {
-						for (const translationChoice of res['translations'][wordType]) {
-							translations.push(translationChoice);
-						};
-					};
-					//console.log(res['word'], translations);
-				}
-				else if (res['translations'] instanceof Array) {
-					translations.push(res['translations']);
-				};
-
-				outjson.books[book][nChapter][nVerse].push([faWord, translations])
-
 
 				/* const similarities = []
 				for (const englishWord of ESVBooks['Genesis'][0][0]) {
@@ -107,15 +134,6 @@ const { Translate } = v2; */
 
 					};
 				}; */
-			};
-			nVerse++
-			// console.log({farsi:faWord, similarities:similarities})
-		}
-		nChapter++
-		fs.writeFile("NMV_translations_"+book+".json", JSON.stringify(outjson))
-	} ;
-
-}
 
 	// const faWord = verse[1]
 
@@ -156,9 +174,6 @@ const { Translate } = v2; */
 			}
  		} )
 	} ) */
-
-)();
-
 
 /* async function googleTranslateText( text ) {
 	const target = 'en';
