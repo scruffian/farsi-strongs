@@ -83,7 +83,7 @@ const { Translate } = v2; */
 					try {
 						const verseResult = await Promise.all(verseWordPromises)
 						// console.log(verseResult);
-						outjson.books[book][nChapter].push(verseResult);
+						outjson.books[book][chapterIndex].push(verseResult);
 					} catch (error) {
 						if (error['message'] == 'HTTPError') {
 							console.log('API call limit reached');
