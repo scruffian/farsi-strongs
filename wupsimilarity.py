@@ -3,8 +3,16 @@ from nltk.corpus import wordnet
 import json
 import pandas as pd
 from copy import deepcopy
+import sys
 
-with open("NMV_translations.json", encoding="utf8") as f:
+book_name = sys.argv[1] if len(sys.argv) == 2 else False
+
+if not book_name:
+    print( 'Please specify a book' )
+    sys.exit()
+
+
+with open(f"NMV_translations_{book_name}.json", encoding="utf8") as f:
     nmv_translations = json.load(f)
 
 with open("ESV.json") as f:
@@ -20,6 +28,7 @@ def SemanticSimilarity():
                 chapter, 
                 range(0,len(chapter))
             ):
+                print(f"{book} Chapter {n_chapter +1}:{n_verse +1}")
                 for word, n_word in zip(
                     verse, 
                     range(0, len(verse))
@@ -30,6 +39,8 @@ def SemanticSimilarity():
 
                             for esv_word in esv["books"][book][n_chapter][n_verse]:
                                 esv_word_synsets = wordnet.synsets(esv_word[0])
+                                # TODO - look at options for speeding up... there's a function for getting every possible list pair I think
+                                # Can more generators be worked in? or Recursion? Vectorise? Need less nested iteration.
                                 similarities = []
                                 if translated_word_synsets and esv_word_synsets:
                                     for t_synset in translated_word_synsets:
@@ -116,10 +127,9 @@ for book in out_json["books"]:
                     out_json["books"][book][chapter][verse][word].pop(1)
 for i, row in similarity_max_df.iterrows():
     if row["max_similarity"] == 1:
-        data = [row["esv_word"], row["esv_strongs"]]
-        out_json["books"][row["book"]][row["chapter"]][row["verse"]][row["word_order"]].extend(data)
+        # data = [row["esv_word"], row["esv_strongs"]]
+        out_json["books"][row["book"]][row["chapter"]][row["verse"]][row["word_order"]].append(row["esv_strongs"])
 
-# out_data = [[row["farsi_word"], row["esv_word"], row["esv_strongs"]] if row["max_similarity"] ==1 else [row["farsi_word"]] for i, row in similarity_max_df.iterrows()]
-with open("NMV_strongs.json","w",encoding="utf8") as out_f:
+with open(f"NMV_strongs_{book_name}.json","w",encoding="utf8") as out_f:
     json.dump(out_json, out_f, ensure_ascii=False)
 
