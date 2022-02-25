@@ -35,7 +35,7 @@ const { Translate } = v2; */
 		const existingOutputJSON = await fs.readFile('NMV_translations_'+book+'.json');
 		var outjson = JSON.parse(existingOutputJSON);
 		var lastWrittenChapterIndex = outjson.books[book].length - 1;
-		var lastWrittenVerseIndex = outjson.books[book][nChapter].length - 1;
+		var lastWrittenVerseIndex = outjson.books[book][lastWrittenChapterIndex].length - 1;
 	}
 	else {
 		var outjson = {books:{}};
@@ -47,7 +47,7 @@ const { Translate } = v2; */
 	for (const [chapterIndex, chapter] of NMVBooks[ book ].entries()) {
 		if (
 			(chapterIndex > lastWrittenChapterIndex) || 
-			(chapterIndex = lastWrittenChapterIndex && lastWrittenVerseIndex < (chapter.length - 1))
+			(chapterIndex == lastWrittenChapterIndex && lastWrittenVerseIndex < (chapter.length - 1))
 		) {
 			// console.log(nChapter + 1);
 			if (chapterIndex > lastWrittenChapterIndex) {
@@ -55,7 +55,10 @@ const { Translate } = v2; */
 				// var nVerse = 0;
 			};
 			for (const [verseIndex, verse] of chapter.entries()) {
-				if (verseIndex > lastWrittenVerseIndex) {
+				if (
+					(chapterIndex > lastWrittenChapterIndex) || 
+					(chapterIndex == lastWrittenChapterIndex && verseIndex > lastWrittenVerseIndex)
+				 ) {
 					console.log([book, chapterIndex +1, verseIndex + 1]);
 					const splitVerse = verse.split(' ');
 					const verseWordPromises = splitVerse.map(async faWord => {
