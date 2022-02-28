@@ -122,7 +122,7 @@ def FindSimilarWords():
                     if len(out_json["books"][book][chapter][verse][word]) > 1:
                         out_json["books"][book][chapter][verse][word].pop(1)
     for i, row in similarity_max_df.iterrows():
-        if row["max_similarity"] == 1:
+        if row["max_similarity"] == 1 and type(row["esv_strongs"]==str):
             # data = [row["esv_word"], row["esv_strongs"]]
             out_json["books"][row["book"]][row["chapter"]][row["verse"]][row["word_order"]].append(row["esv_strongs"])
 
