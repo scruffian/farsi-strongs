@@ -26,13 +26,13 @@ const { Translate } = v2; */
 		return;
 	}
 
-	const nmv = await fs.readFile( 'NMV.json' );
+	const nmv = await fs.readFile( 'inputs/NMV.json' );
 	const JsonNMV = JSON.parse( nmv );
 	const NMVBooks = JsonNMV.books;
 	// const verse = NMVBooks['Genesis'][0][0];
 	// const book = 'Genesis'
-	if (await checkFileExists('NMV_translations_'+book+'.json')) {
-		const existingOutputJSON = await fs.readFile('NMV_translations_'+book+'.json');
+	if (await checkFileExists('transformations/NMV_translations_'+book+'.json')) {
+		const existingOutputJSON = await fs.readFile('transformations/NMV_translations_'+book+'.json');
 		var outjson = JSON.parse(existingOutputJSON);
 		var lastWrittenChapterIndex = outjson.books[book].length - 1;
 		var lastWrittenVerseIndex = outjson.books[book][lastWrittenChapterIndex].length - 1;
@@ -90,7 +90,7 @@ const { Translate } = v2; */
 					} catch (error) {
 						if (error['message'] == 'HTTPError') {
 							console.log('API call limit reached');
-							await fs.writeFile('NMV_translations_'+book+'.json', JSON.stringify(outjson));
+							await fs.writeFile('transformations/NMV_translations_'+book+'.json', JSON.stringify(outjson));
 							exit(0);
 						};
 					};
@@ -99,7 +99,7 @@ const { Translate } = v2; */
 		};
 	};
 		
-	await fs.writeFile("NMV_translations_"+book+".json", JSON.stringify(outjson));
+	await fs.writeFile("transformations/NMV_translations_"+book+".json", JSON.stringify(outjson));
 })();
 
 async function checkFileExists(file) {

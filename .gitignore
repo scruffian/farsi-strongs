@@ -1,3 +1,5 @@
-node_modules
-.vscode
-.ipynb_checkpoints
+/node_modules/
+/.vscode/
+/.ipynb_checkpoints/
+/__pycache__/
+/rugged-truck-342720-4470f5b1c878.json

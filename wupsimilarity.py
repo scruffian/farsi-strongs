@@ -8,10 +8,10 @@ def FindSimilarWords():
     
     book_name = sys.argv[1]
 
-    with open(f"NMV_translations_{book_name}.json", encoding="utf8") as f:
+    with open(f"transformations/NMV_translations_{book_name}.json", encoding="utf8") as f:
         nmv_translations = json.load(f)
 
-    with open("ESV.json") as f:
+    with open("inputs/ESV.json") as f:
         esv = json.load(f)
 
     def SemanticSimilarity():
@@ -64,7 +64,7 @@ def FindSimilarWords():
                                                 "esv_morphology": [
                                                     esv_word[2] if len(esv_word) > 2 else None
                                                 ],
-                                                "max_similarity":[max(similarities)]
+                                                "max_similarity":[max([s if s else 0 for s in similarities]) if len(similarities) > 0 else 0]
                                             }
                                         )
                                         yield esv_word_links
@@ -126,7 +126,7 @@ def FindSimilarWords():
             # data = [row["esv_word"], row["esv_strongs"]]
             out_json["books"][row["book"]][row["chapter"]][row["verse"]][row["word_order"]].append(row["esv_strongs"])
 
-    with open(f"NMV_strongs_{book_name}.json","w",encoding="utf8") as out_f:
+    with open(f"transformations/NMV_strongs_{book_name}.json","w",encoding="utf8") as out_f:
         json.dump(out_json, out_f, ensure_ascii=False)
 
 if __name__ == "__main__":
