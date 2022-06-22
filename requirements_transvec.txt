@@ -1,0 +1,12 @@
+fastparquet==0.8.1
+gensim==4.1.2
+ipykernel==6.13.0
+ipython==8.2.0
+jupyter-client==7.2.2
+jupyter-core==4.9.2
+nltk==3.7
+numpy==1.22.3
+pandas==1.4.2
+pyarrow==7.0.0
+tqdm==4.64.0
+transvec==0.1.0
