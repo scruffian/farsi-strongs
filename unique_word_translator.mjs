@@ -38,18 +38,18 @@ import { exit } from 'process';
 			results.forEach(obj => {
 				outjson[obj['word']] = obj;
 			});
-        } 
+        }
 
 		// Write outjson with appended results so far to file on error
 		catch (error) {
             if (error['message'] == 'HTTPError') {
                 console.log('API call limit reached');
-                await fs.writeFile('transformations/keyed_words_translations.json', JSON.stringify(outjson));
+                await fs.writeFile('transformations/keyed_words_translations.json', JSON.stringify(outjson, null, 4));
                 exit(0);
             }
 			else {
 				console.log(error)
-				await fs.writeFile('transformations/keyed_words_translations.json', JSON.stringify(outjson));
+				await fs.writeFile('transformations/keyed_words_translations.json', JSON.stringify(outjson, null, 4));
 				exit(0);
 			};
         };
@@ -57,8 +57,8 @@ import { exit } from 'process';
 		progress = progress.toFixed(2);
 		console.clear();
 		console.log('\r' + progress + "% complete");
-    };	
-	await fs.writeFile("transformations/keyed_words_translations.json", JSON.stringify(outjson));
+    };
+	await fs.writeFile("transformations/keyed_words_translations.json", JSON.stringify(outjson, null, 4));
 })();
 
 async function checkFileExists(file) {
