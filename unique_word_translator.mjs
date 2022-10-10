@@ -44,7 +44,7 @@ import translate from 'google-translate-extended-api';
 		// Write outjson with appended results so far to file on error
 		catch (error) {
             if (error['message'] == 'HTTPError') {
-                console.log('/nAPI call limit reached');
+                console.log('\nAPI call limit reached');
                 await fs.writeFile('transformations/keyed_words_translations.json', JSON.stringify(outjson, null, 4));
                 process.exit(0);
             }
