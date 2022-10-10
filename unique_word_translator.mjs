@@ -27,7 +27,7 @@ import translate from 'google-translate-extended-api';
 	};
 
 	// Iterate through chunks of unique words and pass to translate api
-	for (var i = iterations_run; i < iterations; i++){
+	for (var i = iterations_run; i <= iterations; i++){
 		var chunk = keyed_words.splice(0,chunksize);
 		var chunkPromises = chunk.map(async faWord => {
 			var wordResult = await translate(faWord, 'fa', 'en');
