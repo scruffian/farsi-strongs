@@ -5,67 +5,98 @@ def FindSimilarWords():
     import json
     import pandas as pd
     from copy import deepcopy
-    
+    from spacy.lang.fa import Persian
+
     book_name = sys.argv[1]
     eng_version = sys.argv[2]
 
-    with open(f"transformations/NMV_translations_{book_name}.json", encoding="utf8") as f:
-        nmv_translations = json.load(f)
+    # initiate spacy persian language class
+    fa_nlp = Persian()
+
+    with open(f"inputs/NMV.json", encoding="utf8") as f:
+        nmv = json.load(f)
 
     with open(f"inputs/{eng_version}.json") as f:
         eng = json.load(f)
 
+    with open(f"transformations/keyed_words_translations.json", encoding="utf8") as f:
+        keyed_words_translations = json.load(f)
+
     def SemanticSimilarity():
-        for book in nmv_translations["books"]:
+        # allow whole bible to be run
+        if book_name == "Whole Bible":
+            target_books = list(nmv["books"].keys())
+        else:
+            target_books = [book_name]
+            
+        for book in target_books:
             for chapter, n_chapter in zip(
-                nmv_translations["books"][book], 
-                range(0,len(nmv_translations["books"][book]))
+                nmv["books"][book],
+                range(0,len(nmv["books"][book]))
             ):
                 for verse, n_verse in zip(
-                    chapter, 
+                    chapter,
                     range(0,len(chapter))
                 ):
                     print(f"{book} Chapter {n_chapter +1}:{n_verse +1}")
-                    for word, n_word in zip(
-                        verse, 
-                        range(0, len(verse))
+                    # nmv verses need to be tokenised as they are strings not lists of words
+                    # tokens should be words
+                    verse_tokens = fa_nlp.tokenizer(verse)
+                    for token, n_word in zip(
+                        verse_tokens.__iter__(), # syntax to access spacy tokens as iterator
+                        range(0, verse_tokens.__len__()) # syntax for length of spacy Doc class that contains tokens
                     ):
-                        if len(word[1]) > 0:
-                            for translated_word in word[1]:
+                        word = token.__str__()
+                        # Get the google translations for this word
+                        if word in keyed_words_translations:
+                            google_translation_data = keyed_words_translations[word]
+
+                            # if there's no translations we might still have a "translation" key
+                            google_translations = [google_translation_data['translation']]
+
+                            # if there's a transations list then Google has lots of similar words.
+                            if len(google_translation_data['translations']) > 0:
+                                # the similar words are keyed by word type, so we need to flatten them.
+                                (
+                                    google_translations
+                                    .extend(
+                                        [
+                                            value for (key, values) 
+                                            in google_translation_data['translations'].items() 
+                                            for value in values
+                                        ]
+                                    )
+                                )
+
+                            for translated_word in google_translations:
                                 translated_word_synsets = wordnet.synsets(translated_word)
 
                                 for eng_word in eng["books"][book][n_chapter][n_verse]:
                                     eng_word_synsets = wordnet.synsets(eng_word[0])
-                                    # TODO - look at options for speeding up... there's a function for getting every possible list pair I think
-                                    # Can more generators be worked in? or Recursion? Vectorise? Need less nested iteration.
-                                    similarities = []
+                                    # TODO - look at options for speeding up. Vectorise? Need less nested iteration.
                                     if translated_word_synsets and eng_word_synsets:
-                                        for t_synset in translated_word_synsets:
-                                            for e_synset in eng_word_synsets:
-                                                s = t_synset.wup_similarity(e_synset)
-                                                similarities.append(
-                                                    s
-                                                )
-                                                # print(f"farsi: {word[0]}, translation: {translated_word}, eng: {eng_word}, similarity: {s}")
-                                                # print(translated_word_synsets)
-                                                # print(eng_word)
-                                                # print(eng_word_synsets)
+                                        similarities = (
+                                            t_synset.wup_similarity(e_synset) for e_synset 
+                                            in eng_word_synsets 
+                                            for t_synset in translated_word_synsets
+                                        )
+
                                         eng_word_links = pd.DataFrame(
                                             {
                                                 "book":[book],
                                                 "chapter":[n_chapter],
                                                 "verse":[n_verse],
                                                 "word_order":[n_word],
-                                                "farsi_word":[word[0]],
+                                                "farsi_word":[word],
                                                 "possible_translation":[translated_word],
-                                                "eng_word": [eng_word[0]], 
+                                                "eng_word": [eng_word[0]],
                                                 "eng_strongs": [
                                                     eng_word[1] if len(eng_word) > 1 else None
                                                 ],
                                                 "eng_morphology": [
                                                     eng_word[2] if len(eng_word) > 2 else None
                                                 ],
-                                                "max_similarity":[max([s if s else 0 for s in similarities]) if len(similarities) > 0 else 0]
+                                                "max_similarity":[max(similarities)]
                                             }
                                         )
                                         yield eng_word_links
@@ -76,9 +107,9 @@ def FindSimilarWords():
                                                 "chapter":[n_chapter],
                                                 "verse":[n_verse],
                                                 "word_order":[n_word],
-                                                "farsi_word":[word[0]],
+                                                "farsi_word":[word],
                                                 "possible_translation":[None],
-                                                "eng_word": [None], 
+                                                "eng_word": [None],
                                                 "eng_strongs": [None],
                                                 "eng_morphology": [None],
                                                 "max_similarity":[0]
@@ -92,17 +123,17 @@ def FindSimilarWords():
                                     "chapter":[n_chapter],
                                     "verse":[n_verse],
                                     "word_order":[n_word],
-                                    "farsi_word":[word[0]],
+                                    "farsi_word":[word],
                                     "possible_translation":[None],
-                                    "eng_word": [None], 
+                                    "eng_word": [None],
                                     "eng_strongs": [None],
                                     "eng_morphology": [None],
                                     "max_similarity":[0]
                                 }
                             )
                             yield eng_word_links
-                            
-    similarity_df = pd.concat(SemanticSimilarity()).set_index(["book","chapter","verse","farsi_word"])                                    
+
+    similarity_df = pd.concat(SemanticSimilarity()).set_index(["book","chapter","verse","farsi_word"])
     similarity_max_df = (
         similarity_df
         .sort_values(
@@ -110,22 +141,36 @@ def FindSimilarWords():
         )
         .reset_index()
         .drop_duplicates(
-            subset=["book","chapter","verse","farsi_word"], 
+            subset=["book","chapter","verse","farsi_word"],
             keep="last"
         )
     )
 
-    out_json = deepcopy(nmv_translations)
-    for book in out_json["books"]:
-        for chapter in range(0, len(out_json["books"][book])):
-            for verse in range(0, len(out_json["books"][book][chapter])):
-                for word in range(0, len(out_json["books"][book][chapter][verse])):
-                    if len(out_json["books"][book][chapter][verse][word]) > 1:
-                        out_json["books"][book][chapter][verse][word].pop(1)
+    similarity_max_df["word"] = (
+        similarity_max_df
+        [["farsi_word","eng_strongs","max_similarity"]]
+        .apply(list,axis=1)
+    )
+
+    similarity_max_df = (
+        similarity_max_df
+        .groupby(["book", "chapter", "verse"])
+        [["word"]]
+        .agg(list)
+        .reset_index()
+        .groupby(["book", "chapter"])
+        [["word"]]
+        .agg(list)
+        .reset_index()
+        .groupby("book")
+        [["word"]]
+        .agg(list)
+        .reset_index()
+    )
+
+    out_json = {"books":{}}
     for i, row in similarity_max_df.iterrows():
-        if row["max_similarity"] == 1 and type(row["eng_strongs"]==str):
-            # data = [row["eng_word"], row["eng_strongs"]]
-            out_json["books"][row["book"]][row["chapter"]][row["verse"]][row["word_order"]].append(row["eng_strongs"])
+        out_json["books"][row["book"]]=row["word"]
 
     with open(f"transformations/NMV_{eng_version}_strongs_{book_name}.json","w",encoding="utf8") as out_f:
         json.dump(out_json, out_f, ensure_ascii=False)
@@ -137,6 +182,6 @@ if __name__ == "__main__":
     elif len(sys.argv) <= 2:
         print('Please specify an english version')
         sys.exit()
-    else: 
+    else:
         FindSimilarWords()
         print("Done")
