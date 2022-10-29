@@ -6,6 +6,7 @@ def FindSimilarWords():
     import pandas as pd
     from copy import deepcopy
     from spacy.lang.fa import Persian
+    import numpy as np
 
     book_name = sys.argv[1]
     eng_version = sys.argv[2]
@@ -147,9 +148,13 @@ def FindSimilarWords():
     )
 
     similarity_max_df["word"] = (
-        similarity_max_df
-        [["farsi_word","eng_strongs","max_similarity"]]
-        .apply(list,axis=1)
+        np.where(
+            similarity_max_df.max_similarity==1,
+            similarity_max_df
+            [["farsi_word","eng_strongs","max_similarity"]]
+            .apply(list,axis=1),
+            similarity_max_df.farsi_word
+        )
     )
 
     similarity_max_df = (
