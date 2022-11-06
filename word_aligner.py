@@ -48,28 +48,22 @@ def main():
 
     # Match strongs words to farsi words
     tqdm.pandas(desc="Aligning words for each verse in the Bible")
-    combined_df["fa_strongs"] = combined_df.progress_apply(Align, axis=1)
+    combined_df["books"] = combined_df.progress_apply(Align, axis=1)
 
     # Format dataframe for export as json for sync.bible
-    combined_df = (
+    out_json = (
         combined_df
         .groupby(["book", "idx_chapter", "idx_verse"])
-        [["fa_strongs"]]
+        [["books"]]
         .agg(list)
-        .reset_index()
         .groupby(["book", "idx_chapter"])
-        [["fa_strongs"]]
+        [["books"]]
         .agg(list)
-        .reset_index()
         .groupby("book")
-        [["fa_strongs"]]
+        [["books"]]
         .agg(list)
-        .reset_index()
+        .to_dict()
     )
-
-    out_json = {"books":{}}
-    for i, row in combined_df.iterrows():
-        out_json["books"][row["book"]]=row["fa_strongs"]
 
     # Write output json file
     with open("outputs/NMV_KJV_strongs.json","w",encoding="utf8") as out_f:
