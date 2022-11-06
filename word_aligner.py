@@ -53,9 +53,6 @@ def main():
     # Format dataframe for export as json for sync.bible
     out_json = (
         combined_df
-        .groupby(["book", "idx_chapter", "idx_verse"])
-        [["books"]]
-        .agg(list)
         .groupby(["book", "idx_chapter"])
         [["books"]]
         .agg(list)
