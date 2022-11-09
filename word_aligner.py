@@ -2,8 +2,9 @@ from tqdm import tqdm
 from simalign import SentenceAligner
 import pandas as pd
 import json
+import sys
 
-def main():
+def main(src_parquet_filename, trg_parquet_filename):
     def LoadBible(parquet_filename):
         '''Function to read pre-processed farsi bible as pandas dataframe'''
         return pd.read_parquet(f"transformations/{parquet_filename}.parquet")
@@ -26,25 +27,25 @@ def main():
     aligner = SentenceAligner()
 
     # Load and format english strongs tagged Bible
-    kjv = LoadBible("KJV")
-    kjv = (
-        kjv
+    src_bible = LoadBible(src_parquet_filename)
+    src_bible = (
+        src_bible
         .groupby(["book", "idx_chapter", "idx_verse"])
-        [["eng_word", "strongs", "morphology"]]
+        [["eng_word", "strongs"]]
         .agg(list)
     )
 
     # Load and format target Farsi Bible
-    nmv = LoadBible("nmv_pos_tagged")
-    nmv = (
-        nmv
+    trg_bible = LoadBible(trg_parquet_filename)
+    trg_bible = (
+        trg_bible
         .groupby(["book", "idx_chapter", "idx_verse"])
         [["word"]]
         .agg(list)
     )
 
     # Combine dataframes for verse by verse iteration using apply
-    combined_df = kjv.join(nmv)
+    combined_df = src_bible.join(trg_bible)
 
     # Match strongs words to farsi words
     tqdm.pandas(desc="Aligning words for each verse in the Bible")
@@ -63,10 +64,22 @@ def main():
     )
 
     # Write output json file
-    with open("outputs/NMV_KJV_strongs.json","w",encoding="utf8") as out_f:
+    with open(f"outputs/{trg_parquet_filename}_{src_parquet_filename}_strongs.json","w",encoding="utf8") as out_f:
         json.dump(out_json, out_f, ensure_ascii=False)
     
-    print("Completed. Output written to: outputs/NMV_KJV_strongs.json")
+    print(f"Completed. Output written to: outputs/{trg_parquet_filename}_{src_parquet_filename}_strongs.json")
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) < 3:
+        print(""" Error: Missing arguments.
+
+            Requires two positional arguments:
+                - Source Parquet Filename
+                    - name of parquet file with book name, chapter id (0 indexed), verse id (0 indexed), 
+                      source language words and strongs numbers as fields
+                - Target Parquet Filename
+                    - name of parquet file with book name, chapter id (0 indexed), verse id (0 indexed), 
+                      target language words as fields"""
+        )
+    else:
+        main(sys.argv[1], sys.argv[2])
