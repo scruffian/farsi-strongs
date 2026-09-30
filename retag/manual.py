@@ -38,10 +38,13 @@ def read_locked(grid, path=LOCKED_VERSES_FILE):
     if not os.path.exists(path):
         return keys
     with open(path, encoding='utf8') as f:
-        for line in f:
+        for n, line in enumerate(f, 1):
             ref = line.split('#', 1)[0].strip()
             if ref:
-                keys.update(data.parse_references(ref, grid))
+                try:
+                    keys.update(data.parse_references(ref, grid))
+                except ValueError as error:
+                    raise SystemExit(f'{path}, line {n}: {error}')
     return keys
 
 

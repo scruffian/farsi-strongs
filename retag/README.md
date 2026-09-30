@@ -13,6 +13,9 @@ python -m unittest retag.test_tagger
 
 A full run takes about three minutes on four CPU cores.
 
+Step-by-step instructions, accuracy figures and how to grow `locked_verses.txt` are in the
+[main README](../README.md).
+
 ## Output rules
 
 | Case | Entry |
