@@ -1,0 +1,49 @@
+# Verses treated as correct: copied unchanged from sync.bible and used as training data.
+# One reference per line: "Book 3", "Book 3:4" or "Book 3:4-9". Text after # is a comment.
+# Verses edited in sync.bible are added automatically; add checked-but-unchanged verses by hand.
+# See README.md, "Growing the gold standard".
+
+Colossians 1:3  # manual edit detected 2026-09-30
+Colossians 1:4  # manual edit detected 2026-09-30
+Deuteronomy 26:1  # manual edit detected 2026-09-30
+Deuteronomy 26:2  # manual edit detected 2026-09-30
+Deuteronomy 26:3  # manual edit detected 2026-09-30
+Deuteronomy 26:4  # manual edit detected 2026-09-30
+Deuteronomy 26:5  # manual edit detected 2026-09-30
+Deuteronomy 26:6  # manual edit detected 2026-09-30
+Deuteronomy 26:7  # manual edit detected 2026-09-30
+Deuteronomy 26:8  # manual edit detected 2026-09-30
+Deuteronomy 26:9  # manual edit detected 2026-09-30
+Deuteronomy 26:10  # manual edit detected 2026-09-30
+Deuteronomy 26:11  # manual edit detected 2026-09-30
+Deuteronomy 26:12  # manual edit detected 2026-09-30
+Deuteronomy 26:13  # manual edit detected 2026-09-30
+Deuteronomy 26:14  # manual edit detected 2026-09-30
+Deuteronomy 26:15  # manual edit detected 2026-09-30
+Deuteronomy 26:16  # manual edit detected 2026-09-30
+Deuteronomy 26:17  # manual edit detected 2026-09-30
+Deuteronomy 26:18  # manual edit detected 2026-09-30
+Deuteronomy 26:19  # manual edit detected 2026-09-30
+Genesis 1:2  # manual edit detected 2026-09-30
+Genesis 1:4  # manual edit detected 2026-09-30
+Genesis 1:5  # manual edit detected 2026-09-30
+Genesis 1:6  # manual edit detected 2026-09-30
+Genesis 1:7  # manual edit detected 2026-09-30
+Isaiah 66:13  # manual edit detected 2026-09-30
+Philemon 1:1  # manual edit detected 2026-09-30
+Philemon 1:2  # manual edit detected 2026-09-30
+Philemon 1:3  # manual edit detected 2026-09-30
+Philemon 1:4  # manual edit detected 2026-09-30
+Philemon 1:5  # manual edit detected 2026-09-30
+Philemon 1:6  # manual edit detected 2026-09-30
+Philemon 1:7  # manual edit detected 2026-09-30
+Philemon 1:8  # manual edit detected 2026-09-30
+Philemon 1:9  # manual edit detected 2026-09-30
+Philemon 1:10  # manual edit detected 2026-09-30
+Philemon 1:11  # manual edit detected 2026-09-30
+Philemon 1:12  # manual edit detected 2026-09-30
+Philemon 1:13  # manual edit detected 2026-09-30
+Song of Solomon 6:1  # manual edit detected 2026-09-30
+Song of Solomon 6:2  # manual edit detected 2026-09-30
+Song of Solomon 6:3  # manual edit detected 2026-09-30
+Zechariah 1:6  # manual edit detected 2026-09-30
