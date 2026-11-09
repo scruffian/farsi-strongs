@@ -72,3 +72,50 @@ class PersianTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class VariantsTest(unittest.TestCase):
+    def test_variant_words_are_merged_in_place(self):
+        from retag import variants
+        # Jude 22: Tischendorf ἐλέγχετε, NA27/UBS4 ἐλεᾶτε
+        base = [['καὶ', 'G2532', 'CONJ'], ['οὓς', 'G3739', 'R-APM'], ['μὲν', 'G3303', 'PRT'],
+                ['ἐλέγχετε', 'G1651', 'V-PAM-2P'], ['διακρινομένους', 'G1252', 'V-PMP-APM']]
+        whnu = [['και', 'G2532', 'CONJ'], ['ους', 'G3739', 'R-APM'], ['μεν', 'G3303', 'PRT'],
+                ['ελεατε', 'G1653', 'V-PAM-2P strongsMorph:G5720'], ['διακρινομενους', 'G1252', 'V-PMP-APM']]
+        out = variants.merge(base, whnu, 'WHNU')
+        self.assertEqual([w[1] for w in out], ['G2532', 'G3739', 'G3303', 'G1651', 'G1653', 'G1252'])
+        self.assertEqual(out[4], ['ελεατε', 'G1653', 'V-PAM-2P', 'WHNU'])
+
+    def test_same_word_under_another_number_is_not_a_variant(self):
+        from retag import variants
+        base = [['πλεῖον', 'G4183', 'A-ASN-C'], ['ὑμῖν', 'G5210', 'P-2DP']]
+        other = [['πλειον', 'G4119', 'A-ASN-C'], ['υμιν', 'G4771', 'P-2DP']]
+        self.assertEqual(variants.merge(base, other, 'WHNU'), base)
+
+    def test_numbering_follows_accented(self):
+        from retag import variants
+        self.assertEqual(variants.normalise_word(['εστιν', 'G2076', 'V-PXI-3S'])[1], 'G1510')
+        self.assertEqual(variants.normalise_word(['υμας', 'G5209', 'P-2AP'])[1], 'G5210')
+        self.assertEqual(variants.normalise_word(['ημιν', 'G1473', 'P-1DP'])[1], 'G2249')
+        self.assertEqual(variants.normalise_word(['αδελφω', 'G0080', 'N-DSM'])[1], 'G80')
+
+    def test_whole_verse_from_variant_text(self):
+        from retag import variants
+        out = variants.merge([], [['τουτο', 'G3778', 'D-NSN'], [',']], 'TR')
+        self.assertEqual(out, [['τουτο', 'G3778', 'D-NSN', 'TR']])
+
+
+class DisplayTest(unittest.TestCase):
+    def test_compounds_are_shown_with_spaces(self):
+        from retag import data
+        verse = [['او', 'H1931'], ['فرو~گرفت', 'H7363'], ['خواهد_شد', 'H1961'], ['.']]
+        self.assertEqual(data.display_verse(verse),
+                         [['او', 'H1931'], ['فرو گرفت', 'H7363'], ['خواهد شد', 'H1961'], ['.']])
+
+    def test_token_tags_match_either_form(self):
+        from retag import data
+        tokens = ['او', 'فرو~گرفت', 'خواهد_شد', '.']
+        spaced = [['او', 'H1931'], ['فرو گرفت', 'H7363'], ['خواهد', 'H1961'], ['شد', 'Hc'], ['.']]
+        self.assertEqual(data.token_tags(spaced, tokens), ['H1931', 'H7363', 'H1961 Hc', None])
+        joined = [['او', 'H1931'], ['فرو~گرفت', 'H7363'], ['خواهد_شد', 'H1961'], ['.']]
+        self.assertEqual(data.token_tags(joined, tokens), ['H1931', 'H7363', 'H1961', None])

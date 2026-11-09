@@ -1,0 +1,755 @@
+# Check of 26_Ezekiel_001.015-001.028.md
+
+Generated 2026-10-26 by `python review_replies.py check`. Rows marked ✱ change. Edit or delete lines in the reply to change what is applied, then run check again.
+
+## 13 verse(s) with changes
+
+### Ezekiel 1:15: 6 word(s) changed
+
+Reply line 2.
+
+Original: וָ/אֵרֶא הַ/חַיּוֹת וְ/הִנֵּה אוֹפַן אֶחָד בָּ/אָרֶץ אֵצֶל הַ/חַיּוֹת לְ/אַרְבַּעַת פָּנָי/ו
+
+Persian: همچنان که بدان موجودات زنده می‌نگریستم، اینک در کنار هر یک از آن موجوداتِ چهارچهره، چرخی بر زمین دیدم.
+
+Original words:
+- o1: וָ/אֵרֶא = Hc "and" + H7200 רָאָה "to see…" [HC/Vqw1cs]
+- o2: הַ/חַיּוֹת = Hd "the" + H2416 חַי "alive; hence, raw (flesh)…" [HTd/Ncfpa]
+- o3: וְ/הִנֵּה = Hc "and" + H2009 הִנֵּה "lo!" [HC/Tm]
+- o4: אוֹפַן = H212 אוֹפָן "a wheel" [HNcmsa]
+- o5: אֶחָד = H259 אֶחָד "properly, united, i.e. one…" [HAcmsa]
+- o6: בָּ/אָרֶץ = Hb "in" + H776 אֶרֶץ "the earth (at large, or partitively a land)" [HRd/Ncbsa]
+- o7: אֵצֶל = H681 אֵצֶל "a side; (as a preposition) near" [HR]
+- o8: הַ/חַיּוֹת = Hd "the" + H2416 חַי "alive; hence, raw (flesh)…" [HTd/Ncfpa]
+- o9: לְ/אַרְבַּעַת = Hl "to" + H702 אַרְבַּע "four" [HR/Acmsc]
+- o10: פָּנָי/ו = H6440 פָּנִים "the face (as the part that turns)…" [HNcbpc/Sp3ms]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | همچنان |  |  |
+|  | که |  |  |
+|  | بدان |  |  |
+| ✱ | موجودات | H2416 חַי "alive; hence, raw (flesh)…" | [موجودات زنده] H2416 חַי "alive; hence, raw (flesh)…" |
+| ✱ | زنده | H2416 חַי "alive; hence, raw (flesh)…" | [موجودات زنده] H2416 חַי "alive; hence, raw (flesh)…" |
+|  | می‌نگریستم | H7200 | H7200 |
+|  | ، |  |  |
+|  | اینک | H2009 | H2009 |
+| ✱ | در | Hb "in" | [در کنار] H681 אֵצֶל "a side…" |
+| ✱ | کنار | H681 אֵצֶל "a side…" | [در کنار] H681 אֵצֶל "a side…" |
+|  | هر |  |  |
+|  | یک | H259 | H259 |
+|  | از |  |  |
+|  | آن |  |  |
+|  | موجوداتِ | H2416 | H2416 |
+|  | چهارچهره | H702 H6440 | H702 H6440 |
+|  | ، |  |  |
+| ✱ | چرخی | H212 אוֹפָן "a wheel"; H259 אֶחָד "properly, united, i.e. one…" | H212 אוֹפָן "a wheel" |
+|  | بر | Hb | Hb |
+|  | زمین | H776 | H776 |
+| ✱ | دیدم | H7200 רָאָה "to see…"; H2009 הִנֵּה "lo!" | H2009 הִנֵּה "lo!" |
+|  | . |  |  |
+
+### Ezekiel 1:16: 3 word(s) changed
+
+Reply line 3.
+
+Original: מַרְאֵה הָ/אוֹפַנִּים וּ/מַעֲשֵׂי/הֶם כְּ/עֵין תַּרְשִׁישׁ וּ/דְמוּת אֶחָד לְ/אַרְבַּעְתָּ/ן וּ/מַרְאֵי/הֶם וּ/מַעֲשֵׂי/הֶם כַּ/אֲשֶׁר יִהְיֶה הָ/אוֹפַן בְּ/תוֹךְ הָ/אוֹפָן
+
+Persian: ظاهر چرخها و صنعت آنها چنین بود: همچون زِبَرجَد می‌درخشیدند و هر چهار شبیه یکدیگر بودند. ظاهر و صنعت آنها بسان چرخی در میان چرخ دیگر بود.
+
+Original words:
+- o1: מַרְאֵה = H4758 מַרְאֶה "a view (the act of seeing)…" [HNcmsc]
+- o2: הָ/אוֹפַנִּים = Hd "the" + H212 אוֹפָן "a wheel" [HTd/Ncmpa]
+- o3: וּ/מַעֲשֵׂי/הֶם = Hc "and" + H4639 מַעֲשֶׂה "an action (good or bad); generally, a transaction…" [HC/Ncmpc/Sp3mp]
+- o4: כְּ/עֵין = Hk "like" + H5869 עַיִן "an eye (literally or figuratively)…" [HR/Ncbsc]
+- o5: תַּרְשִׁישׁ = H8658 תַּרְשִׁישׁ "a gem, perhaps the topaz" [HNcmsa]
+- o6: וּ/דְמוּת = Hc "and" + H1823 דְּמוּת "resemblance; concretely, model, shape…" [HC/Ncfsa]
+- o7: אֶחָד = H259 אֶחָד "properly, united, i.e. one…" [HAcmsa]
+- o8: לְ/אַרְבַּעְתָּ/ן = Hl "to" + H702 אַרְבַּע "four" [HR/Acmsc/Sp3fp]
+- o9: וּ/מַרְאֵי/הֶם = Hc "and" + H4758 מַרְאֶה "a view (the act of seeing)…" [HC/Ncmpc/Sp3mp]
+- o10: וּ/מַעֲשֵׂי/הֶם = Hc "and" + H4639 מַעֲשֶׂה "an action (good or bad); generally, a transaction…" [HC/Ncmpc/Sp3mp]
+- o11: כַּ/אֲשֶׁר = Hk "like" + H834 אֲשֶׁר "who, which, what, that…" [HR/Tr]
+- o12: יִהְיֶה = H1961 הָיָה "to exist, i.e. be or become…" [HVqi3ms]
+- o13: הָ/אוֹפַן = Hd "the" + H212 אוֹפָן "a wheel" [HTd/Ncmsa]
+- o14: בְּ/תוֹךְ = Hb "in" + H8432 תָּוֶךְ "a bisection, i.e. (by implication) the centre" [HR/Ncmsc]
+- o15: הָ/אוֹפָן = Hd "the" + H212 אוֹפָן "a wheel" [HTd/Ncmsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | ظاهر | H4758 | H4758 |
+|  | چرخها | H212 | H212 |
+|  | و | Hc | Hc |
+|  | صنعت | H4639 | H4639 |
+|  | آنها |  |  |
+|  | چنین |  |  |
+|  | بود |  |  |
+|  | : |  |  |
+|  | همچون | Hk | Hk |
+|  | زِبَرجَد | H8658 | H8658 |
+|  | می‌درخشیدند | H5869 | H5869 |
+|  | و | Hc | Hc |
+| ✱ | هر | H259 אֶחָד "properly, united, i.e. one…" |  |
+|  | چهار | H702 | H702 |
+|  | شبیه | H1823 | H1823 |
+| ✱ | یکدیگر |  | H259 אֶחָד "properly, united, i.e. one…" |
+|  | بودند |  |  |
+|  | . |  |  |
+|  | ظاهر | H4758 | H4758 |
+|  | و | Hc | Hc |
+|  | صنعت | H4639 | H4639 |
+|  | آنها |  |  |
+|  | بسان | Hk | Hk |
+|  | چرخی | H212 | H212 |
+|  | در | Hb | Hb |
+|  | میان | H8432 | H8432 |
+|  | چرخ | H212 | H212 |
+|  | دیگر |  |  |
+| ✱ | بود |  | H1961 הָיָה "to exist, i.e. be or become…" |
+|  | . |  |  |
+
+### Ezekiel 1:17: 6 word(s) changed
+
+Reply line 4.
+
+Original: עַל אַרְבַּעַת רִבְעֵי/הֶן בְּ/לֶכְתָּ/ם יֵלֵכוּ לֹא יִסַּבּוּ בְּ/לֶכְתָּ/ן
+
+Persian: به هنگام حرکت، به سوی هر یک از چهار جانبِ خود پیش می‌رفتند، و در حین رفتن روی نمی‌گرداندند.
+
+Original words:
+- o1: עַל = H5921 עַל "above, over, upon…" [HR]
+- o2: אַרְבַּעַת = H702 אַרְבַּע "four" [HAcmsc]
+- o3: רִבְעֵי/הֶן = H7253 רֶבַע "a fourth (part or side)" [HNcmpc/Sp3fp]
+- o4: בְּ/לֶכְתָּ/ם = Hb "in" + H3212 יָלַךְ "to walk (literally or figuratively)…" [HR/Vqc/Sp3mp]
+- o5: יֵלֵכוּ = H3212 יָלַךְ "to walk (literally or figuratively)…" [HVqi3mp]
+- o6: לֹא = H3808 לֹא "not (the simple or abs. negation)…" [HTn]
+- o7: יִסַּבּוּ = H5437 סָבַב "to revolve, surround, or border…" [HVNi3mp]
+- o8: בְּ/לֶכְתָּ/ן = Hb "in" + H3212 יָלַךְ "to walk (literally or figuratively)…" [HR/Vqc/Sp3fp]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+| ✱ | به |  | Hb "in" |
+|  | هنگام |  |  |
+|  | حرکت | H3212 | H3212 |
+|  | ، |  |  |
+| ✱ | به |  | [به سوی] H5921 עַל "above, over, upon…" |
+| ✱ | سوی | H5921 עַל "above, over, upon…" | [به سوی] H5921 עַל "above, over, upon…" |
+|  | هر |  |  |
+|  | یک |  |  |
+|  | از |  |  |
+|  | چهار | H702 | H702 |
+|  | جانبِ | H7253 | H7253 |
+|  | خود |  |  |
+|  | پیش |  |  |
+|  | می‌رفتند | H3212 | H3212 |
+|  | ، |  |  |
+|  | و |  |  |
+| ✱ | در | H5921 עַל "above, over, upon…"; Hb "in" | Hb "in" |
+|  | حین |  |  |
+|  | رفتن | H3212 | H3212 |
+| ✱ | روی | H5437 סָבַב "to revolve, surround…" | [روی نمی‌گرداندند] H3808 לֹא "not (the simple or abs.…"; H5437 סָבַב "to revolve, surround…" |
+| ✱ | نمی‌گرداندند | H3808 לֹא "not (the simple or abs.…" | [روی نمی‌گرداندند] H3808 לֹא "not (the simple or abs.…"; H5437 סָבַב "to revolve, surround…" |
+|  | . |  |  |
+
+### Ezekiel 1:19: 10 word(s) changed
+
+Reply line 5.
+
+Original: וּ/בְ/לֶכֶת הַ/חַיּוֹת יֵלְכוּ הָ/אוֹפַנִּים אֶצְלָ/ם וּ/בְ/הִנָּשֵׂא הַ/חַיּוֹת מֵ/עַל הָ/אָרֶץ יִנָּשְׂאוּ הָ/אוֹפַנִּים
+
+Persian: هرگاه آن موجودات زنده حرکت می‌کردند، چرخها نیز در کنارشان به حرکت درمی‌آمدند، و هرگاه آن موجودات زنده از زمین بلند می‌شدند، چرخها نیز بلند می‌شدند.
+
+Original words:
+- o1: וּ/בְ/לֶכֶת = Hc "and" + Hb "in" + H3212 יָלַךְ "to walk (literally or figuratively)…" [HC/R/Vqc]
+- o2: הַ/חַיּוֹת = Hd "the" + H2416 חַי "alive; hence, raw (flesh)…" [HTd/Ncfpa]
+- o3: יֵלְכוּ = H3212 יָלַךְ "to walk (literally or figuratively)…" [HVqi3mp]
+- o4: הָ/אוֹפַנִּים = Hd "the" + H212 אוֹפָן "a wheel" [HTd/Ncmpa]
+- o5: אֶצְלָ/ם = H681 אֵצֶל "a side; (as a preposition) near" [HR/Sp3mp]
+- o6: וּ/בְ/הִנָּשֵׂא = Hc "and" + Hb "in" + H5375 נָשָׂא "to lift, in a great variety of applications…" [HC/R/VNc]
+- o7: הַ/חַיּוֹת = Hd "the" + H2416 חַי "alive; hence, raw (flesh)…" [HTd/Ncfpa]
+- o8: מֵ/עַל = Hm "from" + H5921 עַל "above, over, upon…" [HR/R]
+- o9: הָ/אָרֶץ = Hd "the" + H776 אֶרֶץ "the earth (at large, or partitively a land)" [HTd/Ncbsa]
+- o10: יִנָּשְׂאוּ = H5375 נָשָׂא "to lift, in a great variety of applications…" [HVNi3mp]
+- o11: הָ/אוֹפַנִּים = Hd "the" + H212 אוֹפָן "a wheel" [HTd/Ncmpa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | هرگاه | Hb | Hb |
+|  | آن |  |  |
+| ✱ | موجودات | H2416 חַי "alive; hence, raw (flesh)…" | [موجودات زنده] H2416 חַי "alive; hence, raw (flesh)…" |
+| ✱ | زنده | H2416 חַי "alive; hence, raw (flesh)…" | [موجودات زنده] H2416 חַי "alive; hence, raw (flesh)…" |
+|  | حرکت | [حرکت می‌کردند] H3212 | [حرکت می‌کردند] H3212 |
+|  | می‌کردند | [حرکت می‌کردند] H3212 | [حرکت می‌کردند] H3212 |
+|  | ، |  |  |
+|  | چرخها | H212 | H212 |
+| ✱ | نیز | H3212 יָלַךְ "to walk (literally or…" |  |
+| ✱ | در | Hb "in" | H681 אֵצֶל "a side…" |
+|  | کنارشان | H681 | H681 |
+| ✱ | به |  | [به حرکت درمی‌آمدند] H3212 יָלַךְ "to walk (literally or…" |
+| ✱ | حرکت | H3212 יָלַךְ "to walk (literally or…" | [به حرکت درمی‌آمدند] H3212 יָלַךְ "to walk (literally or…" |
+| ✱ | درمی‌آمدند |  | [به حرکت درمی‌آمدند] H3212 יָלַךְ "to walk (literally or…" |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | هرگاه | Hb | Hb |
+|  | آن |  |  |
+| ✱ | موجودات | H2416 חַי "alive; hence, raw (flesh)…" | [موجودات زنده] H2416 חַי "alive; hence, raw (flesh)…" |
+| ✱ | زنده | H2416 חַי "alive; hence, raw (flesh)…" | [موجودات زنده] H2416 חַי "alive; hence, raw (flesh)…" |
+|  | از | Hm H5921 | Hm H5921 |
+|  | زمین | H776 | H776 |
+|  | بلند | [بلند می‌شدند] H5375 | [بلند می‌شدند] H5375 |
+|  | می‌شدند | [بلند می‌شدند] H5375 | [بلند می‌شدند] H5375 |
+|  | ، |  |  |
+|  | چرخها | H212 | H212 |
+| ✱ | نیز | H3212 יָלַךְ "to walk (literally or…" |  |
+|  | بلند | [بلند می‌شدند] H5375 | [بلند می‌شدند] H5375 |
+|  | می‌شدند | [بلند می‌شدند] H5375 | [بلند می‌شدند] H5375 |
+|  | . |  |  |
+
+### Ezekiel 1:20: 2 word(s) changed
+
+Reply line 6.
+
+Original: עַל אֲשֶׁר יִהְיֶה שָּׁם הָ/רוּחַ לָ/לֶכֶת יֵלֵכוּ שָׁמָּ/ה הָ/רוּחַ לָ/לֶכֶת וְ/הָ/אוֹפַנִּים יִנָּשְׂאוּ לְ/עֻמָּתָ/ם כִּי רוּחַ הַ/חַיָּה בָּ/אוֹפַנִּים
+
+Persian: هر جا که روح می‌رفت، موجودات زنده نیز می‌رفتند، و چرخها نیز همراهشان بلند می‌شدند، زیرا روحِ موجودات زنده در چرخها بود.
+
+Original words:
+- o1: עַל = H5921 עַל "above, over, upon…" [HR]
+- o2: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o3: יִהְיֶה = H1961 הָיָה "to exist, i.e. be or become…" [HVqi3ms]
+- o4: שָּׁם = H8033 שָׁם "there (transferring to time) then…" [HD]
+- o5: הָ/רוּחַ = Hd "the" + H7307 רוּחַ "wind…" [HTd/Ncbsa]
+- o6: לָ/לֶכֶת = Hl "to" + H3212 יָלַךְ "to walk (literally or figuratively)…" [HR/Vqc]
+- o7: יֵלֵכוּ = H3212 יָלַךְ "to walk (literally or figuratively)…" [HVqi3mp]
+- o8: שָׁמָּ/ה = H8033 שָׁם "there (transferring to time) then…" [HD/Sd]
+- o9: הָ/רוּחַ = Hd "the" + H7307 רוּחַ "wind…" [HTd/Ncbsa]
+- o10: לָ/לֶכֶת = Hl "to" + H3212 יָלַךְ "to walk (literally or figuratively)…" [HR/Vqc]
+- o11: וְ/הָ/אוֹפַנִּים = Hc "and" + Hd "the" + H212 אוֹפָן "a wheel" [HC/Td/Ncmpa]
+- o12: יִנָּשְׂאוּ = H5375 נָשָׂא "to lift, in a great variety of applications…" [HVNi3mp]
+- o13: לְ/עֻמָּתָ/ם = Hl "to" + H5980 עֻמָּה "conjunction, i.e. society…" [HR/Ncfsc/Sp3mp]
+- o14: כִּי = H3588 כִּי "by implication) very widely used as a relative…" [HC]
+- o15: רוּחַ = H7307 רוּחַ "wind…" [HNcbsc]
+- o16: הַ/חַיָּה = Hd "the" + H2416 חַי "alive; hence, raw (flesh)…" [HTd/Ncfsa]
+- o17: בָּ/אוֹפַנִּים = Hb "in" + H212 אוֹפָן "a wheel" [HRd/Ncmpa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+| ✱ | هر | H834 אֲשֶׁר "who, which, what, that…" | H5921 עַל "above, over, upon…" |
+| ✱ | جا | H5921 עַל "above, over, upon…"; H834 אֲשֶׁר "who, which, what, that…"; H8033 שָׁם "there (transferring to time)…" | H8033 שָׁם "there (transferring to time)…" |
+|  | که | H834 | H834 |
+|  | روح | H7307 | H7307 |
+|  | می‌رفت | H3212 | H3212 |
+|  | ، |  |  |
+|  | موجودات | [موجودات زنده] H2416 | [موجودات زنده] H2416 |
+|  | زنده | [موجودات زنده] H2416 | [موجودات زنده] H2416 |
+|  | نیز |  |  |
+|  | می‌رفتند | H3212 | H3212 |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | چرخها | H212 | H212 |
+|  | نیز |  |  |
+|  | همراهشان | H5980 | H5980 |
+|  | بلند | [بلند می‌شدند] H5375 | [بلند می‌شدند] H5375 |
+|  | می‌شدند | [بلند می‌شدند] H5375 | [بلند می‌شدند] H5375 |
+|  | ، |  |  |
+|  | زیرا | H3588 | H3588 |
+|  | روحِ | H7307 | H7307 |
+|  | موجودات | [موجودات زنده] H2416 | [موجودات زنده] H2416 |
+|  | زنده | [موجودات زنده] H2416 | [موجودات زنده] H2416 |
+|  | در | Hb | Hb |
+|  | چرخها | H212 | H212 |
+|  | بود |  |  |
+|  | . |  |  |
+
+### Ezekiel 1:21: 6 word(s) changed
+
+Reply line 7.
+
+Original: בְּ/לֶכְתָּ/ם יֵלֵכוּ וּ/בְ/עָמְדָ/ם יַעֲמֹדוּ וּ/בְ/הִנָּשְׂאָ/ם מֵ/עַל הָ/אָרֶץ יִנָּשְׂאוּ הָ/אוֹפַנִּים לְ/עֻמָּתָ/ם כִּי רוּחַ הַ/חַיָּה בָּ/אוֹפַנִּים
+
+Persian: هرگاه آنها حرکت می‌کردند، چرخها نیز به حرکت درمی‌آمدند، و هرگاه آنها بازمی‌ایستادند، چرخها نیز بازمی‌ایستادند؛ و هرگاه موجودات زنده از زمین بلند می‌شدند، چرخها نیز همراه آنان بلند می‌شدند، زیرا روحِ موجودات زنده در چرخها بود.
+
+Original words:
+- o1: בְּ/לֶכְתָּ/ם = Hb "in" + H3212 יָלַךְ "to walk (literally or figuratively)…" [HR/Vqc/Sp3mp]
+- o2: יֵלֵכוּ = H3212 יָלַךְ "to walk (literally or figuratively)…" [HVqi3mp]
+- o3: וּ/בְ/עָמְדָ/ם = Hc "and" + Hb "in" + H5975 עָמַד "to stand…" [HC/R/Vqc/Sp3mp]
+- o4: יַעֲמֹדוּ = H5975 עָמַד "to stand…" [HVqi3mp]
+- o5: וּ/בְ/הִנָּשְׂאָ/ם = Hc "and" + Hb "in" + H5375 נָשָׂא "to lift, in a great variety of applications…" [HC/R/VNc/Sp3mp]
+- o6: מֵ/עַל = Hm "from" + H5921 עַל "above, over, upon…" [HR/R]
+- o7: הָ/אָרֶץ = Hd "the" + H776 אֶרֶץ "the earth (at large, or partitively a land)" [HTd/Ncbsa]
+- o8: יִנָּשְׂאוּ = H5375 נָשָׂא "to lift, in a great variety of applications…" [HVNi3mp]
+- o9: הָ/אוֹפַנִּים = Hd "the" + H212 אוֹפָן "a wheel" [HTd/Ncmpa]
+- o10: לְ/עֻמָּתָ/ם = Hl "to" + H5980 עֻמָּה "conjunction, i.e. society…" [HR/Ncfsc/Sp3mp]
+- o11: כִּי = H3588 כִּי "by implication) very widely used as a relative…" [HC]
+- o12: רוּחַ = H7307 רוּחַ "wind…" [HNcbsc]
+- o13: הַ/חַיָּה = Hd "the" + H2416 חַי "alive; hence, raw (flesh)…" [HTd/Ncfsa]
+- o14: בָּ/אוֹפַנִּים = Hb "in" + H212 אוֹפָן "a wheel" [HRd/Ncmpa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | هرگاه | Hb | Hb |
+|  | آنها |  |  |
+|  | حرکت | [حرکت می‌کردند] H3212 | [حرکت می‌کردند] H3212 |
+|  | می‌کردند | [حرکت می‌کردند] H3212 | [حرکت می‌کردند] H3212 |
+|  | ، |  |  |
+|  | چرخها | H212 | H212 |
+|  | نیز |  |  |
+| ✱ | به | Hb "in" | [به حرکت درمی‌آمدند] H3212 יָלַךְ "to walk (literally or…" |
+| ✱ | حرکت | H3212 יָלַךְ "to walk (literally or…" | [به حرکت درمی‌آمدند] H3212 יָלַךְ "to walk (literally or…" |
+| ✱ | درمی‌آمدند |  | [به حرکت درمی‌آمدند] H3212 יָלַךְ "to walk (literally or…" |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | هرگاه | Hb | Hb |
+|  | آنها |  |  |
+|  | بازمی‌ایستادند | H5975 | H5975 |
+|  | ، |  |  |
+|  | چرخها | H212 | H212 |
+|  | نیز |  |  |
+|  | بازمی‌ایستادند | H5975 | H5975 |
+|  | ؛ |  |  |
+|  | و | Hc | Hc |
+| ✱ | هرگاه |  | Hb "in" |
+|  | موجودات | [موجودات زنده] H2416 | [موجودات زنده] H2416 |
+|  | زنده | [موجودات زنده] H2416 | [موجودات زنده] H2416 |
+|  | از | Hm H5921 | Hm H5921 |
+|  | زمین | H776 | H776 |
+|  | بلند | [بلند می‌شدند] H5375 | [بلند می‌شدند] H5375 |
+|  | می‌شدند | [بلند می‌شدند] H5375 | [بلند می‌شدند] H5375 |
+|  | ، |  |  |
+|  | چرخها | H212 | H212 |
+|  | نیز |  |  |
+|  | همراه | H5980 | H5980 |
+|  | آنان |  |  |
+| ✱ | بلند |  | [بلند می‌شدند] H5375 נָשָׂא "to lift…" |
+| ✱ | می‌شدند |  | [بلند می‌شدند] H5375 נָשָׂא "to lift…" |
+|  | ، |  |  |
+|  | زیرا | H3588 | H3588 |
+|  | روحِ | H7307 | H7307 |
+|  | موجودات | [موجودات زنده] H2416 | [موجودات زنده] H2416 |
+|  | زنده | [موجودات زنده] H2416 | [موجودات زنده] H2416 |
+|  | در | Hb | Hb |
+|  | چرخها | H212 | H212 |
+|  | بود |  |  |
+|  | . |  |  |
+
+### Ezekiel 1:22: 3 word(s) changed
+
+Reply line 8.
+
+Original: וּ/דְמוּת עַל רָאשֵׁי הַ/חַיָּה רָקִיעַ כְּ/עֵין הַ/קֶּרַח הַ/נּוֹרָא נָטוּי עַל רָאשֵׁי/הֶם מִ/לְ/מָעְלָ/ה
+
+Persian: بر فراز سرِ آن موجودات زنده چیزی شبیه فَلَکْ گسترده بود، که چونان بلورِ درخشنده به نظر می‌رسید.
+
+Original words:
+- o1: וּ/דְמוּת = Hc "and" + H1823 דְּמוּת "resemblance; concretely, model, shape…" [HC/Ncfsa]
+- o2: עַל = H5921 עַל "above, over, upon…" [HR]
+- o3: רָאשֵׁי = H7218 רֹאשׁ "the head (as most easily shaken)…" [HNcmpc]
+- o4: הַ/חַיָּה = Hd "the" + H2416 חַי "alive; hence, raw (flesh)…" [HTd/Ncfsa]
+- o5: רָקִיעַ = H7549 רָקִיעַ "properly, an expanse…" [HNcmsa]
+- o6: כְּ/עֵין = Hk "like" + H5869 עַיִן "an eye (literally or figuratively)…" [HR/Ncbsc]
+- o7: הַ/קֶּרַח = Hd "the" + H7140 קֶרַח "ice (as if bald, i.e. smooth); hence, hail…" [HTd/Ncmsa]
+- o8: הַ/נּוֹרָא = Hd "the" + H3372 יָרֵא "to fear; morally, to revere; caus. to frighten" [HTd/VNrmsa]
+- o9: נָטוּי = H5186 נָטָה "to stretch or spread out…" [HVqsmsa]
+- o10: עַל = H5921 עַל "above, over, upon…" [HR]
+- o11: רָאשֵׁי/הֶם = H7218 רֹאשׁ "the head (as most easily shaken)…" [HNcmpc/Sp3mp]
+- o12: מִ/לְ/מָעְלָ/ה = Hm "from" + Hl "to" + H4605 מַעַל "properly, the upper part…" [HR/R/D/Sd]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | بر | H5921 | H5921 |
+| ✱ | فراز | H7218 רֹאשׁ "the head (as most easily…"; H5921 עַל "above, over, upon…" | [فراز سرِ] H7218 רֹאשׁ "the head (as most easily…" |
+| ✱ | سرِ | H7218 רֹאשׁ "the head (as most easily…" | [فراز سرِ] H7218 רֹאשׁ "the head (as most easily…" |
+|  | آن |  |  |
+|  | موجودات | [موجودات زنده] H2416 | [موجودات زنده] H2416 |
+|  | زنده | [موجودات زنده] H2416 | [موجودات زنده] H2416 |
+|  | چیزی |  |  |
+|  | شبیه | H1823 | H1823 |
+|  | فَلَکْ | H7549 | H7549 |
+| ✱ | گسترده | H7549 רָקִיעַ "properly, an expanse…"; H5186 נָטָה "to stretch or spread out…" | H5186 נָטָה "to stretch or spread out…" |
+|  | بود |  |  |
+|  | ، |  |  |
+|  | که |  |  |
+|  | چونان | Hk | Hk |
+|  | بلورِ | H7140 | H7140 |
+|  | درخشنده | H3372 | H3372 |
+|  | به |  |  |
+|  | نظر | H5869 | H5869 |
+|  | می‌رسید |  |  |
+|  | . |  |  |
+
+### Ezekiel 1:23: 5 word(s) changed
+
+Reply line 9.
+
+Original: וְ/תַחַת הָ/רָקִיעַ כַּנְפֵי/הֶם יְשָׁרוֹת אִשָּׁה אֶל אֲחוֹתָ/הּ לְ/אִישׁ שְׁתַּיִם מְכַסּוֹת לָ/הֵנָּה וּ/לְ/אִישׁ שְׁתַּיִם מְכַסּוֹת לָ/הֵנָּה אֵת גְּוִיֹּתֵי/הֶם
+
+Persian: زیر فلک، بالهای آنها مستقیم به سوی یکدیگر گسترده بود. هر یک دو بال داشتند که پیکرشان را از این سو و آن سو می‌پوشانید.
+
+Original words:
+- o1: וְ/תַחַת = Hc "and" + H8478 תַּחַת "the bottom (as depressed)…" [HC/R]
+- o2: הָ/רָקִיעַ = Hd "the" + H7549 רָקִיעַ "properly, an expanse…" [HTd/Ncmsa]
+- o3: כַּנְפֵי/הֶם = H3671 כָּנָף "an edge or extremity…" [HNcfdc/Sp3mp]
+- o4: יְשָׁרוֹת = H3477 יָשָׁר "straight (literally or figuratively)" [HAafpa]
+- o5: אִשָּׁה = H802 אִשָּׁה "a woman" [HNcfsa]
+- o6: אֶל = H413 אֵל "near, with or among; often in general, to" [HR]
+- o7: אֲחוֹתָ/הּ = H269 אָחוֹת "a sister (used very widely (like brother)…" [HNcfsc/Sp3fs]
+- o8: לְ/אִישׁ = Hl "to" + H376 אִישׁ "a man as an individual or a male person…" [HR/Ncmsa]
+- o9: שְׁתַּיִם = H8147 שְׁנַיִם "two; also (as ordinal) twofold" [HAcfda]
+- o10: מְכַסּוֹת = H3680 כָּסָה "properly, to plump, i.e. fill up hollows…" [HVprfpa]
+- o11: לָ/הֵנָּה = Hl "to" + H2007 הֵנָּה "themselves (often used emphatic for the copula…" [HR/Pp3fp]
+- o12: וּ/לְ/אִישׁ = Hc "and" + Hl "to" + H376 אִישׁ "a man as an individual or a male person…" [HC/R/Ncmsa]
+- o13: שְׁתַּיִם = H8147 שְׁנַיִם "two; also (as ordinal) twofold" [HAcfda]
+- o14: מְכַסּוֹת = H3680 כָּסָה "properly, to plump, i.e. fill up hollows…" [HVprfpa]
+- o15: לָ/הֵנָּה = Hl "to" + H2007 הֵנָּה "themselves (often used emphatic for the copula…" [HR/Pp3fp]
+- o16: אֵת = H853 אֵת "properly…" [HTo]
+- o17: גְּוִיֹּתֵי/הֶם = H1472 גְּוִיָּה "a body, whether alive or dead" [HNcfpc/Sp3mp]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | زیر | H8478 | H8478 |
+|  | فلک | H7549 | H7549 |
+|  | ، |  |  |
+|  | بالهای | H3671 | H3671 |
+|  | آنها |  |  |
+|  | مستقیم | H3477 | H3477 |
+| ✱ | به |  | [به سوی] H413 אֵל "near, with or among…" |
+| ✱ | سوی | H413 אֵל "near, with or among…" | [به سوی] H413 אֵל "near, with or among…" |
+| ✱ | یکدیگر | H269 אָחוֹת "a sister (used very widely…" | H802 אִשָּׁה "a woman"; H269 אָחוֹת "a sister (used very widely…" |
+|  | گسترده |  |  |
+|  | بود |  |  |
+|  | . |  |  |
+|  | هر | [هر یک] H376 | [هر یک] H376 |
+|  | یک | [هر یک] H376 | [هر یک] H376 |
+|  | دو | H8147 | H8147 |
+| ✱ | بال | [بال داشتند] H3680 כָּסָה "properly, to plump…" | [بال داشتند]  |
+| ✱ | داشتند | [بال داشتند] H3680 כָּסָה "properly, to plump…" | [بال داشتند]  |
+|  | که |  |  |
+|  | پیکرشان | H1472 | H1472 |
+|  | را | H853 | H853 |
+|  | از |  |  |
+|  | این |  |  |
+|  | سو |  |  |
+|  | و | Hc | Hc |
+|  | آن |  |  |
+|  | سو |  |  |
+|  | می‌پوشانید | H3680 | H3680 |
+|  | . |  |  |
+
+### Ezekiel 1:24: 6 word(s) changed
+
+Reply line 10.
+
+Original: וָ/אֶשְׁמַע אֶת קוֹל כַּנְפֵי/הֶם כְּ/קוֹל מַיִם רַבִּים כְּ/קוֹל שַׁדַּי בְּ/לֶכְתָּ/ם קוֹל הֲמֻלָּה כְּ/קוֹל מַחֲנֶה בְּ/עָמְדָ/ם תְּרַפֶּינָה כַנְפֵי/הֶן
+
+Persian: چون به حرکت درمی‌آمدند، صدای بالهایشان را می‌شنیدم که چونان خروش آبهای بسیار بود، و همچون صدای قادرمطلق، و غوغای لشکریان. و چون بازمی‌ایستادند، بالهایشان را فرود می‌آوردند.
+
+Original words:
+- o1: וָ/אֶשְׁמַע = Hc "and" + H8085 שָׁמַע "to hear intelligently (often with implication of…" [HC/Vqw1cs]
+- o2: אֶת = H853 אֵת "properly…" [HTo]
+- o3: קוֹל = H6963 קוֹל "a voice or sound" [HNcmsc]
+- o4: כַּנְפֵי/הֶם = H3671 כָּנָף "an edge or extremity…" [HNcfdc/Sp3mp]
+- o5: כְּ/קוֹל = Hk "like" + H6963 קוֹל "a voice or sound" [HR/Ncmsc]
+- o6: מַיִם = H4325 מַיִם "water; figuratively, juice…" [HNcmpa]
+- o7: רַבִּים = H7227 רַב "abundant (in quantity, size, age, number, rank…" [HAampa]
+- o8: כְּ/קוֹל = Hk "like" + H6963 קוֹל "a voice or sound" [HR/Ncmsc]
+- o9: שַׁדַּי = H7706 שַׁדַּי "the Almighty" [HNp]
+- o10: בְּ/לֶכְתָּ/ם = Hb "in" + H3212 יָלַךְ "to walk (literally or figuratively)…" [HR/Vqc/Sp3mp]
+- o11: קוֹל = H6963 קוֹל "a voice or sound" [HNcmsc]
+- o12: הֲמֻלָּה = H1999 הֲמֻלָּה "a sound" [HNcfsa]
+- o13: כְּ/קוֹל = Hk "like" + H6963 קוֹל "a voice or sound" [HR/Ncmsc]
+- o14: מַחֲנֶה = H4264 מַחֲנֶה "an encampment (of travellers or troops)…" [HNcbsa]
+- o15: בְּ/עָמְדָ/ם = Hb "in" + H5975 עָמַד "to stand…" [HR/Vqc/Sp3mp]
+- o16: תְּרַפֶּינָה = H7503 רָפָה "to slacken (in many applications…" [HVpi3fp]
+- o17: כַנְפֵי/הֶן = H3671 כָּנָף "an edge or extremity…" [HNcfdc/Sp3fp]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+| ✱ | چون | Hc "and" | Hb "in" |
+| ✱ | به | Hb "in" | [به حرکت درمی‌آمدند] H3212 יָלַךְ "to walk (literally or…" |
+| ✱ | حرکت | H3212 יָלַךְ "to walk (literally or…" | [به حرکت درمی‌آمدند] H3212 יָלַךְ "to walk (literally or…" |
+| ✱ | درمی‌آمدند |  | [به حرکت درمی‌آمدند] H3212 יָלַךְ "to walk (literally or…" |
+|  | ، |  |  |
+|  | صدای | H6963 | H6963 |
+|  | بالهایشان | H3671 | H3671 |
+|  | را | H853 | H853 |
+|  | می‌شنیدم | H8085 | H8085 |
+|  | که |  |  |
+|  | چونان | Hk | Hk |
+|  | خروش | H6963 | H6963 |
+|  | آبهای | H4325 | H4325 |
+|  | بسیار | H7227 | H7227 |
+|  | بود |  |  |
+|  | ، |  |  |
+|  | و |  |  |
+|  | همچون | Hk | Hk |
+|  | صدای | H6963 | H6963 |
+|  | قادرمطلق | H7706 | H7706 |
+|  | ، |  |  |
+|  | و |  |  |
+|  | غوغای | H1999 | H1999 |
+|  | لشکریان | H4264 | H4264 |
+|  | . |  |  |
+|  | و |  |  |
+| ✱ | چون | Hk "like" | Hb "in" |
+|  | بازمی‌ایستادند | H5975 | H5975 |
+|  | ، |  |  |
+|  | بالهایشان | H3671 | H3671 |
+| ✱ | را | H853 אֵת "properly…" |  |
+|  | فرود | [فرود می‌آوردند] H7503 | [فرود می‌آوردند] H7503 |
+|  | می‌آوردند | [فرود می‌آوردند] H7503 | [فرود می‌آوردند] H7503 |
+|  | . |  |  |
+
+### Ezekiel 1:25: 2 word(s) changed
+
+Reply line 11.
+
+Original: וַ/יְהִי קוֹל מֵ/עַל לָ/רָקִיעַ אֲשֶׁר עַל רֹאשָׁ/ם בְּ/עָמְדָ/ם תְּרַפֶּינָה כַנְפֵי/הֶן
+
+Persian: و چون در حین ایستادن بالهایشان را فرود می‌آوردند، از فراز فلکی که بالای سرشان بود، صدایی شنیده می‌شد.
+
+Original words:
+- o1: וַ/יְהִי = Hc "and" + H1961 הָיָה "to exist, i.e. be or become…" [HC/Vqw3ms]
+- o2: קוֹל = H6963 קוֹל "a voice or sound" [HNcmsa]
+- o3: מֵ/עַל = Hm "from" + H5921 עַל "above, over, upon…" [HR/R]
+- o4: לָ/רָקִיעַ = Hl "to" + H7549 רָקִיעַ "properly, an expanse…" [HRd/Ncmsa]
+- o5: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o6: עַל = H5921 עַל "above, over, upon…" [HR]
+- o7: רֹאשָׁ/ם = H7218 רֹאשׁ "the head (as most easily shaken)…" [HNcmsc/Sp3mp]
+- o8: בְּ/עָמְדָ/ם = Hb "in" + H5975 עָמַד "to stand…" [HR/Vqc/Sp3mp]
+- o9: תְּרַפֶּינָה = H7503 רָפָה "to slacken (in many applications…" [HVpi3fp]
+- o10: כַנְפֵי/הֶן = H3671 כָּנָף "an edge or extremity…" [HNcfdc/Sp3fp]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | و | Hc | Hc |
+|  | چون |  |  |
+|  | در | Hb | Hb |
+|  | حین |  |  |
+|  | ایستادن | H5975 | H5975 |
+|  | بالهایشان | H3671 | H3671 |
+|  | را |  |  |
+|  | فرود | [فرود می‌آوردند] H7503 | [فرود می‌آوردند] H7503 |
+|  | می‌آوردند | [فرود می‌آوردند] H7503 | [فرود می‌آوردند] H7503 |
+|  | ، |  |  |
+|  | از | Hm | Hm |
+|  | فراز | H5921 | H5921 |
+|  | فلکی | H7549 | H7549 |
+|  | که | H834 | H834 |
+|  | بالای | H5921 | H5921 |
+|  | سرشان | H7218 | H7218 |
+|  | بود |  |  |
+|  | ، |  |  |
+|  | صدایی | H6963 | H6963 |
+| ✱ | شنیده | [شنیده می‌شد]  | [شنیده می‌شد] H1961 הָיָה "to exist, i.e. be or become…" |
+| ✱ | می‌شد | [شنیده می‌شد]  | [شنیده می‌شد] H1961 הָיָה "to exist, i.e. be or become…" |
+|  | . |  |  |
+
+### Ezekiel 1:26: 8 word(s) changed
+
+Reply line 12.
+
+Original: וּ/מִ/מַּעַל לָ/רָקִיעַ אֲשֶׁר עַל רֹאשָׁ/ם כְּ/מַרְאֵה אֶבֶן סַפִּיר דְּמוּת כִּסֵּא וְ/עַל דְּמוּת הַ/כִּסֵּא דְּמוּת כְּ/מַרְאֵה אָדָם עָלָי/ו מִ/לְ/מָעְלָ/ה
+
+Persian: بر فراز فلکِ بالای سرشان، چیزی بود شبیه تخت با منظر یاقوت کبود، و بالا بر فراز آن تخت کسی بود با منظری شبیه انسان.
+
+Original words:
+- o1: וּ/מִ/מַּעַל = Hc "and" + Hm "from" + H4605 מַעַל "properly, the upper part…" [HC/R/D]
+- o2: לָ/רָקִיעַ = Hl "to" + H7549 רָקִיעַ "properly, an expanse…" [HRd/Ncmsa]
+- o3: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o4: עַל = H5921 עַל "above, over, upon…" [HR]
+- o5: רֹאשָׁ/ם = H7218 רֹאשׁ "the head (as most easily shaken)…" [HNcmsc/Sp3mp]
+- o6: כְּ/מַרְאֵה = Hk "like" + H4758 מַרְאֶה "a view (the act of seeing)…" [HR/Ncmsc]
+- o7: אֶבֶן = H68 אֶבֶן "a stone" [HNcfsc]
+- o8: סַפִּיר = H5601 סַפִּיר "a gem (perhaps used for scratching other…" [HNcmsa]
+- o9: דְּמוּת = H1823 דְּמוּת "resemblance; concretely, model, shape…" [HNcfsc]
+- o10: כִּסֵּא = H3678 כִּסֵּא "properly, covered, i.e. a throne (as canopied)" [HNcmsa]
+- o11: וְ/עַל = Hc "and" + H5921 עַל "above, over, upon…" [HC/R]
+- o12: דְּמוּת = H1823 דְּמוּת "resemblance; concretely, model, shape…" [HNcfsc]
+- o13: הַ/כִּסֵּא = Hd "the" + H3678 כִּסֵּא "properly, covered, i.e. a throne (as canopied)" [HTd/Ncmsa]
+- o14: דְּמוּת = H1823 דְּמוּת "resemblance; concretely, model, shape…" [HNcfsa]
+- o15: כְּ/מַרְאֵה = Hk "like" + H4758 מַרְאֶה "a view (the act of seeing)…" [HR/Ncmsc]
+- o16: אָדָם = H120 אָדָם "ruddy i.e. a human being (an individual or the…" [HNcmsa]
+- o17: עָלָי/ו = H5921 עַל "above, over, upon…" [HR/Sp3ms]
+- o18: מִ/לְ/מָעְלָ/ה = Hm "from" + Hl "to" + H4605 מַעַל "properly, the upper part…" [HR/R/D/Sd]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+| ✱ | بر | H5921 עַל "above, over, upon…" | Hm "from" |
+|  | فراز | H4605 | H4605 |
+|  | فلکِ | H7549 | H7549 |
+|  | بالای | H5921 | H5921 |
+|  | سرشان | H7218 | H7218 |
+|  | ، |  |  |
+|  | چیزی |  |  |
+|  | بود |  |  |
+| ✱ | شبیه | H1823 דְּמוּת "resemblance…"; H4758 מַרְאֶה "a view (the act of seeing)…" | H1823 דְּמוּת "resemblance…" |
+|  | تخت | H3678 | H3678 |
+|  | با |  |  |
+| ✱ | منظر | H4758 מַרְאֶה "a view (the act of seeing)…"; H1823 דְּמוּת "resemblance…" | H4758 מַרְאֶה "a view (the act of seeing)…" |
+| ✱ | یاقوت | H68 אֶבֶן "a stone"; H5601 סַפִּיר "a gem (perhaps used for…" | [یاقوت کبود] H68 אֶבֶן "a stone"; H5601 סַפִּיר "a gem (perhaps used for…" |
+| ✱ | کبود | H5601 סַפִּיר "a gem (perhaps used for…" | [یاقوت کبود] H68 אֶבֶן "a stone"; H5601 סַפִּיר "a gem (perhaps used for…" |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | بالا | H4605 | H4605 |
+| ✱ | بر | [بر فراز] H5921 עַל "above, over, upon…" | H5921 עַל "above, over, upon…" |
+| ✱ | فراز | [بر فراز] H5921 עַל "above, over, upon…" | H5921 עַל "above, over, upon…" |
+|  | آن |  |  |
+|  | تخت | H3678 | H3678 |
+|  | کسی |  |  |
+|  | بود |  |  |
+|  | با |  |  |
+|  | منظری | H1823 H4758 | H1823 H4758 |
+| ✱ | شبیه | H1823 דְּמוּת "resemblance…"; H4758 מַרְאֶה "a view (the act of seeing)…" | Hk "like" |
+|  | انسان | H120 | H120 |
+|  | . |  |  |
+
+### Ezekiel 1:27: 11 word(s) changed
+
+Reply line 13.
+
+Original: וָ/אֵרֶא כְּ/עֵין חַשְׁמַל כְּ/מַרְאֵה אֵשׁ בֵּית לָ/הּ סָבִיב מִ/מַּרְאֵה מָתְנָי/ו וּ/לְ/מָעְלָ/ה וּ/מִ/מַּרְאֵה מָתְנָי/ו וּ/לְ/מַטָּה רָאִיתִי כְּ/מַרְאֵה אֵשׁ וְ/נֹגַהּ ל/וֹ סָבִיב
+
+Persian: از کمر او به طرف بالا شبیه کَهرُبا بود، و به آتشی می‌مانست که از اطراف محصور شده باشد. و از کمر او به طرف پایین شبیه آتش بود، و نور از هر طرف او را در برگرفته بود.
+
+Original words:
+- o1: וָ/אֵרֶא = Hc "and" + H7200 רָאָה "to see…" [HC/Vqw1cs]
+- o2: כְּ/עֵין = Hk "like" + H5869 עַיִן "an eye (literally or figuratively)…" [HR/Ncbsc]
+- o3: חַשְׁמַל = H2830 חַשְׁמַל "probably bronze or polished spectrum metal" [HNcmsa]
+- o4: כְּ/מַרְאֵה = Hk "like" + H4758 מַרְאֶה "a view (the act of seeing)…" [HR/Ncmsc]
+- o5: אֵשׁ = H784 אֵשׁ "fire (literally or figuratively)" [HNcbsa]
+- o6: בֵּית = H1004 בַּיִת "a house (in the greatest variation of…" [HNcmsc]
+- o7: לָ/הּ = Hl "to" [HR/Sp3fs]
+- o8: סָבִיב = H5439 סָבִיב "as noun) a circle, neighbour, or environs…" [HNcbsa]
+- o9: מִ/מַּרְאֵה = Hm "from" + H4758 מַרְאֶה "a view (the act of seeing)…" [HR/Ncmsc]
+- o10: מָתְנָי/ו = H4975 מֹתֶן "properly, the waist or small of the back…" [HNcmdc/Sp3ms]
+- o11: וּ/לְ/מָעְלָ/ה = Hc "and" + Hl "to" + H4605 מַעַל "properly, the upper part…" [HC/R/D/Sd]
+- o12: וּ/מִ/מַּרְאֵה = Hc "and" + Hm "from" + H4758 מַרְאֶה "a view (the act of seeing)…" [HC/R/Ncmsc]
+- o13: מָתְנָי/ו = H4975 מֹתֶן "properly, the waist or small of the back…" [HNcmdc/Sp3ms]
+- o14: וּ/לְ/מַטָּה = Hc "and" + Hl "to" + H4295 מַטָּה "downward, below or beneath…" [HC/R/D]
+- o15: רָאִיתִי = H7200 רָאָה "to see…" [HVqp1cs]
+- o16: כְּ/מַרְאֵה = Hk "like" + H4758 מַרְאֶה "a view (the act of seeing)…" [HR/Ncmsc]
+- o17: אֵשׁ = H784 אֵשׁ "fire (literally or figuratively)" [HNcbsa]
+- o18: וְ/נֹגַהּ = Hc "and" + H5051 נֹגַהּ "brilliancy (literally or figuratively)" [HC/Ncfsa]
+- o19: ל/וֹ = Hl "to" [HR/Sp3ms]
+- o20: סָבִיב = H5439 סָבִיב "as noun) a circle, neighbour, or environs…" [HNcbsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | از | Hm | Hm |
+|  | کمر | H4975 | H4975 |
+|  | او |  |  |
+|  | به | Hl | Hl |
+| ✱ | طرف | H4758 מַרְאֶה "a view (the act of seeing)…" |  |
+|  | بالا | H4605 | H4605 |
+| ✱ | شبیه | H4758 מַרְאֶה "a view (the act of seeing)…" | Hk "like"; H5869 עַיִן "an eye (literally or…" |
+| ✱ | کَهرُبا | H5869 עַיִן "an eye (literally or…"; H2830 חַשְׁמַל "probably bronze or polished…" | H2830 חַשְׁמַל "probably bronze or polished…" |
+| ✱ | بود |  | H7200 רָאָה "to see…" |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | به |  |  |
+|  | آتشی | H784 | H784 |
+| ✱ | می‌مانست |  | Hk "like"; H4758 מַרְאֶה "a view (the act of seeing)…" |
+|  | که |  |  |
+| ✱ | از | Hm "from" |  |
+|  | اطراف | H5439 | H5439 |
+|  | محصور | H1004 | H1004 |
+|  | شده | [شده باشد]  | [شده باشد]  |
+|  | باشد | [شده باشد]  | [شده باشد]  |
+|  | . |  |  |
+|  | و | Hc | Hc |
+|  | از | Hm | Hm |
+|  | کمر | H4975 | H4975 |
+|  | او |  |  |
+|  | به | Hl | Hl |
+| ✱ | طرف | H4758 מַרְאֶה "a view (the act of seeing)…" |  |
+|  | پایین | H4295 | H4295 |
+| ✱ | شبیه | H4758 מַרְאֶה "a view (the act of seeing)…" | Hk "like"; H4758 מַרְאֶה "a view (the act of seeing)…" |
+|  | آتش | H784 | H784 |
+|  | بود | H7200 | H7200 |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | نور | H5051 | H5051 |
+| ✱ | از | Hl "to" |  |
+|  | هر |  |  |
+| ✱ | طرف | H4758 מַרְאֶה "a view (the act of seeing)…"; H5439 סָבִיב "as noun) a circle, neighbour…" | H5439 סָבִיב "as noun) a circle, neighbour…" |
+|  | او |  |  |
+|  | را |  |  |
+|  | در |  |  |
+|  | برگرفته |  |  |
+| ✱ | بود | H7200 רָאָה "to see…" |  |
+|  | . |  |  |
+
+### Ezekiel 1:28: 6 word(s) changed
+
+Reply line 14.
+
+Original: כְּ/מַרְאֵה הַ/קֶּשֶׁת אֲשֶׁר יִהְיֶה בֶ/עָנָן בְּ/יוֹם הַ/גֶּשֶׁם כֵּן מַרְאֵה הַ/נֹּגַהּ סָבִיב הוּא מַרְאֵה דְּמוּת כְּבוֹד יְהוָה וָ/אֶרְאֶה וָ/אֶפֹּל עַל פָּנַ/י וָ/אֶשְׁמַע קוֹל מְדַבֵּר
+
+Persian: نورِ گرداگردش شبیه تابش رنگین‌کمان بود که در روز بارانی در ابر پدیدار شود. چنین بود منظرِ شباهتِ جلالِ خداوند. و چون آن را دیدم، به روی درافتادم و صدای کسی را شنیدم که سخن می‌گفت.
+
+Original words:
+- o1: כְּ/מַרְאֵה = Hk "like" + H4758 מַרְאֶה "a view (the act of seeing)…" [HR/Ncmsc]
+- o2: הַ/קֶּשֶׁת = Hd "the" + H7198 קֶשֶׁת "a bow, forshooting (hence, figuratively…" [HTd/Ncfsa]
+- o3: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o4: יִהְיֶה = H1961 הָיָה "to exist, i.e. be or become…" [HVqi3ms]
+- o5: בֶ/עָנָן = Hb "in" + H6051 עָנָן "a cloud (as covering the sky)…" [HRd/Ncmsa]
+- o6: בְּ/יוֹם = Hb "in" + H3117 יוֹם "a day (as the warm hours)…" [HR/Ncmsc]
+- o7: הַ/גֶּשֶׁם = Hd "the" + H1653 גֶּשֶׁם "a shower" [HTd/Ncmsa]
+- o8: כֵּן = H3651 כֵּן "properly, set upright…" [HTm]
+- o9: מַרְאֵה = H4758 מַרְאֶה "a view (the act of seeing)…" [HNcmsc]
+- o10: הַ/נֹּגַהּ = Hd "the" + H5051 נֹגַהּ "brilliancy (literally or figuratively)" [HTd/Ncfsa]
+- o11: סָבִיב = H5439 סָבִיב "as noun) a circle, neighbour, or environs…" [HNcbsa]
+- o12: הוּא = H1931 הוּא "he (she or it)…" [HPp3ms]
+- o13: מַרְאֵה = H4758 מַרְאֶה "a view (the act of seeing)…" [HNcmsc]
+- o14: דְּמוּת = H1823 דְּמוּת "resemblance; concretely, model, shape…" [HNcfsc]
+- o15: כְּבוֹד = H3519 כָּבוֹד "properly, weight…" [HNcbsc]
+- o16: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o17: וָ/אֶרְאֶה = Hc "and" + H7200 רָאָה "to see…" [HC/Vqw1cs]
+- o18: וָ/אֶפֹּל = Hc "and" + H5307 נָפַל "to fall…" [HC/Vqw1cs]
+- o19: עַל = H5921 עַל "above, over, upon…" [HR]
+- o20: פָּנַ/י = H6440 פָּנִים "the face (as the part that turns)…" [HNcbpc/Sp1cs]
+- o21: וָ/אֶשְׁמַע = Hc "and" + H8085 שָׁמַע "to hear intelligently (often with implication of…" [HC/Vqw1cs]
+- o22: קוֹל = H6963 קוֹל "a voice or sound" [HNcmsa]
+- o23: מְדַבֵּר = H1696 דָבַר "perhaps properly, to arrange…" [HVprmsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | نورِ | H5051 | H5051 |
+|  | گرداگردش | H5439 | H5439 |
+| ✱ | شبیه | H4758 מַרְאֶה "a view (the act of seeing)…" | Hk "like" |
+|  | تابش | H4758 | H4758 |
+|  | رنگین‌کمان | H7198 | H7198 |
+|  | بود |  |  |
+|  | که | H834 | H834 |
+|  | در | Hb | Hb |
+|  | روز | H3117 | H3117 |
+|  | بارانی | H1653 | H1653 |
+|  | در | Hb | Hb |
+|  | ابر | H6051 | H6051 |
+| ✱ | پدیدار |  | [پدیدار شود] H1961 הָיָה "to exist, i.e. be or become…" |
+| ✱ | شود |  | [پدیدار شود] H1961 הָיָה "to exist, i.e. be or become…" |
+|  | . |  |  |
+|  | چنین | H3651 | H3651 |
+|  | بود | H1931 | H1931 |
+|  | منظرِ | H4758 | H4758 |
+|  | شباهتِ | H1823 | H1823 |
+|  | جلالِ | H3519 | H3519 |
+|  | خداوند | H3068 | H3068 |
+|  | . |  |  |
+|  | و | Hc | Hc |
+|  | چون |  |  |
+|  | آن |  |  |
+|  | را |  |  |
+|  | دیدم | H7200 | H7200 |
+|  | ، |  |  |
+|  | به | H5921 | H5921 |
+|  | روی | H6440 | H6440 |
+|  | درافتادم | H5307 | H5307 |
+|  | و | Hc | Hc |
+|  | صدای | H6963 | H6963 |
+|  | کسی |  |  |
+|  | را |  |  |
+|  | شنیدم | H8085 | H8085 |
+| ✱ | که | H834 אֲשֶׁר "who, which, what, that…" |  |
+| ✱ | سخن | H6963 קוֹל "a voice or sound"; H1696 דָבַר "perhaps properly, to arrange…" | [سخن می‌گفت] H1696 דָבַר "perhaps properly, to arrange…" |
+| ✱ | می‌گفت | H1696 דָבַר "perhaps properly, to arrange…" | [سخن می‌گفت] H1696 דָבַר "perhaps properly, to arrange…" |
+|  | . |  |  |

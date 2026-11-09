@@ -1,0 +1,886 @@
+# Check of 24_Jeremiah_033.001-033.013.md
+
+Generated 2026-10-26 by `python review_replies.py check`. Rows marked ✱ change. Edit or delete lines in the reply to change what is applied, then run check again.
+
+## 13 verse(s) with changes
+
+### Jeremiah 33:1: 5 word(s) changed
+
+Reply line 2.
+
+Original: וַ/יְהִי דְבַר יְהוָה אֶל יִרְמְיָהוּ שֵׁנִית וְ/הוּא עוֹדֶ/נּוּ עָצוּר בַּ/חֲצַר הַ/מַּטָּרָה לֵ/אמֹר
+
+Persian: در همان حال که اِرمیا هنوز در حیاط قراولان محبوس بود، کلام خداوند بار دیگر بر او نازل شده، گفت:
+
+Original words:
+- o1: וַ/יְהִי = Hc "and" + H1961 הָיָה "to exist, i.e. be or become…" [HC/Vqw3ms]
+- o2: דְבַר = H1697 דָּבָר "a word…" [HNcmsc]
+- o3: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o4: אֶל = H413 אֵל "near, with or among; often in general, to" [HR]
+- o5: יִרְמְיָהוּ = H3414 יִרְמְיָה "Jirmejah, the name of eight or nine Israelites" [HNp]
+- o6: שֵׁנִית = H8145 שֵׁנִי "properly, double, i.e. second…" [HAofsa]
+- o7: וְ/הוּא = Hc "and" + H1931 הוּא "he (she or it)…" [HC/Pp3ms]
+- o8: עוֹדֶ/נּוּ = H5750 עוֹד "properly, iteration or continuance…" [HD/Sp3ms]
+- o9: עָצוּר = H6113 עָצָר "to inclose; by analogy, to hold back…" [HVqsmsa]
+- o10: בַּ/חֲצַר = Hb "in" + H2691 חָצֵר "a yard (as inclosed by a fence)…" [HR/Ncbsc]
+- o11: הַ/מַּטָּרָה = Hd "the" + H4307 מַטָּרָא "a jail (as a guard-house)…" [HTd/Ncfsa]
+- o12: לֵ/אמֹר = Hl "to" + H559 אָמַר "to say (used with great latitude)" [HR/Vqc]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | در |  |  |
+|  | همان |  |  |
+|  | حال |  |  |
+|  | که |  |  |
+|  | اِرمیا | H3414 | H3414 |
+|  | هنوز | H5750 | H5750 |
+|  | در | Hb | Hb |
+|  | حیاط | H2691 | H2691 |
+|  | قراولان | H4307 | H4307 |
+|  | محبوس | [محبوس بود] H6113 | [محبوس بود] H6113 |
+|  | بود | [محبوس بود] H6113 | [محبوس بود] H6113 |
+|  | ، |  |  |
+|  | کلام | H1697 | H1697 |
+|  | خداوند | H3068 | H3068 |
+| ✱ | بار | H8145 שֵׁנִי "properly, double, i.e. second…" | [بار دیگر] H8145 שֵׁנִי "properly, double, i.e. second…" |
+| ✱ | دیگر | H8145 שֵׁנִי "properly, double, i.e. second…"; H5750 עוֹד "properly…" | [بار دیگر] H8145 שֵׁנִי "properly, double, i.e. second…" |
+| ✱ | بر |  | H413 אֵל "near, with or among…" |
+|  | او |  |  |
+| ✱ | نازل | H413 אֵל "near, with or among…"; Hl "to"; H559 אָמַר "to say (used with great…" | [نازل شده] H1961 הָיָה "to exist, i.e. be or become…" |
+| ✱ | شده |  | [نازل شده] H1961 הָיָה "to exist, i.e. be or become…" |
+|  | ، |  |  |
+|  | گفت | H559 | H559 |
+|  | : |  |  |
+
+### Jeremiah 33:2: 1 word(s) changed
+
+Reply line 3.
+
+Original: כֹּה אָמַר יְהוָה עֹשָׂ/הּ יְהוָה יוֹצֵר אוֹתָ/הּ לַ/הֲכִינָ/הּ יְהוָה שְׁמ/וֹ
+
+Persian: « خداوندی که زمین را آفرید، خداوندی که آن را شکل داده، مستحکم فرمود، و نامش یهوه است، چنین می‌گوید:
+
+Original words:
+- o1: כֹּה = H3541 כֹּה "properly, like this, i.e. by implication…" [HD]
+- o2: אָמַר = H559 אָמַר "to say (used with great latitude)" [HVqp3ms]
+- o3: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o4: עֹשָׂ/הּ = H6213 עָשָׂה "to do or make…" [HVqrmsc/Sp3fs]
+- o5: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o6: יוֹצֵר = H3335 יָצַר "to mould into a form; especially as apotter…" [HVqrmsa]
+- o7: אוֹתָ/הּ = H853 אֵת "properly…" [HTo/Sp3fs]
+- o8: לַ/הֲכִינָ/הּ = Hl "to" + H3559 כּוּן "properly, to be erect (i.e. stand perpendicular)…" [HR/Vhc/Sp3fs]
+- o9: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o10: שְׁמ/וֹ = H8034 שֵׁם "an appellation…" [HNcmsc/Sp3ms]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | « |  |  |
+|  | خداوندی | H3068 | H3068 |
+|  | که |  |  |
+|  | زمین |  |  |
+| ✱ | را | H853 אֵת "properly…" |  |
+|  | آفرید | H6213 | H6213 |
+|  | ، |  |  |
+|  | خداوندی | H3068 | H3068 |
+|  | که |  |  |
+|  | آن |  |  |
+|  | را | H853 | H853 |
+|  | شکل | [شکل داده] H3335 | [شکل داده] H3335 |
+|  | داده | [شکل داده] H3335 | [شکل داده] H3335 |
+|  | ، |  |  |
+|  | مستحکم | [مستحکم فرمود] H3559 | [مستحکم فرمود] H3559 |
+|  | فرمود | [مستحکم فرمود] H3559 | [مستحکم فرمود] H3559 |
+|  | ، |  |  |
+|  | و |  |  |
+|  | نامش | H8034 | H8034 |
+|  | یهوه | H3068 | H3068 |
+|  | است |  |  |
+|  | ، |  |  |
+|  | چنین | H3541 | H3541 |
+|  | می‌گوید | H559 | H559 |
+|  | : |  |  |
+
+### Jeremiah 33:3: 7 word(s) changed
+
+Reply line 4.
+
+Original: קְרָא אֵלַ/י וְ/אֶעֱנֶ/ךָּ וְ/אַגִּידָה לְּ/ךָ גְּדֹלוֹת וּ/בְצֻרוֹת לֹא יְדַעְתָּ/ם
+
+Persian: مرا بخوان که تو را اجابت خواهم کرد و تو را از چیزهای عظیم و مخفی که ندانسته‌ای، آگاه خواهم ساخت.
+
+Original words:
+- o1: קְרָא = H7121 קָרָא "to call out to (i.e. properly, address by name…" [HVqv2ms]
+- o2: אֵלַ/י = H413 אֵל "near, with or among; often in general, to" [HR/Sp1cs]
+- o3: וְ/אֶעֱנֶ/ךָּ = Hc "and" + H6030 עָנָה "properly, to eye or (generally) to heed…" [HC/Vqh1cs/Sp2ms]
+- o4: וְ/אַגִּידָה = Hc "and" + H5046 נָגַד "properly, to front…" [HC/Vhh1cs]
+- o5: לְּ/ךָ = Hl "to" [HR/Sp2ms]
+- o6: גְּדֹלוֹת = H1419 גָּדוֹל "great (in any sense); hence, older; also insolent" [HAafpa]
+- o7: וּ/בְצֻרוֹת = Hc "and" + H1219 בָּצַר "to gather grapes…" [HC/Aafpa]
+- o8: לֹא = H3808 לֹא "not (the simple or abs. negation)…" [HTn]
+- o9: יְדַעְתָּ/ם = H3045 יָדַע "to know (properly, to ascertain by seeing)…" [HVqp2ms/Sp3mp]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | مرا | [مرا بخوان] H7121 | [مرا بخوان] H7121 |
+|  | بخوان | [مرا بخوان] H7121 | [مرا بخوان] H7121 |
+| ✱ | که |  | Hc "and" |
+|  | تو |  |  |
+|  | را |  |  |
+|  | اجابت | [اجابت خواهم کرد] H6030 | [اجابت خواهم کرد] H6030 |
+|  | خواهم | [اجابت خواهم کرد] H6030 | [اجابت خواهم کرد] H6030 |
+|  | کرد | [اجابت خواهم کرد] H6030 | [اجابت خواهم کرد] H6030 |
+|  | و | Hc | Hc |
+|  | تو |  |  |
+|  | را |  |  |
+| ✱ | از | Hl "to" |  |
+| ✱ | چیزهای | H1219 בָּצַר "to gather grapes…" |  |
+|  | عظیم | H1419 | H1419 |
+|  | و | Hc | Hc |
+|  | مخفی | H1219 | H1219 |
+|  | که |  |  |
+| ✱ | ندانسته‌ای | H3808 לֹא "not (the simple or abs.…" | H3808 לֹא "not (the simple or abs.…"; H3045 יָדַע "to know (properly…" |
+|  | ، |  |  |
+| ✱ | آگاه | [آگاه خواهم ساخت] H3045 יָדַע "to know (properly…" | [آگاه خواهم ساخت] H5046 נָגַד "properly, to front…" |
+| ✱ | خواهم | [آگاه خواهم ساخت] H3045 יָדַע "to know (properly…" | [آگاه خواهم ساخت] H5046 נָגַד "properly, to front…" |
+| ✱ | ساخت | [آگاه خواهم ساخت] H3045 יָדַע "to know (properly…" | [آگاه خواهم ساخت] H5046 נָגַד "properly, to front…" |
+|  | . |  |  |
+
+### Jeremiah 33:4: 7 word(s) changed
+
+Reply line 5.
+
+Original: כִּי כֹה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל עַל בָּתֵּי הָ/עִיר הַ/זֹּאת וְ/עַל בָּתֵּי מַלְכֵי יְהוּדָה הַ/נְּתֻצִים אֶל הַ/סֹּלְלוֹת וְ/אֶל הֶ/חָרֶב
+
+Persian: زیرا یهوه خدای اسرائیل دربارۀ خانه‌های این شهر و خانه‌های پادشاهان یهودا که ویران شده تا از آنها سنگرها در برابر خاکریزهای محاصره و در برابر شمشیر ساخته شود، چنین می‌فرماید:
+
+Original words:
+- o1: כִּי = H3588 כִּי "by implication) very widely used as a relative…" [HC]
+- o2: כֹה = H3541 כֹּה "properly, like this, i.e. by implication…" [HD]
+- o3: אָמַר = H559 אָמַר "to say (used with great latitude)" [HVqp3ms]
+- o4: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o5: אֱלֹהֵי = H430 אֱלֹהִים "gods in the ordinary sense…" [HNcmpc]
+- o6: יִשְׂרָאֵל = H3478 יִשְׂרָאֵל "Jisrael, a symbolical name of Jacob…" [HNp]
+- o7: עַל = H5921 עַל "above, over, upon…" [HR]
+- o8: בָּתֵּי = H1004 בַּיִת "a house (in the greatest variation of…" [HNcmpc]
+- o9: הָ/עִיר = Hd "the" + H5892 עִיר "a city (a place guarded by waking or a watch) in…" [HTd/Ncfsa]
+- o10: הַ/זֹּאת = Hd "the" + H2063 זֹאת "this (often used adverb)" [HTd/Pdxfs]
+- o11: וְ/עַל = Hc "and" + H5921 עַל "above, over, upon…" [HC/R]
+- o12: בָּתֵּי = H1004 בַּיִת "a house (in the greatest variation of…" [HNcmpc]
+- o13: מַלְכֵי = H4428 מֶלֶךְ "a king" [HNcmpc]
+- o14: יְהוּדָה = H3063 יְהוּדָה "Jehudah (or Judah), the name of five Israelites…" [HNp]
+- o15: הַ/נְּתֻצִים = Hd "the" + H5422 נָתַץ "to tear down" [HTd/Vqsmpa]
+- o16: אֶל = H413 אֵל "near, with or among; often in general, to" [HR]
+- o17: הַ/סֹּלְלוֹת = Hd "the" + H5550 סֹלְלָה "a military mound, i.e. rampart of besiegers" [HTd/Ncfpa]
+- o18: וְ/אֶל = Hc "and" + H413 אֵל "near, with or among; often in general, to" [HC/R]
+- o19: הֶ/חָרֶב = Hd "the" + H2719 חֶרֶב "drought…" [HTd/Ncfsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | زیرا | H3588 | H3588 |
+|  | یهوه | H3068 | H3068 |
+|  | خدای | H430 | H430 |
+|  | اسرائیل | H3478 | H3478 |
+|  | دربارۀ | H5921 | H5921 |
+|  | خانه‌های | H1004 | H1004 |
+|  | این | H2063 | H2063 |
+|  | شهر | H5892 | H5892 |
+|  | و | Hc | Hc |
+|  | خانه‌های | H1004 | H1004 |
+|  | پادشاهان | H4428 | H4428 |
+|  | یهودا | H3063 | H3063 |
+|  | که |  |  |
+|  | ویران | [ویران شده] H5422 | [ویران شده] H5422 |
+|  | شده | [ویران شده] H5422 | [ویران شده] H5422 |
+|  | تا |  |  |
+|  | از |  |  |
+|  | آنها |  |  |
+| ✱ | سنگرها | H5550 סֹלְלָה "a military mound…" |  |
+| ✱ | در |  | [در برابر] H413 אֵל "near, with or among…" |
+| ✱ | برابر |  | [در برابر] H413 אֵל "near, with or among…" |
+| ✱ | خاکریزهای |  | [خاکریزهای محاصره] H5550 סֹלְלָה "a military mound…" |
+| ✱ | محاصره | H5550 סֹלְלָה "a military mound…" | [خاکریزهای محاصره] H5550 סֹלְלָה "a military mound…" |
+|  | و | Hc | Hc |
+| ✱ | در |  | [در برابر] H413 אֵל "near, with or among…" |
+| ✱ | برابر |  | [در برابر] H413 אֵל "near, with or among…" |
+|  | شمشیر | H2719 | H2719 |
+|  | ساخته | [ساخته شود]  | [ساخته شود]  |
+|  | شود | [ساخته شود]  | [ساخته شود]  |
+|  | ، |  |  |
+|  | چنین | H3541 | H3541 |
+|  | می‌فرماید | H559 | H559 |
+|  | : |  |  |
+
+### Jeremiah 33:5: 13 word(s) changed
+
+Reply line 6.
+
+Original: בָּאִים לְ/הִלָּחֵם אֶת הַ/כַּשְׂדִּים וּ/לְ/מַלְאָ/ם אֶת פִּגְרֵי הָ/אָדָם אֲשֶׁר הִכֵּיתִי בְ/אַפִּ/י וּ/בַ/חֲמָתִ/י וַ/אֲשֶׁר הִסְתַּרְתִּי פָנַ/י מֵ/הָ/עִיר הַ/זֹּאת עַל כָּל רָעָתָ/ם
+
+Persian: آنها می‌آیند تا با کَلدانیان بجنگند و آن خانه‌ها را از اجساد کسانی که من در خشم و غضب خود خواهم کُشت پر کنند، زیرا من به سبب تمامی شرارت آنها، روی خود را از این شهر پوشانیده‌ام.
+
+Original words:
+- o1: בָּאִים = H935 בּוֹא "to go or come (in a wide variety of applications)" [HVqrmpa]
+- o2: לְ/הִלָּחֵם = Hl "to" + H3898 לָחַם "to feed on; figuratively, to consume…" [HR/VNc]
+- o3: אֶת = H853 אֵת "properly…" [HTo]
+- o4: הַ/כַּשְׂדִּים = Hd "the" + H3778 כַּשְׂדִּי "a Kasdite, or descendant of Kesed…" [HTd/Np]
+- o5: וּ/לְ/מַלְאָ/ם = Hc "and" + Hl "to" + H4390 מָלֵא "to fill or (intransitively) be full of…" [HC/R/Vpc/Sp3mp]
+- o6: אֶת = H854 אֵת "properly…" [HR]
+- o7: פִּגְרֵי = H6297 פֶּגֶר "a carcase (as limp), whether of man or beast…" [HNcmpc]
+- o8: הָ/אָדָם = Hd "the" + H120 אָדָם "ruddy i.e. a human being (an individual or the…" [HTd/Ncmsa]
+- o9: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o10: הִכֵּיתִי = H5221 נָכָה "to strike (lightly or severely…" [HVhp1cs]
+- o11: בְ/אַפִּ/י = Hb "in" + H639 אַף "properly, the nose or nostril…" [HR/Ncmsc/Sp1cs]
+- o12: וּ/בַ/חֲמָתִ/י = Hc "and" + Hb "in" + H2534 חֵמָה "heat; figuratively, anger, poison (from its fever)" [HC/R/Ncfsc/Sp1cs]
+- o13: וַ/אֲשֶׁר = Hc "and" + H834 אֲשֶׁר "who, which, what, that…" [HC/Tr]
+- o14: הִסְתַּרְתִּי = H5641 סָתַר "to hide (by covering), literally or figuratively" [HVhp1cs]
+- o15: פָנַ/י = H6440 פָּנִים "the face (as the part that turns)…" [HNcbpc/Sp1cs]
+- o16: מֵ/הָ/עִיר = Hm "from" + Hd "the" + H5892 עִיר "a city (a place guarded by waking or a watch) in…" [HR/Td/Ncfsa]
+- o17: הַ/זֹּאת = Hd "the" + H2063 זֹאת "this (often used adverb)" [HTd/Pdxfs]
+- o18: עַל = H5921 עַל "above, over, upon…" [HR]
+- o19: כָּל = H3605 כֹּל "properly, the whole…" [HNcmsc]
+- o20: רָעָתָ/ם = H7451 רַע "bad or (as noun) evil (natural or moral)" [HNcfsc/Sp3mp]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | آنها |  |  |
+|  | می‌آیند | H935 | H935 |
+|  | تا | Hl | Hl |
+| ✱ | با |  | H853 אֵת "properly…" |
+|  | کَلدانیان | H3778 | H3778 |
+|  | بجنگند | H3898 | H3898 |
+|  | و | Hc | Hc |
+|  | آن |  |  |
+|  | خانه‌ها |  |  |
+| ✱ | را | H853 אֵת "properly…" |  |
+| ✱ | از |  | H854 אֵת "properly…" |
+|  | اجساد | H6297 | H6297 |
+|  | کسانی | H120 | H120 |
+|  | که | H834 | H834 |
+|  | من |  |  |
+|  | در | Hb | Hb |
+| ✱ | خشم | H639 אַף "properly, the nose or nostril…"; H2534 חֵמָה "heat…" | H639 אַף "properly, the nose or nostril…" |
+|  | و | Hc | Hc |
+| ✱ | غضب | H639 אַף "properly, the nose or nostril…"; H2534 חֵמָה "heat…" | H2534 חֵמָה "heat…" |
+|  | خود |  |  |
+|  | خواهم | [خواهم کُشت] H5221 | [خواهم کُشت] H5221 |
+|  | کُشت | [خواهم کُشت] H5221 | [خواهم کُشت] H5221 |
+| ✱ | پر |  | [پر کنند] H4390 מָלֵא "to fill or (intransitively)…" |
+| ✱ | کنند |  | [پر کنند] H4390 מָלֵא "to fill or (intransitively)…" |
+|  | ، |  |  |
+| ✱ | زیرا |  | H834 אֲשֶׁר "who, which, what, that…" |
+|  | من |  |  |
+| ✱ | به |  | [به سبب] H5921 עַל "above, over, upon…" |
+| ✱ | سبب | H5921 עַל "above, over, upon…" | [به سبب] H5921 עַל "above, over, upon…" |
+|  | تمامی | H3605 | H3605 |
+|  | شرارت | H7451 | H7451 |
+|  | آنها |  |  |
+|  | ، |  |  |
+| ✱ | روی | H5641 סָתַר "to hide (by covering)…"; H6440 פָּנִים "the face (as the part that…" | H6440 פָּנִים "the face (as the part that…" |
+|  | خود |  |  |
+| ✱ | را | H853 אֵת "properly…" |  |
+|  | از | Hm | Hm |
+|  | این | H2063 | H2063 |
+|  | شهر | H5892 | H5892 |
+| ✱ | پوشانیده‌ام |  | H5641 סָתַר "to hide (by covering)…" |
+|  | . |  |  |
+
+### Jeremiah 33:6: 9 word(s) changed
+
+Reply line 7.
+
+Original: הִנְ/נִי מַעֲלֶה לָּ/הּ אֲרֻכָה וּ/מַרְפֵּא וּ/רְפָאתִי/ם וְ/גִלֵּיתִי לָ/הֶם עֲתֶרֶת שָׁלוֹם וֶ/אֱמֶת
+
+Persian: « با این همه، سلامتی و شفا را به این شهر باز خواهم گردانید و آنان را شفا بخشیده، سلامتی و امنیت را به فراوانی بدیشان خواهم رسانید.
+
+Original words:
+- o1: הִנְ/נִי = H2005 הֵן "lo!; also (as expressing surprise) if" [HTm/Sp1cs]
+- o2: מַעֲלֶה = H5927 עָלָה "to ascend…" [HVhrmsa]
+- o3: לָּ/הּ = Hl "to" [HR/Sp3fs]
+- o4: אֲרֻכָה = H724 אֲרוּכָה "wholeness (literally or figuratively)" [HNcfsa]
+- o5: וּ/מַרְפֵּא = Hc "and" + H4832 מַרְפֵּא "properly, curative…" [HC/Ncmsa]
+- o6: וּ/רְפָאתִי/ם = Hc "and" + H7495 רָפָא "properly, to mend (by stitching)…" [HC/Vqq1cs/Sp3mp]
+- o7: וְ/גִלֵּיתִי = Hc "and" + H1540 גָּלָה "to denude (especially in a disgraceful sense)…" [HC/Vpq1cs]
+- o8: לָ/הֶם = Hl "to" [HR/Sp3mp]
+- o9: עֲתֶרֶת = H6283 עֲתֶרֶת "copiousness" [HNcfsc]
+- o10: שָׁלוֹם = H7965 שָׁלוֹם "safe, i.e. (figuratively) well, happy, friendly…" [HNcmsa]
+- o11: וֶ/אֱמֶת = Hc "and" + H571 אֶמֶת "stability…" [HC/Ncfsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | « |  |  |
+|  | با |  |  |
+|  | این |  |  |
+|  | همه |  |  |
+|  | ، |  |  |
+|  | سلامتی | H724 | H724 |
+|  | و | Hc | Hc |
+|  | شفا | H4832 | H4832 |
+|  | را |  |  |
+|  | به | Hl | Hl |
+|  | این |  |  |
+|  | شهر |  |  |
+| ✱ | باز | H5927 עָלָה "to ascend…" | [باز خواهم گردانید] H5927 עָלָה "to ascend…" |
+| ✱ | خواهم | [خواهم گردانید]  | [باز خواهم گردانید] H5927 עָלָה "to ascend…" |
+| ✱ | گردانید | [خواهم گردانید]  | [باز خواهم گردانید] H5927 עָלָה "to ascend…" |
+|  | و | Hc | Hc |
+|  | آنان |  |  |
+|  | را |  |  |
+| ✱ | شفا | H4832 מַרְפֵּא "properly, curative…"; H7495 רָפָא "properly…" | [شفا بخشیده] H7495 רָפָא "properly…" |
+| ✱ | بخشیده |  | [شفا بخشیده] H7495 רָפָא "properly…" |
+|  | ، |  |  |
+|  | سلامتی | H7965 | H7965 |
+|  | و | Hc | Hc |
+|  | امنیت | H571 | H571 |
+|  | را |  |  |
+| ✱ | به | Hl "to" |  |
+|  | فراوانی | H6283 | H6283 |
+| ✱ | بدیشان |  | Hl "to" |
+| ✱ | خواهم | [خواهم رسانید]  | [خواهم رسانید] H1540 גָּלָה "to denude (especially in a…" |
+| ✱ | رسانید | [خواهم رسانید]  | [خواهم رسانید] H1540 גָּלָה "to denude (especially in a…" |
+|  | . |  |  |
+
+### Jeremiah 33:7: 2 word(s) changed
+
+Reply line 8.
+
+Original: וַ/הֲשִׁבֹתִי אֶת שְׁבוּת יְהוּדָה וְ/אֵת שְׁבוּת יִשְׂרָאֵל וּ/בְנִתִי/ם כְּ/בָ/רִאשֹׁנָה
+
+Persian: و سعادت را به یهودا و اسرائیل بازآورده، آنان را همچون گذشته بنا خواهم کرد.
+
+Original words:
+- o1: וַ/הֲשִׁבֹתִי = Hc "and" + H7725 שׁוּב "to turn back (hence…" [HC/Vhq1cs]
+- o2: אֶת = H853 אֵת "properly…" [HTo]
+- o3: שְׁבוּת = H7622 שְׁבוּת "exile, concretely, prisoners…" [HNcfsc]
+- o4: יְהוּדָה = H3063 יְהוּדָה "Jehudah (or Judah), the name of five Israelites…" [HNp]
+- o5: וְ/אֵת = Hc "and" + H853 אֵת "properly…" [HC/To]
+- o6: שְׁבוּת = H7622 שְׁבוּת "exile, concretely, prisoners…" [HNcfsc]
+- o7: יִשְׂרָאֵל = H3478 יִשְׂרָאֵל "Jisrael, a symbolical name of Jacob…" [HNp]
+- o8: וּ/בְנִתִי/ם = Hc "and" + H1129 בָּנָה "to build (literally and figuratively)" [HC/Vqq1cs/Sp3mp]
+- o9: כְּ/בָ/רִאשֹׁנָה = Hk "like" + Hb "in" + H7223 רִאשׁוֹן "first, in place…" [HR/Rd/Aafsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | و | Hc | Hc |
+|  | سعادت | H7622 | H7622 |
+|  | را | H853 | H853 |
+|  | به |  |  |
+|  | یهودا | H3063 | H3063 |
+|  | و | Hc | Hc |
+|  | اسرائیل | H3478 | H3478 |
+| ✱ | بازآورده | H1129 בָּנָה "to build (literally and…" | H7725 שׁוּב "to turn back (hence…" |
+|  | ، |  |  |
+|  | آنان |  |  |
+| ✱ | را | H853 אֵת "properly…" |  |
+|  | همچون | Hk | Hk |
+|  | گذشته | H7223 | H7223 |
+|  | بنا | [بنا خواهم کرد] H1129 | [بنا خواهم کرد] H1129 |
+|  | خواهم | [بنا خواهم کرد] H1129 | [بنا خواهم کرد] H1129 |
+|  | کرد | [بنا خواهم کرد] H1129 | [بنا خواهم کرد] H1129 |
+|  | . |  |  |
+
+### Jeremiah 33:8: 6 word(s) changed
+
+Reply line 9.
+
+Original: וְ/טִהַרְתִּי/ם מִ/כָּל עֲוֺנָ/ם אֲשֶׁר חָטְאוּ לִ/י וְ/סָלַחְתִּי ל/כול עֲוֺנוֹתֵי/הֶם אֲשֶׁר חָטְאוּ לִ/י וַ/אֲשֶׁר פָּשְׁעוּ בִ/י
+
+Persian: من ایشان را از تمامی گناهانی که به من ورزیده‌اند پاک خواهم ساخت، و تمامی تقصیرهای ایشان را که بدانها بر من گناه ورزیده و از من سر پیچیده‌اند، خواهم آمرزید.
+
+Original words:
+- o1: וְ/טִהַרְתִּי/ם = Hc "and" + H2891 טָהֵר "to be pure (physical sound, clear, unadulterated…" [HC/Vpq1cs/Sp3mp]
+- o2: מִ/כָּל = Hm "from" + H3605 כֹּל "properly, the whole…" [HR/Ncmsc]
+- o3: עֲוֺנָ/ם = H5771 עָוֺן "perversity, i.e. (moral) evil" [HNcbsc/Sp3mp]
+- o4: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o5: חָטְאוּ = H2398 חָטָא "properly, to miss…" [HVqp3cp]
+- o6: לִ/י = Hl "to" [HR/Sp1cs]
+- o7: וְ/סָלַחְתִּי = Hc "and" + H5545 סָלַח "to forgive" [HC/Vqq1cs]
+- o8: ל/כול = Hl "to" + H3605 כֹּל "properly, the whole…" [HR/Ncmsc]
+- o9: עֲוֺנוֹתֵי/הֶם = H5771 עָוֺן "perversity, i.e. (moral) evil" [HNcbpc/Sp3mp]
+- o10: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o11: חָטְאוּ = H2398 חָטָא "properly, to miss…" [HVqp3cp]
+- o12: לִ/י = Hl "to" [HR/Sp1cs]
+- o13: וַ/אֲשֶׁר = Hc "and" + H834 אֲשֶׁר "who, which, what, that…" [HC/Tr]
+- o14: פָּשְׁעוּ = H6586 פָּשַׁע "to break away (from just authority)…" [HVqp3cp]
+- o15: בִ/י = Hb "in" [HR/Sp1cs]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | من |  |  |
+|  | ایشان |  |  |
+|  | را |  |  |
+|  | از | Hm | Hm |
+|  | تمامی | H3605 | H3605 |
+|  | گناهانی | H5771 | H5771 |
+|  | که | H834 | H834 |
+| ✱ | به |  | Hl "to" |
+|  | من |  |  |
+|  | ورزیده‌اند | H2398 | H2398 |
+|  | پاک | [پاک خواهم ساخت] H2891 | [پاک خواهم ساخت] H2891 |
+|  | خواهم | [پاک خواهم ساخت] H2891 | [پاک خواهم ساخت] H2891 |
+|  | ساخت | [پاک خواهم ساخت] H2891 | [پاک خواهم ساخت] H2891 |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | تمامی | H3605 | H3605 |
+|  | تقصیرهای | H5771 | H5771 |
+|  | ایشان |  |  |
+|  | را |  |  |
+|  | که | H834 | H834 |
+|  | بدانها |  |  |
+| ✱ | بر |  | Hl "to" |
+|  | من |  |  |
+| ✱ | گناه | H2398 חָטָא "properly, to miss…" | [گناه ورزیده] H2398 חָטָא "properly, to miss…" |
+| ✱ | ورزیده | H6586 פָּשַׁע "to break away (from just…" | [گناه ورزیده] H2398 חָטָא "properly, to miss…" |
+|  | و | Hc | Hc |
+|  | از | Hb | Hb |
+|  | من |  |  |
+| ✱ | سر | H2398 חָטָא "properly, to miss…" | [سر پیچیده‌اند] H6586 פָּשַׁע "to break away (from just…" |
+| ✱ | پیچیده‌اند |  | [سر پیچیده‌اند] H6586 פָּשַׁע "to break away (from just…" |
+|  | ، |  |  |
+|  | خواهم | [خواهم آمرزید] H5545 | [خواهم آمرزید] H5545 |
+|  | آمرزید | [خواهم آمرزید] H5545 | [خواهم آمرزید] H5545 |
+|  | . |  |  |
+
+### Jeremiah 33:9: 6 word(s) changed
+
+Reply line 10.
+
+Original: וְ/הָיְתָה לִּ/י לְ/שֵׁם שָׂשׂוֹן לִ/תְהִלָּה וּ/לְ/תִפְאֶרֶת לְ/כֹל גּוֹיֵי הָ/אָרֶץ אֲשֶׁר יִשְׁמְעוּ אֶת כָּל הַ/טּוֹבָה אֲשֶׁר אָנֹכִי עֹשֶׂה אֹתָ/ם וּ/פָחֲדוּ וְ/רָגְזוּ עַל כָּל הַ/טּוֹבָה וְ/עַל כָּל הַ/שָּׁלוֹם אֲשֶׁר אָנֹכִי עֹשֶׂה לָּ/הּ
+
+Persian: آنگاه این شهر برای من در حضور تمامی قومهای زمین که دربارۀ جملۀ احسانهای من در حق ایشان خواهند شنید، مایۀ شهرت و شادی و ستایش و حرمت خواهد بود. و آنها به سبب فراوانی سعادت و سلامتی که برای آن فراهم خواهم آورد، حیران و لرزان خواهند بود.
+
+Original words:
+- o1: וְ/הָיְתָה = Hc "and" + H1961 הָיָה "to exist, i.e. be or become…" [HC/Vqq3fs]
+- o2: לִּ/י = Hl "to" [HR/Sp1cs]
+- o3: לְ/שֵׁם = Hl "to" + H8034 שֵׁם "an appellation…" [HR/Ncmsc]
+- o4: שָׂשׂוֹן = H8342 שָׂשׂוֹן "cheerfulness; specifically, welcome" [HNcmsa]
+- o5: לִ/תְהִלָּה = Hl "to" + H8416 תְּהִלָּה "laudation; specifically (concretely) a hymn" [HR/Ncfsa]
+- o6: וּ/לְ/תִפְאֶרֶת = Hc "and" + Hl "to" + H8597 תִּפְאָרָה "ornament (abstractly or concretely…" [HC/R/Ncfsa]
+- o7: לְ/כֹל = Hl "to" + H3605 כֹּל "properly, the whole…" [HR/Ncmsc]
+- o8: גּוֹיֵי = H1471 גּוֹי "a foreign nation; hence, a Gentile…" [HNcmpc]
+- o9: הָ/אָרֶץ = Hd "the" + H776 אֶרֶץ "the earth (at large, or partitively a land)" [HTd/Ncbsa]
+- o10: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o11: יִשְׁמְעוּ = H8085 שָׁמַע "to hear intelligently (often with implication of…" [HVqi3mp]
+- o12: אֶת = H853 אֵת "properly…" [HTo]
+- o13: כָּל = H3605 כֹּל "properly, the whole…" [HNcmsc]
+- o14: הַ/טּוֹבָה = Hd "the" + H2896 טוֹב "good (as an adjective) in the widest sense…" [HTd/Aafsa]
+- o15: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o16: אָנֹכִי = H595 אָנֹכִי "I" [HPp1cs]
+- o17: עֹשֶׂה = H6213 עָשָׂה "to do or make…" [HVqrmsa]
+- o18: אֹתָ/ם = H853 אֵת "properly…" [HTo/Sp3mp]
+- o19: וּ/פָחֲדוּ = Hc "and" + H6342 פָּחַד "to be startled (by a sudden alarm)…" [HC/Vqq3cp]
+- o20: וְ/רָגְזוּ = Hc "and" + H7264 רָגַז "to quiver (with any violent emotion…" [HC/Vqq3cp]
+- o21: עַל = H5921 עַל "above, over, upon…" [HR]
+- o22: כָּל = H3605 כֹּל "properly, the whole…" [HNcmsc]
+- o23: הַ/טּוֹבָה = Hd "the" + H2896 טוֹב "good (as an adjective) in the widest sense…" [HTd/Aafsa]
+- o24: וְ/עַל = Hc "and" + H5921 עַל "above, over, upon…" [HC/R]
+- o25: כָּל = H3605 כֹּל "properly, the whole…" [HNcmsc]
+- o26: הַ/שָּׁלוֹם = Hd "the" + H7965 שָׁלוֹם "safe, i.e. (figuratively) well, happy, friendly…" [HTd/Ncmsa]
+- o27: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o28: אָנֹכִי = H595 אָנֹכִי "I" [HPp1cs]
+- o29: עֹשֶׂה = H6213 עָשָׂה "to do or make…" [HVqrmsa]
+- o30: לָּ/הּ = Hl "to" [HR/Sp3fs]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | آنگاه | Hc | Hc |
+|  | این |  |  |
+|  | شهر |  |  |
+|  | برای | Hl | Hl |
+|  | من |  |  |
+|  | در |  |  |
+|  | حضور |  |  |
+|  | تمامی | H3605 | H3605 |
+|  | قومهای | H1471 | H1471 |
+|  | زمین | H776 | H776 |
+|  | که | H834 | H834 |
+|  | دربارۀ |  |  |
+|  | جملۀ | H3605 | H3605 |
+|  | احسانهای | H2896 | H2896 |
+|  | من | H595 | H595 |
+|  | در |  |  |
+|  | حق |  |  |
+|  | ایشان |  |  |
+|  | خواهند | [خواهند شنید] H8085 | [خواهند شنید] H8085 |
+|  | شنید | [خواهند شنید] H8085 | [خواهند شنید] H8085 |
+|  | ، |  |  |
+|  | مایۀ |  |  |
+| ✱ | شهرت |  | H8034 שֵׁם "an appellation…" |
+|  | و | Hc | Hc |
+|  | شادی | H8342 | H8342 |
+|  | و | Hc | Hc |
+|  | ستایش | H8416 | H8416 |
+|  | و | Hc | Hc |
+| ✱ | حرمت |  | H8597 תִּפְאָרָה "ornament (abstractly or…" |
+| ✱ | خواهد | [خواهد بود]  | [خواهد بود] H1961 הָיָה "to exist, i.e. be or become…" |
+| ✱ | بود | [خواهد بود]  | [خواهد بود] H1961 הָיָה "to exist, i.e. be or become…" |
+|  | . |  |  |
+|  | و | Hc | Hc |
+|  | آنها |  |  |
+| ✱ | به |  | [به سبب] H5921 עַל "above, over, upon…" |
+| ✱ | سبب | H5921 עַל "above, over, upon…" | [به سبب] H5921 עַל "above, over, upon…" |
+|  | فراوانی |  |  |
+|  | سعادت | H2896 | H2896 |
+|  | و | Hc | Hc |
+|  | سلامتی | H7965 | H7965 |
+|  | که | H834 | H834 |
+|  | برای | Hl | Hl |
+|  | آن |  |  |
+|  | فراهم | [فراهم خواهم آورد] H6213 | [فراهم خواهم آورد] H6213 |
+|  | خواهم | [فراهم خواهم آورد] H6213 | [فراهم خواهم آورد] H6213 |
+|  | آورد | [فراهم خواهم آورد] H6213 | [فراهم خواهم آورد] H6213 |
+|  | ، |  |  |
+|  | حیران | H6342 | H6342 |
+|  | و | Hc | Hc |
+|  | لرزان | [لرزان خواهند بود] H7264 | [لرزان خواهند بود] H7264 |
+|  | خواهند | [لرزان خواهند بود] H7264 | [لرزان خواهند بود] H7264 |
+|  | بود | [لرزان خواهند بود] H7264 | [لرزان خواهند بود] H7264 |
+|  | . |  |  |
+
+### Jeremiah 33:10: 3 word(s) changed
+
+Reply line 11.
+
+Original: כֹּה אָמַר יְהוָה עוֹד יִשָּׁמַע בַּ/מָּקוֹם הַ/זֶּה אֲשֶׁר אַתֶּם אֹמְרִים חָרֵב הוּא מֵ/אֵין אָדָם וּ/מֵ/אֵין בְּהֵמָה בְּ/עָרֵי יְהוּדָה וּ/בְ/חֻצוֹת יְרוּשָׁלִַם הַ/נְשַׁמּוֹת מֵ/אֵין אָדָם וּ/מֵ/אֵין יוֹשֵׁב וּ/מֵ/אֵין בְּהֵמָה
+
+Persian: « خداوند چنین می‌فرماید: در این مکان که درباره‌اش می‌گویید: ”ویرانه‌ای است خالی از انسان و حیوان“، یعنی در شهرهای یهودا و کوچه‌های اورشلیم که متروک و خالی از انسان و سَکَنه و حیوانات است،
+
+Original words:
+- o1: כֹּה = H3541 כֹּה "properly, like this, i.e. by implication…" [HD]
+- o2: אָמַר = H559 אָמַר "to say (used with great latitude)" [HVqp3ms]
+- o3: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o4: עוֹד = H5750 עוֹד "properly, iteration or continuance…" [HD]
+- o5: יִשָּׁמַע = H8085 שָׁמַע "to hear intelligently (often with implication of…" [HVNi3ms]
+- o6: בַּ/מָּקוֹם = Hb "in" + H4725 מָקוֹם "properly, a standing, i.e. a spot…" [HRd/Ncmsa]
+- o7: הַ/זֶּה = Hd "the" + H2088 זֶה "the masculine demonstrative pronoun, this or that" [HTd/Pdxms]
+- o8: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o9: אַתֶּם = H859 אַתָּה "thou and thee, or (plural) ye and you" [HPp2mp]
+- o10: אֹמְרִים = H559 אָמַר "to say (used with great latitude)" [HVqrmpa]
+- o11: חָרֵב = H2720 חָרֵב "parched or ruined" [HAamsa]
+- o12: הוּא = H1931 הוּא "he (she or it)…" [HPp3ms]
+- o13: מֵ/אֵין = Hm "from" + H369 אַיִן "a non-entity…" [HR/Tn]
+- o14: אָדָם = H120 אָדָם "ruddy i.e. a human being (an individual or the…" [HNcmsa]
+- o15: וּ/מֵ/אֵין = Hc "and" + Hm "from" + H369 אַיִן "a non-entity…" [HC/R/Tn]
+- o16: בְּהֵמָה = H929 בְּהֵמָה "properly, a dumb beast…" [HNcfsa]
+- o17: בְּ/עָרֵי = Hb "in" + H5892 עִיר "a city (a place guarded by waking or a watch) in…" [HR/Ncfpc]
+- o18: יְהוּדָה = H3063 יְהוּדָה "Jehudah (or Judah), the name of five Israelites…" [HNp]
+- o19: וּ/בְ/חֻצוֹת = Hc "and" + Hb "in" + H2351 חוּץ "properly, separate by awall, i.e. outside…" [HC/R/Ncmpc]
+- o20: יְרוּשָׁלִַם = H3389 יְרוּשָׁלַ͏ִם "Jerushalaim or Jerushalem…" [HNp]
+- o21: הַ/נְשַׁמּוֹת = Hd "the" + H8074 שָׁמֵם "to stun (or intransitively, grow numb)…" [HTd/VNrfpa]
+- o22: מֵ/אֵין = Hm "from" + H369 אַיִן "a non-entity…" [HR/Tn]
+- o23: אָדָם = H120 אָדָם "ruddy i.e. a human being (an individual or the…" [HNcmsa]
+- o24: וּ/מֵ/אֵין = Hc "and" + Hm "from" + H369 אַיִן "a non-entity…" [HC/R/Tn]
+- o25: יוֹשֵׁב = H3427 יָשַׁב "properly…" [HVqrmsa]
+- o26: וּ/מֵ/אֵין = Hc "and" + Hm "from" + H369 אַיִן "a non-entity…" [HC/R/Tn]
+- o27: בְּהֵמָה = H929 בְּהֵמָה "properly, a dumb beast…" [HNcfsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | « |  |  |
+|  | خداوند | H3068 | H3068 |
+|  | چنین | H3541 | H3541 |
+|  | می‌فرماید | H559 | H559 |
+|  | : |  |  |
+|  | در | Hb | Hb |
+|  | این | H2088 | H2088 |
+|  | مکان | H4725 | H4725 |
+|  | که | H834 | H834 |
+|  | درباره‌اش |  |  |
+|  | می‌گویید | H559 | H559 |
+|  | : |  |  |
+|  | ”ویرانه‌ای | H2720 | H2720 |
+|  | است | H1931 | H1931 |
+|  | خالی | H369 | H369 |
+|  | از | Hm | Hm |
+|  | انسان | H120 | H120 |
+|  | و | Hc | Hc |
+|  | حیوان“ | H929 | H929 |
+|  | ، |  |  |
+|  | یعنی |  |  |
+|  | در | Hb | Hb |
+|  | شهرهای | H5892 | H5892 |
+|  | یهودا | H3063 | H3063 |
+|  | و | Hc | Hc |
+|  | کوچه‌های | H2351 | H2351 |
+|  | اورشلیم | H3389 | H3389 |
+| ✱ | که | H834 אֲשֶׁר "who, which, what, that…" | Hd "the" |
+|  | متروک | H8074 | H8074 |
+| ✱ | و |  | Hc "and" |
+| ✱ | خالی |  | H369 אַיִן "a non-entity…" |
+|  | از | Hm | Hm |
+|  | انسان | H120 | H120 |
+|  | و | Hc | Hc |
+|  | سَکَنه | H3427 | H3427 |
+|  | و | Hc | Hc |
+|  | حیوانات | H929 | H929 |
+|  | است |  |  |
+|  | ، |  |  |
+
+### Jeremiah 33:11: 13 word(s) changed
+
+Reply line 12. Uses numbers from neighbouring verses: H5750 (Jeremiah 33:10), H8085 (Jeremiah 33:10).
+
+Original: קוֹל שָׂשׂוֹן וְ/קוֹל שִׂמְחָה קוֹל חָתָן וְ/קוֹל כַּלָּה קוֹל אֹמְרִים הוֹדוּ אֶת יְהוָה צְבָאוֹת כִּי טוֹב יְהוָה כִּי לְ/עוֹלָם חַסְדּ/וֹ מְבִאִים תּוֹדָה בֵּית יְהוָה כִּי אָשִׁיב אֶת שְׁבוּת הָ/אָרֶץ כְּ/בָ/רִאשֹׁנָה אָמַר יְהוָה
+
+Persian: بار دیگر بانگ شور و شعف شنیده خواهد شد و آواز عروس و داماد و آواز کسانی که هدایای تشکر به خانۀ خداوند آورده، می‌خوانند:« ”خداوند لشکرها را سپاس گویید، زیرا خداوند نیکوست و محبتش جاودانه است!“ زیرا خداوند می‌فرماید: من سعادت را همچون گذشته به این سرزمین باز خواهم گردانید.
+
+Original words:
+- o1: קוֹל = H6963 קוֹל "a voice or sound" [HNcmsc]
+- o2: שָׂשׂוֹן = H8342 שָׂשׂוֹן "cheerfulness; specifically, welcome" [HNcmsa]
+- o3: וְ/קוֹל = Hc "and" + H6963 קוֹל "a voice or sound" [HC/Ncmsc]
+- o4: שִׂמְחָה = H8057 שִׂמְחָה "blithesomeness or glee, (religious or festival)" [HNcfsa]
+- o5: קוֹל = H6963 קוֹל "a voice or sound" [HNcmsc]
+- o6: חָתָן = H2860 חָתָן "a relative by marriage (especially through the…" [HNcmsa]
+- o7: וְ/קוֹל = Hc "and" + H6963 קוֹל "a voice or sound" [HC/Ncmsc]
+- o8: כַּלָּה = H3618 כַּלָּה "a bride (as if perfect); hence, a son's wife" [HNcfsa]
+- o9: קוֹל = H6963 קוֹל "a voice or sound" [HNcmsc]
+- o10: אֹמְרִים = H559 אָמַר "to say (used with great latitude)" [HVqrmpa]
+- o11: הוֹדוּ = H3034 יָדָה "physically, to throw (a stone…" [HVhv2mp]
+- o12: אֶת = H853 אֵת "properly…" [HTo]
+- o13: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o14: צְבָאוֹת = H6635 צָבָא "a mass of persons (or figuratively, things)…" [HNcbpa]
+- o15: כִּי = H3588 כִּי "by implication) very widely used as a relative…" [HC]
+- o16: טוֹב = H2896 טוֹב "good (as an adjective) in the widest sense…" [HAamsa]
+- o17: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o18: כִּי = H3588 כִּי "by implication) very widely used as a relative…" [HC]
+- o19: לְ/עוֹלָם = Hl "to" + H5769 עוֹלָם "properly, concealed, i.e. the vanishing point…" [HR/Ncmsa]
+- o20: חַסְדּ/וֹ = H2617 חֵסֵד "kindness; by implication (towards God) piety…" [HNcmsc/Sp3ms]
+- o21: מְבִאִים = H935 בּוֹא "to go or come (in a wide variety of applications)" [HVhrmpa]
+- o22: תּוֹדָה = H8426 תּוֹדָה "properly, an extension of the hand…" [HNcfsa]
+- o23: בֵּית = H1004 בַּיִת "a house (in the greatest variation of…" [HNcmsc]
+- o24: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o25: כִּי = H3588 כִּי "by implication) very widely used as a relative…" [HC]
+- o26: אָשִׁיב = H7725 שׁוּב "to turn back (hence…" [HVhi1cs]
+- o27: אֶת = H853 אֵת "properly…" [HTo]
+- o28: שְׁבוּת = H7622 שְׁבוּת "exile, concretely, prisoners…" [HNcfsc]
+- o29: הָ/אָרֶץ = Hd "the" + H776 אֶרֶץ "the earth (at large, or partitively a land)" [HTd/Ncbsa]
+- o30: כְּ/בָ/רִאשֹׁנָה = Hk "like" + Hb "in" + H7223 רִאשׁוֹן "first, in place…" [HR/Rd/Aafsa]
+- o31: אָמַר = H559 אָמַר "to say (used with great latitude)" [HVqp3ms]
+- o32: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+
+Original words of Jeremiah 33:10 (neighbouring verse; this reply uses H5750, H8085 from it):
+- o1: כֹּה = H3541 כֹּה "properly, like this, i.e. by implication…" [HD]
+- o2: אָמַר = H559 אָמַר "to say (used with great latitude)" [HVqp3ms]
+- o3: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o4: עוֹד = H5750 עוֹד "properly, iteration or continuance…" [HD]
+- o5: יִשָּׁמַע = H8085 שָׁמַע "to hear intelligently (often with implication of…" [HVNi3ms]
+- o6: בַּ/מָּקוֹם = Hb "in" + H4725 מָקוֹם "properly, a standing, i.e. a spot…" [HRd/Ncmsa]
+- o7: הַ/זֶּה = Hd "the" + H2088 זֶה "the masculine demonstrative pronoun, this or that" [HTd/Pdxms]
+- o8: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o9: אַתֶּם = H859 אַתָּה "thou and thee, or (plural) ye and you" [HPp2mp]
+- o10: אֹמְרִים = H559 אָמַר "to say (used with great latitude)" [HVqrmpa]
+- o11: חָרֵב = H2720 חָרֵב "parched or ruined" [HAamsa]
+- o12: הוּא = H1931 הוּא "he (she or it)…" [HPp3ms]
+- o13: מֵ/אֵין = Hm "from" + H369 אַיִן "a non-entity…" [HR/Tn]
+- o14: אָדָם = H120 אָדָם "ruddy i.e. a human being (an individual or the…" [HNcmsa]
+- o15: וּ/מֵ/אֵין = Hc "and" + Hm "from" + H369 אַיִן "a non-entity…" [HC/R/Tn]
+- o16: בְּהֵמָה = H929 בְּהֵמָה "properly, a dumb beast…" [HNcfsa]
+- o17: בְּ/עָרֵי = Hb "in" + H5892 עִיר "a city (a place guarded by waking or a watch) in…" [HR/Ncfpc]
+- o18: יְהוּדָה = H3063 יְהוּדָה "Jehudah (or Judah), the name of five Israelites…" [HNp]
+- o19: וּ/בְ/חֻצוֹת = Hc "and" + Hb "in" + H2351 חוּץ "properly, separate by awall, i.e. outside…" [HC/R/Ncmpc]
+- o20: יְרוּשָׁלִַם = H3389 יְרוּשָׁלַ͏ִם "Jerushalaim or Jerushalem…" [HNp]
+- o21: הַ/נְשַׁמּוֹת = Hd "the" + H8074 שָׁמֵם "to stun (or intransitively, grow numb)…" [HTd/VNrfpa]
+- o22: מֵ/אֵין = Hm "from" + H369 אַיִן "a non-entity…" [HR/Tn]
+- o23: אָדָם = H120 אָדָם "ruddy i.e. a human being (an individual or the…" [HNcmsa]
+- o24: וּ/מֵ/אֵין = Hc "and" + Hm "from" + H369 אַיִן "a non-entity…" [HC/R/Tn]
+- o25: יוֹשֵׁב = H3427 יָשַׁב "properly…" [HVqrmsa]
+- o26: וּ/מֵ/אֵין = Hc "and" + Hm "from" + H369 אַיִן "a non-entity…" [HC/R/Tn]
+- o27: בְּהֵמָה = H929 בְּהֵמָה "properly, a dumb beast…" [HNcfsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+| ✱ | بار |  | [بار دیگر] H5750 עוֹד "properly…" (from Jeremiah 33:10) |
+| ✱ | دیگر |  | [بار دیگر] H5750 עוֹד "properly…" (from Jeremiah 33:10) |
+|  | بانگ | H6963 | H6963 |
+|  | شور | H8342 | H8342 |
+|  | و | Hc | Hc |
+|  | شعف | H8057 | H8057 |
+| ✱ | شنیده | [شنیده خواهد شد]  | [شنیده خواهد شد] H8085 שָׁמַע "to hear intelligently (often…" (from Jeremiah 33:10) |
+| ✱ | خواهد | [شنیده خواهد شد]  | [شنیده خواهد شد] H8085 שָׁמַע "to hear intelligently (often…" (from Jeremiah 33:10) |
+| ✱ | شد | [شنیده خواهد شد]  | [شنیده خواهد شد] H8085 שָׁמַע "to hear intelligently (often…" (from Jeremiah 33:10) |
+|  | و | Hc | Hc |
+|  | آواز | H6963 | H6963 |
+|  | عروس | H3618 | H3618 |
+| ✱ | و |  | Hc "and" |
+|  | داماد | H2860 | H2860 |
+|  | و | Hc | Hc |
+|  | آواز | H6963 | H6963 |
+|  | کسانی |  |  |
+| ✱ | که | H3588 כִּי "by implication) very widely…" |  |
+|  | هدایای | [هدایای تشکر] H8426 | [هدایای تشکر] H8426 |
+|  | تشکر | [هدایای تشکر] H8426 | [هدایای تشکر] H8426 |
+|  | به |  |  |
+|  | خانۀ | H1004 | H1004 |
+|  | خداوند | H3068 | H3068 |
+|  | آورده | H935 | H935 |
+|  | ، |  |  |
+| ✱ | می‌خوانند |  | H559 אָמַר "to say (used with great…" |
+|  | : |  |  |
+|  | « |  |  |
+|  | ”خداوند | H3068 | H3068 |
+|  | لشکرها | H6635 | H6635 |
+|  | را | H853 | H853 |
+|  | سپاس | [سپاس گویید] H3034 | [سپاس گویید] H3034 |
+|  | گویید | [سپاس گویید] H3034 | [سپاس گویید] H3034 |
+|  | ، |  |  |
+|  | زیرا | H3588 | H3588 |
+|  | خداوند | H3068 | H3068 |
+|  | نیکوست | H2896 | H2896 |
+|  | و |  |  |
+|  | محبتش | H2617 | H2617 |
+| ✱ | جاودانه | H5769 עוֹלָם "properly, concealed…" | Hl "to"; H5769 עוֹלָם "properly, concealed…" |
+|  | است |  |  |
+|  | ! |  |  |
+|  | “ |  |  |
+|  | زیرا | H3588 | H3588 |
+|  | خداوند | H3068 | H3068 |
+|  | می‌فرماید | H559 | H559 |
+|  | : |  |  |
+|  | من |  |  |
+|  | سعادت | H7622 | H7622 |
+|  | را | H853 | H853 |
+|  | همچون | Hk | Hk |
+|  | گذشته | H7223 | H7223 |
+| ✱ | به | Hb "in" |  |
+|  | این |  |  |
+|  | سرزمین | H776 | H776 |
+| ✱ | باز | H7725 שׁוּב "to turn back (hence…" | [باز خواهم گردانید] H7725 שׁוּב "to turn back (hence…" |
+| ✱ | خواهم | [خواهم گردانید] H7622 שְׁבוּת "exile, concretely, prisoners…" | [باز خواهم گردانید] H7725 שׁוּב "to turn back (hence…" |
+| ✱ | گردانید | [خواهم گردانید] H7622 שְׁבוּת "exile, concretely, prisoners…" | [باز خواهم گردانید] H7725 שׁוּב "to turn back (hence…" |
+|  | . |  |  |
+
+### Jeremiah 33:12: 5 word(s) changed
+
+Reply line 13.
+
+Original: כֹּה אָמַר יְהוָה צְבָאוֹת עוֹד יִהְיֶה בַּ/מָּקוֹם הַ/זֶּה הֶ/חָרֵב מֵ/אֵין אָדָם וְ/עַד בְּהֵמָה וּ/בְ/כָל עָרָי/ו נְוֵה רֹעִים מַרְבִּצִים צֹאן
+
+Persian: « خداوند لشکرها چنین می‌فرماید: در اینجا که ویرانه و از انسان و حیوان خالی است، و در تمامی شهرهایش، بار دیگر مکانهایی خواهد بود که شبانان در آن گله‌ها را بخوابانند.
+
+Original words:
+- o1: כֹּה = H3541 כֹּה "properly, like this, i.e. by implication…" [HD]
+- o2: אָמַר = H559 אָמַר "to say (used with great latitude)" [HVqp3ms]
+- o3: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o4: צְבָאוֹת = H6635 צָבָא "a mass of persons (or figuratively, things)…" [HNcbpa]
+- o5: עוֹד = H5750 עוֹד "properly, iteration or continuance…" [HD]
+- o6: יִהְיֶה = H1961 הָיָה "to exist, i.e. be or become…" [HVqi3ms]
+- o7: בַּ/מָּקוֹם = Hb "in" + H4725 מָקוֹם "properly, a standing, i.e. a spot…" [HRd/Ncmsa]
+- o8: הַ/זֶּה = Hd "the" + H2088 זֶה "the masculine demonstrative pronoun, this or that" [HTd/Pdxms]
+- o9: הֶ/חָרֵב = Hd "the" + H2720 חָרֵב "parched or ruined" [HTd/Aamsa]
+- o10: מֵ/אֵין = Hm "from" + H369 אַיִן "a non-entity…" [HR/Tn]
+- o11: אָדָם = H120 אָדָם "ruddy i.e. a human being (an individual or the…" [HNcmsa]
+- o12: וְ/עַד = Hc "and" + H5704 עַד "as far (or long, or much) as…" [HC/R]
+- o13: בְּהֵמָה = H929 בְּהֵמָה "properly, a dumb beast…" [HNcfsa]
+- o14: וּ/בְ/כָל = Hc "and" + Hb "in" + H3605 כֹּל "properly, the whole…" [HC/R/Ncmsc]
+- o15: עָרָי/ו = H5892 עִיר "a city (a place guarded by waking or a watch) in…" [HNcfpc/Sp3ms]
+- o16: נְוֵה = H5116 נָוֶה "adjectively) at home…" [HNcbsc]
+- o17: רֹעִים = H7462 רָעָה "to tend a flock; i.e. pasture it…" [HVqrmpa]
+- o18: מַרְבִּצִים = H7257 רָבַץ "to crouch (on all four legs folded…" [HVhrmpa]
+- o19: צֹאן = H6629 צֹאן "a collective name for a flock (of sheep or goats)…" [HNcbsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | « |  |  |
+|  | خداوند | H3068 | H3068 |
+|  | لشکرها | H6635 | H6635 |
+|  | چنین | H3541 | H3541 |
+|  | می‌فرماید | H559 | H559 |
+|  | : |  |  |
+|  | در | Hb | Hb |
+| ✱ | اینجا | H2088 זֶה "the masculine demonstrative…" | H4725 מָקוֹם "properly, a standing…"; H2088 זֶה "the masculine demonstrative…" |
+|  | که |  |  |
+|  | ویرانه | H2720 | H2720 |
+|  | و |  |  |
+|  | از | Hm | Hm |
+|  | انسان | H120 | H120 |
+|  | و | Hc | Hc |
+|  | حیوان | H929 | H929 |
+|  | خالی | H369 | H369 |
+|  | است |  |  |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | در | Hb | Hb |
+|  | تمامی | H3605 | H3605 |
+|  | شهرهایش | H5892 | H5892 |
+|  | ، |  |  |
+|  | بار | [بار دیگر] H5750 | [بار دیگر] H5750 |
+|  | دیگر | [بار دیگر] H5750 | [بار دیگر] H5750 |
+| ✱ | مکانهایی | H4725 מָקוֹם "properly, a standing…"; H5116 נָוֶה "adjectively) at home…" | H5116 נָוֶה "adjectively) at home…" |
+| ✱ | خواهد | [خواهد بود]  | [خواهد بود] H1961 הָיָה "to exist, i.e. be or become…" |
+| ✱ | بود | [خواهد بود]  | [خواهد بود] H1961 הָיָה "to exist, i.e. be or become…" |
+|  | که |  |  |
+|  | شبانان | H7462 | H7462 |
+|  | در |  |  |
+|  | آن |  |  |
+|  | گله‌ها | H6629 | H6629 |
+|  | را |  |  |
+| ✱ | بخوابانند |  | H7257 רָבַץ "to crouch (on all four legs…" |
+|  | . |  |  |
+
+### Jeremiah 33:13: 2 word(s) changed
+
+Reply line 14.
+
+Original: בְּ/עָרֵי הָ/הָר בְּ/עָרֵי הַ/שְּׁפֵלָה וּ/בְ/עָרֵי הַ/נֶּגֶב וּ/בְ/אֶרֶץ בִּנְיָמִן וּ/בִ/סְבִיבֵי יְרוּשָׁלִַם וּ/בְ/עָרֵי יְהוּדָה עֹד תַּעֲבֹרְנָה הַ/צֹּאן עַל יְדֵי מוֹנֶה אָמַר יְהוָה
+
+Persian: و خداوند می‌گوید که در شهرهای کوهستان و شهرهای نواحی کم‌ارتفاع و شهرهای نِگِب، و در سرزمین بنیامین و حوالی اورشلیم و شهرهای یهودا، گوسفندان بار دیگر از زیرِ دست شمارندگان خواهند گذشت.
+
+Original words:
+- o1: בְּ/עָרֵי = Hb "in" + H5892 עִיר "a city (a place guarded by waking or a watch) in…" [HR/Ncfpc]
+- o2: הָ/הָר = Hd "the" + H2022 הַר "a mountain or range of hills (sometimes used…" [HTd/Ncmsa]
+- o3: בְּ/עָרֵי = Hb "in" + H5892 עִיר "a city (a place guarded by waking or a watch) in…" [HR/Ncfpc]
+- o4: הַ/שְּׁפֵלָה = Hd "the" + H8219 שְׁפֵלָה "Lowland…" [HTd/Ncfsa]
+- o5: וּ/בְ/עָרֵי = Hc "and" + Hb "in" + H5892 עִיר "a city (a place guarded by waking or a watch) in…" [HC/R/Ncfpc]
+- o6: הַ/נֶּגֶב = Hd "the" + H5045 נֶגֶב "the south (from its drought)…" [HTd/Ncmsa]
+- o7: וּ/בְ/אֶרֶץ = Hc "and" + Hb "in" + H776 אֶרֶץ "the earth (at large, or partitively a land)" [HC/R/Ncbsc]
+- o8: בִּנְיָמִן = H1144 בִּנְיָמִין "Binjamin, youngest son of Jacob…" [HNp]
+- o9: וּ/בִ/סְבִיבֵי = Hc "and" + Hb "in" + H5439 סָבִיב "as noun) a circle, neighbour, or environs…" [HC/R/Ncbpc]
+- o10: יְרוּשָׁלִַם = H3389 יְרוּשָׁלַ͏ִם "Jerushalaim or Jerushalem…" [HNp]
+- o11: וּ/בְ/עָרֵי = Hc "and" + Hb "in" + H5892 עִיר "a city (a place guarded by waking or a watch) in…" [HC/R/Ncfpc]
+- o12: יְהוּדָה = H3063 יְהוּדָה "Jehudah (or Judah), the name of five Israelites…" [HNp]
+- o13: עֹד = H5750 עוֹד "properly, iteration or continuance…" [HD]
+- o14: תַּעֲבֹרְנָה = H5674 עָבַר "to cross over…" [HVqi3fp]
+- o15: הַ/צֹּאן = Hd "the" + H6629 צֹאן "a collective name for a flock (of sheep or goats)…" [HTd/Ncbsa]
+- o16: עַל = H5921 עַל "above, over, upon…" [HR]
+- o17: יְדֵי = H3027 יָד "a hand (the open one (indicating power, means…" [HNcbdc]
+- o18: מוֹנֶה = H4487 מָנָה "properly, to weigh out…" [HVqrmsa]
+- o19: אָמַר = H559 אָמַר "to say (used with great latitude)" [HVqp3ms]
+- o20: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | و |  |  |
+|  | خداوند | H3068 | H3068 |
+|  | می‌گوید | H559 | H559 |
+|  | که |  |  |
+|  | در | Hb | Hb |
+|  | شهرهای | H5892 | H5892 |
+|  | کوهستان | H2022 | H2022 |
+|  | و |  |  |
+|  | شهرهای | H5892 | H5892 |
+|  | نواحی | [نواحی کم‌ارتفاع] H8219 | [نواحی کم‌ارتفاع] H8219 |
+|  | کم‌ارتفاع | [نواحی کم‌ارتفاع] H8219 | [نواحی کم‌ارتفاع] H8219 |
+|  | و | Hc | Hc |
+|  | شهرهای | H5892 | H5892 |
+|  | نِگِب | H5045 | H5045 |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | در | Hb | Hb |
+|  | سرزمین | H776 | H776 |
+|  | بنیامین | H1144 | H1144 |
+|  | و | Hc | Hc |
+|  | حوالی | H5439 | H5439 |
+|  | اورشلیم | H3389 | H3389 |
+|  | و | Hc | Hc |
+|  | شهرهای | H5892 | H5892 |
+|  | یهودا | H3063 | H3063 |
+|  | ، |  |  |
+|  | گوسفندان | H6629 | H6629 |
+|  | بار | [بار دیگر] H5750 | [بار دیگر] H5750 |
+|  | دیگر | [بار دیگر] H5750 | [بار دیگر] H5750 |
+| ✱ | از | H5674 עָבַר "to cross over…" | [از زیرِ] H5921 עַל "above, over, upon…" |
+| ✱ | زیرِ | H5921 עַל "above, over, upon…" | [از زیرِ] H5921 עַל "above, over, upon…" |
+|  | دست | H3027 | H3027 |
+|  | شمارندگان | H4487 | H4487 |
+|  | خواهند | [خواهند گذشت] H5674 | [خواهند گذشت] H5674 |
+|  | گذشت | [خواهند گذشت] H5674 | [خواهند گذشت] H5674 |
+|  | . |  |  |

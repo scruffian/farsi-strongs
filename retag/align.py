@@ -41,7 +41,7 @@ def build_corpus(grid, accented):
 def pivot_tags(grid):
     '''Per-verse token tag sets from the original ESV-pivot aligner output.'''
     pivot = data.align_to_grid(data.load_bible(data.ORIGINAL_ALIGNER_OUTPUT), grid)
-    return {k: [data.clean_tags(t) for t in data.token_tags(v)] for k, v in pivot.items()}
+    return {k: [data.clean_tags(t) for t in data.token_tags(v, grid[k])] for k, v in pivot.items()}
 
 
 def write_priors(verses, pivot, path, weight=2.0):

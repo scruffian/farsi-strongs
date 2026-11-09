@@ -13,6 +13,8 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HAZM_TOKENS = os.path.join(REPO, 'transformations', 'NMV_hazm.parquet')
 ORIGINAL_ALIGNER_OUTPUT = os.path.join(REPO, 'outputs', 'NMV_ESV_strongs.json')
 MACHINE_OUTPUT = os.path.join(REPO, 'outputs', 'NMV_strongs_machine.json')
+# What the machine tagging would give for the verses that use a chat-review reply instead.
+REPLY_ALTERNATIVES = os.path.join(REPO, 'outputs', 'machine_tags_for_reply_verses.json')
 
 STRONGS_TAG = re.compile(r'^[HG](\d+[a-z]?|[a-z])$')
 
@@ -51,13 +53,36 @@ def load_token_grid():
     return {k: list(v) for k, v in df.groupby(['book', 'idx_chapter', 'idx_verse'])['word']}
 
 
-def entry_tokens(entry):
-    '''Tokens of one tagged entry (grouped entries hold several space-separated tokens).'''
-    return entry[0].split(' ')
+# hazm joins the parts of a compound verb with "_" (خواهد_شد) and the NMV text marks some
+# compounds with "~" (فرو~گرفت). sync.bible shows them with a space instead.
+JOINERS = re.compile('[_~]')
 
 
-def verse_tokens(verse):
-    return [t for entry in verse for t in entry_tokens(entry)]
+def display(text):
+    return JOINERS.sub(' ', text)
+
+
+def display_verse(verse):
+    '''A verse as written to sync.bible: compound parts separated by spaces, tags unchanged.'''
+    return [[display(entry[0])] + list(entry[1:]) for entry in verse]
+
+
+def token_words(token):
+    '''The space-separated words a NMV_hazm token is shown as.'''
+    return display(token).split(' ')
+
+
+def grid_words(tokens):
+    return [w for t in tokens for w in token_words(t)]
+
+
+def entry_words(entry):
+    '''Words of one entry (a grouped entry holds several space-separated words).'''
+    return display(entry[0]).split(' ')
+
+
+def verse_words(verse):
+    return [w for entry in verse for w in entry_words(entry)]
 
 
 def entry_tags(entry):
@@ -69,16 +94,23 @@ def clean_tags(tags):
     return {t for t in (tags or '').split() if STRONGS_TAG.match(t)}
 
 
-def token_tags(verse):
-    '''Per-token tag strings for a (possibly grouped) verse.'''
-    out = []
-    for entry in verse:
-        out += [entry_tags(entry)] * len(entry_tokens(entry))
+def token_tags(verse, tokens):
+    '''Per-token tag strings for a (possibly grouped) verse, given its NMV_hazm tokens.
+
+    Entries may write a token as one word (خواهد_شد) or several (خواهد شد), so tags are
+    matched word by word; a token whose words carry different tags gets all of them.'''
+    word_tags = [entry_tags(entry) for entry in verse for _ in entry_words(entry)]
+    out, i = [], 0
+    for token in tokens:
+        n = len(token_words(token))
+        tags = ' '.join(t for t in word_tags[i:i + n] if t).split()
+        out.append(' '.join(dict.fromkeys(tags)) or None)
+        i += n
     return out
 
 
 def align_to_grid(bible, grid):
-    '''Map a file-shaped bible onto grid keys by matching tokens.
+    '''Map a file-shaped bible onto grid keys by matching words.
 
     Needed because the original aligner output (and so sync.bible's NMV_strongs.json until
     this re-tagging) silently dropped the verses missing from the ESV (e.g. Matthew 17:21),
@@ -88,8 +120,8 @@ def align_to_grid(bible, grid):
         for ci, chapter in enumerate(chapters):
             vi = 0
             for verse in chapter:
-                tokens = verse_tokens(verse)
-                while (book, ci, vi) in grid and grid[(book, ci, vi)] != tokens:
+                words = verse_words(verse)
+                while (book, ci, vi) in grid and grid_words(grid[(book, ci, vi)]) != words:
                     vi += 1
                 if (book, ci, vi) in grid:
                     out[(book, ci, vi)] = verse

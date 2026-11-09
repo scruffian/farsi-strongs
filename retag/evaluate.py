@@ -20,22 +20,23 @@ def score(predicted, gold):
     return {'precision': precision, 'recall': recall, 'f1': f1, 'verses': len(gold)}
 
 
-def token_sets(entries):
-    return tag_model.gold_labels(entries)
+def token_sets(entries, tokens):
+    return tag_model.gold_labels(entries, tokens)
 
 
-def cross_validate(candidates, verses_by_key, gold, threshold, folds=5):
-    '''Train on all but one fold of the hand-corrected verses, tag the held-out fold.'''
+def cross_validate(candidates, verses_by_key, gold, threshold, folds=5, extra=None, extra_weight=0.5):
+    '''Train on all but one fold of the hand-corrected verses (plus any extra, unchecked
+    reply verses), tag the held-out fold. Only hand-corrected verses are ever scored.'''
     keys = sorted(gold)
     folds = min(folds, len(keys))
     predicted = {}
     for f in range(folds):
         test = keys[f::folds]
         train = {k: gold[k] for k in keys if k not in test}
-        model = tag_model.train(candidates, train)
+        model = tag_model.train(candidates, train, extra, extra_weight)
         for key, links in tag_model.predict(model, candidates, test, threshold).items():
             v = verses_by_key[key]
-            predicted[key] = token_sets(tagger.tag_verse(v.tokens, links, v.original))
+            predicted[key] = token_sets(tagger.tag_verse(v.tokens, links, v.original), v.tokens)
     return score(predicted, gold)
 
 

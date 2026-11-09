@@ -8,7 +8,7 @@ import argparse
 import collections
 import sys
 
-from . import align, data, evaluate, manual, tagger
+from . import align, data, evaluate, manual, replies, tagger, variants
 from . import model as tag_model
 
 
@@ -18,9 +18,10 @@ def log(message):
 
 def prepare(args):
     paths = data.sync_bible_paths(args.sync_bible)
-    log('Loading NMV tokens, accented.json and NMV_strongs.json')
+    log('Loading NMV tokens, accented.json' + ('' if args.no_variants else ' (+ WHNU.json and TR.json variants)')
+        + ' and NMV_strongs.json')
     grid = data.load_token_grid()
-    accented = data.load_bible(paths['accented'])
+    accented = variants.load_original(args.sync_bible, grid, variants=not args.no_variants)
     current_file = data.load_bible(paths['nmv_strongs'])
     current = data.align_to_grid(current_file, grid)
     unmapped = sum(len(v) for ch in current_file.values() for v in ch) - len(current)
@@ -44,14 +45,18 @@ def run(args):
     locked, newly_locked = manual.locked_verses(current, grid, record=not args.dry_run)
     log(f'{len(locked)} locked (hand-corrected) verses, {len(newly_locked)} newly detected')
 
+    provisional = {} if args.no_replies else replies.load(args.sync_bible, locked, log=log)
     verses, candidates = build_candidates(grid, accented, args.runs)
-    gold = {k: tag_model.gold_labels(current[k]) for k in locked if k in current}
-    model = tag_model.train(candidates, gold)
+    gold = {k: tag_model.gold_labels(current[k], grid[k]) for k in locked if k in current}
+    extra = {k: tag_model.gold_labels(v, grid[k]) for k, v in provisional.items()}
+    model = tag_model.train(candidates, gold, extra, args.reply_weight)
     to_tag = [v.key for v in verses if v.key not in locked]
     predicted = tag_model.predict(model, candidates, to_tag, args.threshold)
     by_key = {v.key: v for v in verses}
 
     chapters = collections.defaultdict(lambda: collections.defaultdict(list))
+    stats = collections.Counter()
+    alternatives = {}
     for key in sorted(grid):
         book, ci, vi = key
         v = by_key[key]
@@ -59,19 +64,23 @@ def run(args):
             verse = current[key]
             if not args.no_group_locked:
                 verse = tagger.group_locked_verse(verse, v.original)
+        elif key in provisional:
+            verse = provisional[key]
+            stats['verses from chat-review replies'] += 1
+            alternatives[data.reference(key)] = data.display_verse(
+                tagger.tag_verse(v.tokens, predicted[key], v.original))
         else:
             verse = tagger.tag_verse(v.tokens, predicted[key], v.original)
-        chapters[book][ci].append(verse)
+        chapters[book][ci].append(data.display_verse(verse))
 
     books = list(current_file) + sorted(set(chapters) - set(current_file))
     output = {b: [chapters[b][ci] for ci in sorted(chapters[b])] for b in books if b in chapters}
 
-    stats = collections.Counter()
     for chapter in (c for b in output.values() for c in b):
         for verse in chapter:
             for entry in verse:
                 stats['tagged entries' if len(entry) > 1 else 'untagged entries'] += 1
-                stats['grouped entries'] += ' ' in entry[0]
+                stats['multi-word entries'] += ' ' in entry[0]
     log(', '.join(f'{n} {name}' for name, n in stats.items()))
 
     if args.dry_run:
@@ -80,21 +89,24 @@ def run(args):
     out_path = args.output or paths['nmv_strongs']
     data.write_sync_bible_json(output, out_path)
     data.write_compact_json(output, data.MACHINE_OUTPUT)
+    data.write_compact_json(alternatives, data.REPLY_ALTERNATIVES)
     log(f'Wrote {out_path}\nWrote {data.MACHINE_OUTPUT} (baseline for detecting future hand edits)')
 
 
 def run_evaluate(args):
     _, grid, accented, _, current = prepare(args)
     locked, _ = manual.locked_verses(current, grid)
-    gold = {k: tag_model.gold_labels(current[k]) for k in locked if k in current}
+    gold = {k: tag_model.gold_labels(current[k], grid[k]) for k in locked if k in current}
+    provisional = {} if args.no_replies else replies.load(args.sync_bible, locked, log=log)
+    extra = {k: tag_model.gold_labels(v, grid[k]) for k, v in provisional.items()}
 
     baseline = data.align_to_grid(data.load_bible(manual.machine_baseline_path()), grid)
-    before = {k: evaluate.token_sets(baseline[k]) for k in gold if k in baseline}
-    log(evaluate.format_score('Before hand corrections', evaluate.score(before, {k: gold[k] for k in before})))
+    before = {k: evaluate.token_sets(baseline[k], grid[k]) for k in gold if k in baseline}
+    log(evaluate.format_score('Saved machine output', evaluate.score(before, {k: gold[k] for k in before})))
 
     verses, candidates = build_candidates(grid, accented, args.runs)
     by_key = {v.key: v for v in verses}
-    result = evaluate.cross_validate(candidates, by_key, gold, args.threshold, args.folds)
+    result = evaluate.cross_validate(candidates, by_key, gold, args.threshold, args.folds, extra, args.reply_weight)
     log(evaluate.format_score(f'Re-tagger ({args.folds}-fold CV)', result))
 
 
@@ -109,6 +121,12 @@ def main():
         p.add_argument('--threshold', type=float, default=0.45,
                        help='Minimum link probability for a tag (higher = fewer, safer tags)')
         p.add_argument('--runs', type=int, default=3, help='Number of eflomal runs to combine')
+        p.add_argument('--no-replies', action='store_true',
+                       help='Ignore the unchecked chat-review replies in review_replies/pending and approved')
+        p.add_argument('--reply-weight', type=float, default=0.5,
+                       help='Training weight of a chat-review reply verse relative to a hand-corrected one (default 0.5)')
+        p.add_argument('--no-variants', action='store_true',
+                       help='Use accented.json alone, without the Greek variant readings from WHNU.json and TR.json')
         if name == 'run':
             p.add_argument('--output', help='Where to write (default: overwrite NMV_strongs.json in sync.bible)')
             p.add_argument('--no-group-locked', action='store_true',

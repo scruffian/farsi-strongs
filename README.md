@@ -6,8 +6,10 @@ numbers of the Hebrew or Greek words it translates. The result is sync.bible's
 `public/bibles/NMV_strongs.json`.
 
 The current approach is the `retag` tool described below. It aligns the Persian directly
-to the original languages in sync.bible's `accented.json`. It keeps every verse corrected
-by hand, and it learns from those corrections. The original 2022 approach (`word_aligner.py`)
+to the original languages in sync.bible's `accented.json`. For the New Testament it also
+uses the Greek readings the NMV follows where Tischendorf differs, taken from `WHNU.json`
+(NA27/UBS4) and `TR.json` (see [retag/README.md](retag/README.md#greek-variant-readings-variantspy)).
+It keeps every verse corrected by hand, and it learns from those corrections. The original 2022 approach (`word_aligner.py`)
 aligned the Persian to the ESV with simalign and took the ESV's Strong's numbers. Its output
 is kept in `outputs/NMV_ESV_strongs.json` and is used as a starting point by `retag`.
 
@@ -110,6 +112,19 @@ Things to bear in mind:
 
 Run `python -m retag evaluate` after adding corrections to see the current figures.
 
+## Reviewing in a chat: `review_chunks/`
+
+To have Claude helper agents review all the chunks in a long, resumable batch, see
+[review_batch/README.md](review_batch/README.md).
+
+
+`python make_review_chunks.py --sync-bible ../sync.bible` splits the current tagging and the
+Hebrew/Greek into ~25-verse files for review in a chat with Claude. Hand-reviewed verses are
+left out. [review_chunks/README.md](review_chunks/README.md) has the workflow and a prompt to use.
+Replies are saved into `review_replies/pending/`, checked with `python review_replies.py check`,
+approved by moving them to `review_replies/approved/`, and only then written into sync.bible by
+`python review_replies.py apply` (see [review_replies/README.md](review_replies/README.md)).
+
 ## Growing the gold standard: `retag/locked_verses.txt`
 
 Every verse in `retag/locked_verses.txt` is treated as correct:
@@ -119,6 +134,11 @@ Every verse in `retag/locked_verses.txt` is treated as correct:
   verses each run, and they are the test set for `evaluate`.
 
 The more verses are carefully checked and listed, the better the rest of the Bible is tagged.
+
+Chat-review replies in `review_replies/pending/` sit between locked verses and machine
+tagging. They are used in the output and in training (at half weight) before anyone checks
+them, but they are not locked, so a hand edit in the app still overrides them. See
+[retag/README.md](retag/README.md#unchecked-chat-review-replies-repliespy).
 
 ### Verses you corrected in sync.bible
 

@@ -1,0 +1,947 @@
+# Check of 11_I_Kings_013.001-013.017.md
+
+Generated 2026-10-19 by `python review_replies.py check`. Rows marked ✱ change. Edit or delete lines in the reply to change what is applied, then run check again.
+
+## 14 verse(s) with changes
+
+### I Kings 13:1: 1 word(s) changed
+
+Reply line 2.
+
+Original: וְ/הִנֵּה אִישׁ אֱלֹהִים בָּא מִ/יהוּדָה בִּ/דְבַר יְהוָה אֶל בֵּית אֵל וְ/יָרָבְעָם עֹמֵד עַל הַ/מִּזְבֵּחַ לְ/הַקְטִיר
+
+Persian: روزی یِرُبعام کنار مذبح ایستاده بود تا بخور بسوزاند، که مرد خدایی به فرمان خداوند از یهودا به بِیت‌ئیل آمد
+
+Original words:
+- o1: וְ/הִנֵּה = Hc "and" + H2009 הִנֵּה "lo!" [HC/Tm]
+- o2: אִישׁ = H376 אִישׁ "a man as an individual or a male person…" [HNcmsc]
+- o3: אֱלֹהִים = H430 אֱלֹהִים "gods in the ordinary sense…" [HNcmpa]
+- o4: בָּא = H935 בּוֹא "to go or come (in a wide variety of applications)" [HVqp3ms]
+- o5: מִ/יהוּדָה = Hm "from" + H3063 יְהוּדָה "Jehudah (or Judah), the name of five Israelites…" [HR/Np]
+- o6: בִּ/דְבַר = Hb "in" + H1697 דָּבָר "a word…" [HR/Ncmsc]
+- o7: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o8: אֶל = H413 אֵל "near, with or among; often in general, to" [HR]
+- o9: בֵּית = H1008 בֵּית־אֵל "Beth-El, a place in Palestine" [HNp]
+- o10: אֵל = H1008 בֵּית־אֵל "Beth-El, a place in Palestine" [HNp]
+- o11: וְ/יָרָבְעָם = Hc "and" + H3379 יָרׇבְעָם "Jarobam, the name of two Israelite kings" [HC/Np]
+- o12: עֹמֵד = H5975 עָמַד "to stand…" [HVqrmsa]
+- o13: עַל = H5921 עַל "above, over, upon…" [HR]
+- o14: הַ/מִּזְבֵּחַ = Hd "the" + H4196 מִזְבֵּחַ "an altar" [HTd/Ncmsa]
+- o15: לְ/הַקְטִיר = Hl "to" + H6999 קָטַר "to smoke…" [HR/Vhc]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | روزی |  |  |
+|  | یِرُبعام | H3379 | H3379 |
+|  | کنار | H5921 | H5921 |
+|  | مذبح | H4196 | H4196 |
+|  | ایستاده | [ایستاده بود] H5975 | [ایستاده بود] H5975 |
+|  | بود | [ایستاده بود] H5975 | [ایستاده بود] H5975 |
+|  | تا | Hl | Hl |
+|  | بخور | [بخور بسوزاند] H6999 | [بخور بسوزاند] H6999 |
+|  | بسوزاند | [بخور بسوزاند] H6999 | [بخور بسوزاند] H6999 |
+|  | ، |  |  |
+|  | که |  |  |
+|  | مرد | H376 | H376 |
+|  | خدایی | H430 | H430 |
+|  | به | Hb | Hb |
+|  | فرمان | H1697 | H1697 |
+|  | خداوند | H3068 | H3068 |
+|  | از | Hm | Hm |
+|  | یهودا | H3063 | H3063 |
+|  | به | H413 | H413 |
+|  | بِیت‌ئیل | H1008 | H1008 |
+| ✱ | آمد |  | H935 בּוֹא "to go or come (in a wide…" |
+
+### I Kings 13:2: 2 word(s) changed
+
+Reply line 3.
+
+Original: וַ/יִּקְרָא עַל הַ/מִּזְבֵּחַ בִּ/דְבַר יְהוָה וַ/יֹּאמֶר מִזְבֵּחַ מִזְבֵּחַ כֹּה אָמַר יְהוָה הִנֵּה בֵן נוֹלָד לְ/בֵית דָּוִד יֹאשִׁיָּהוּ שְׁמ/וֹ וְ/זָבַח עָלֶי/ךָ אֶת כֹּהֲנֵי הַ/בָּמוֹת הַ/מַּקְטִרִים עָלֶי/ךָ וְ/עַצְמוֹת אָדָם יִשְׂרְפוּ עָלֶי/ךָ
+
+Persian: و به فرمان خداوند بر ضد آن مذبح ندا کرده، گفت:« ای مذبح، ای مذبح! خداوند چنین می‌فرماید: ”اینک برای خاندان داوود پسری زاده خواهد شد، و نام او یوشیا خواهد بود. او کاهنان مکانهای بلند را که بر تو بخور می‌سوزانند، بر تو قربانی خواهد کرد، و استخوانهای آدمیان بر تو سوزانیده خواهد شد.“»
+
+Original words:
+- o1: וַ/יִּקְרָא = Hc "and" + H7121 קָרָא "to call out to (i.e. properly, address by name…" [HC/Vqw3ms]
+- o2: עַל = H5921 עַל "above, over, upon…" [HR]
+- o3: הַ/מִּזְבֵּחַ = Hd "the" + H4196 מִזְבֵּחַ "an altar" [HTd/Ncmsa]
+- o4: בִּ/דְבַר = Hb "in" + H1697 דָּבָר "a word…" [HR/Ncmsc]
+- o5: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o6: וַ/יֹּאמֶר = Hc "and" + H559 אָמַר "to say (used with great latitude)" [HC/Vqw3ms]
+- o7: מִזְבֵּחַ = H4196 מִזְבֵּחַ "an altar" [HNcmsa]
+- o8: מִזְבֵּחַ = H4196 מִזְבֵּחַ "an altar" [HNcmsa]
+- o9: כֹּה = H3541 כֹּה "properly, like this, i.e. by implication…" [HD]
+- o10: אָמַר = H559 אָמַר "to say (used with great latitude)" [HVqp3ms]
+- o11: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o12: הִנֵּה = H2009 הִנֵּה "lo!" [HTm]
+- o13: בֵן = H1121 בֵּן "a son (as a builder of the family name)…" [HNcmsa]
+- o14: נוֹלָד = H3205 יָלַד "to bear young; causatively, to beget…" [HVNrmsa]
+- o15: לְ/בֵית = Hl "to" + H1004 בַּיִת "a house (in the greatest variation of…" [HR/Ncmsc]
+- o16: דָּוִד = H1732 דָּוִד "David, the youngest son of Jesse" [HNp]
+- o17: יֹאשִׁיָּהוּ = H2977 יֹאשִׁיָּה "Joshijah, the name of two Israelites" [HNp]
+- o18: שְׁמ/וֹ = H8034 שֵׁם "an appellation…" [HNcmsc/Sp3ms]
+- o19: וְ/זָבַח = Hc "and" + H2076 זָבַח "to slaughter an animal (usually in sacrifice)" [HC/Vqp3ms]
+- o20: עָלֶי/ךָ = H5921 עַל "above, over, upon…" [HR/Sp2ms]
+- o21: אֶת = H853 אֵת "properly…" [HTo]
+- o22: כֹּהֲנֵי = H3548 כֹּהֵן "literally one officiating, a priest…" [HNcmpc]
+- o23: הַ/בָּמוֹת = Hd "the" + H1116 בָּמָה "an elevation" [HTd/Ncfpa]
+- o24: הַ/מַּקְטִרִים = Hd "the" + H6999 קָטַר "to smoke…" [HTd/Vhrmpa]
+- o25: עָלֶי/ךָ = H5921 עַל "above, over, upon…" [HR/Sp2ms]
+- o26: וְ/עַצְמוֹת = Hc "and" + H6106 עֶצֶם "a bone (as strong); by extension, the body…" [HC/Ncfpc]
+- o27: אָדָם = H120 אָדָם "ruddy i.e. a human being (an individual or the…" [HNcmsa]
+- o28: יִשְׂרְפוּ = H8313 שָׂרַף "to be (causatively, set) on fire" [HVqi3mp]
+- o29: עָלֶי/ךָ = H5921 עַל "above, over, upon…" [HR/Sp2ms]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | و | Hc | Hc |
+|  | به | Hb | Hb |
+|  | فرمان | H1697 | H1697 |
+|  | خداوند | H3068 | H3068 |
+| ✱ | بر |  | [بر ضد] H5921 עַל "above, over, upon…" |
+| ✱ | ضد | H5921 עַל "above, over, upon…" | [بر ضد] H5921 עַל "above, over, upon…" |
+|  | آن |  |  |
+|  | مذبح | H4196 | H4196 |
+|  | ندا | [ندا کرده] H7121 | [ندا کرده] H7121 |
+|  | کرده | [ندا کرده] H7121 | [ندا کرده] H7121 |
+|  | ، |  |  |
+|  | گفت | H559 | H559 |
+|  | : |  |  |
+|  | « |  |  |
+|  | ای |  |  |
+|  | مذبح | H4196 | H4196 |
+|  | ، |  |  |
+|  | ای |  |  |
+|  | مذبح | H4196 | H4196 |
+|  | ! |  |  |
+|  | خداوند | H3068 | H3068 |
+|  | چنین | H3541 | H3541 |
+|  | می‌فرماید | H559 | H559 |
+|  | : |  |  |
+|  | ”اینک | H2009 | H2009 |
+|  | برای | Hl | Hl |
+|  | خاندان | H1004 | H1004 |
+|  | داوود | H1732 | H1732 |
+|  | پسری | H1121 | H1121 |
+|  | زاده | [زاده خواهد شد] H3205 | [زاده خواهد شد] H3205 |
+|  | خواهد | [زاده خواهد شد] H3205 | [زاده خواهد شد] H3205 |
+|  | شد | [زاده خواهد شد] H3205 | [زاده خواهد شد] H3205 |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | نام | H8034 | H8034 |
+|  | او |  |  |
+|  | یوشیا | H2977 | H2977 |
+|  | خواهد | [خواهد بود]  | [خواهد بود]  |
+|  | بود | [خواهد بود]  | [خواهد بود]  |
+|  | . |  |  |
+|  | او |  |  |
+|  | کاهنان | H3548 | H3548 |
+|  | مکانهای | [مکانهای بلند] H1116 | [مکانهای بلند] H1116 |
+|  | بلند | [مکانهای بلند] H1116 | [مکانهای بلند] H1116 |
+|  | را | H853 | H853 |
+|  | که |  |  |
+|  | بر | H5921 | H5921 |
+|  | تو |  |  |
+|  | بخور | [بخور می‌سوزانند] H6999 | [بخور می‌سوزانند] H6999 |
+|  | می‌سوزانند | [بخور می‌سوزانند] H6999 | [بخور می‌سوزانند] H6999 |
+|  | ، |  |  |
+|  | بر | H5921 | H5921 |
+|  | تو |  |  |
+|  | قربانی | [قربانی خواهد کرد] H2076 | [قربانی خواهد کرد] H2076 |
+|  | خواهد | [قربانی خواهد کرد] H2076 | [قربانی خواهد کرد] H2076 |
+|  | کرد | [قربانی خواهد کرد] H2076 | [قربانی خواهد کرد] H2076 |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | استخوانهای | H6106 | H6106 |
+|  | آدمیان | H120 | H120 |
+|  | بر | H5921 | H5921 |
+|  | تو |  |  |
+|  | سوزانیده | [سوزانیده خواهد شد] H8313 | [سوزانیده خواهد شد] H8313 |
+|  | خواهد | [سوزانیده خواهد شد] H8313 | [سوزانیده خواهد شد] H8313 |
+|  | شد | [سوزانیده خواهد شد] H8313 | [سوزانیده خواهد شد] H8313 |
+|  | . |  |  |
+|  | “ |  |  |
+|  | » |  |  |
+
+### I Kings 13:3: 1 word(s) changed
+
+Reply line 4.
+
+Original: וְ/נָתַן בַּ/יּוֹם הַ/הוּא מוֹפֵת לֵ/אמֹר זֶה הַ/מּוֹפֵת אֲשֶׁר דִּבֶּר יְהוָה הִנֵּה הַ/מִּזְבֵּחַ נִקְרָע וְ/נִשְׁפַּךְ הַ/דֶּשֶׁן אֲשֶׁר עָלָי/ו
+
+Persian: و در همان روز نشانه‌ای داد و گفت:« این است نشانی که خداوند فرموده است: ”اینک این مذبح شکافته خواهد شد و خاکستری که بر آن است، ریخته خواهد گشت.“»
+
+Original words:
+- o1: וְ/נָתַן = Hc "and" + H5414 נָתַן "to give…" [HC/Vqp3ms]
+- o2: בַּ/יּוֹם = Hb "in" + H3117 יוֹם "a day (as the warm hours)…" [HRd/Ncmsa]
+- o3: הַ/הוּא = Hd "the" + H1931 הוּא "he (she or it)…" [HTd/Pp3ms]
+- o4: מוֹפֵת = H4159 מוֹפֵת "a miracle; by implication, a token or omen" [HNcmsa]
+- o5: לֵ/אמֹר = Hl "to" + H559 אָמַר "to say (used with great latitude)" [HR/Vqc]
+- o6: זֶה = H2088 זֶה "the masculine demonstrative pronoun, this or that" [HPdxms]
+- o7: הַ/מּוֹפֵת = Hd "the" + H4159 מוֹפֵת "a miracle; by implication, a token or omen" [HTd/Ncmsa]
+- o8: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o9: דִּבֶּר = H1696 דָבַר "perhaps properly, to arrange…" [HVpp3ms]
+- o10: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o11: הִנֵּה = H2009 הִנֵּה "lo!" [HTm]
+- o12: הַ/מִּזְבֵּחַ = Hd "the" + H4196 מִזְבֵּחַ "an altar" [HTd/Ncmsa]
+- o13: נִקְרָע = H7167 קָרַע "to rend, literally or figuratively (revile…" [HVNp3ms]
+- o14: וְ/נִשְׁפַּךְ = Hc "and" + H8210 שָׁפַךְ "to spill forth (blood, a libation, liquid metal…" [HC/VNp3ms]
+- o15: הַ/דֶּשֶׁן = Hd "the" + H1880 דֶּשֶׁן "the fat…" [HTd/Ncmsa]
+- o16: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o17: עָלָי/ו = H5921 עַל "above, over, upon…" [HR/Sp3ms]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | و | Hc | Hc |
+|  | در | Hb | Hb |
+|  | همان | H1931 | H1931 |
+|  | روز | H3117 | H3117 |
+|  | نشانه‌ای | H4159 | H4159 |
+|  | داد | H5414 | H5414 |
+|  | و |  |  |
+|  | گفت | H559 | H559 |
+|  | : |  |  |
+|  | « |  |  |
+|  | این | H2088 | H2088 |
+|  | است |  |  |
+|  | نشانی | H4159 | H4159 |
+|  | که | H834 | H834 |
+|  | خداوند | H3068 | H3068 |
+|  | فرموده | [فرموده است] H1696 | [فرموده است] H1696 |
+|  | است | [فرموده است] H1696 | [فرموده است] H1696 |
+|  | : |  |  |
+|  | ”اینک | H2009 | H2009 |
+| ✱ | این | H2088 זֶה "the masculine demonstrative…"; Hd "the" | Hd "the" |
+|  | مذبح | H4196 | H4196 |
+|  | شکافته | [شکافته خواهد شد] H7167 | [شکافته خواهد شد] H7167 |
+|  | خواهد | [شکافته خواهد شد] H7167 | [شکافته خواهد شد] H7167 |
+|  | شد | [شکافته خواهد شد] H7167 | [شکافته خواهد شد] H7167 |
+|  | و | Hc | Hc |
+|  | خاکستری | H1880 | H1880 |
+|  | که | H834 | H834 |
+|  | بر | H5921 | H5921 |
+|  | آن |  |  |
+|  | است |  |  |
+|  | ، |  |  |
+|  | ریخته | [ریخته خواهد گشت] H8210 | [ریخته خواهد گشت] H8210 |
+|  | خواهد | [ریخته خواهد گشت] H8210 | [ریخته خواهد گشت] H8210 |
+|  | گشت | [ریخته خواهد گشت] H8210 | [ریخته خواهد گشت] H8210 |
+|  | . |  |  |
+|  | “ |  |  |
+|  | » |  |  |
+
+### I Kings 13:4: 12 word(s) changed
+
+Reply line 5.
+
+Original: וַ/יְהִי כִ/שְׁמֹעַ הַ/מֶּלֶךְ אֶת דְּבַר אִישׁ הָ/אֱלֹהִים אֲשֶׁר קָרָא עַל הַ/מִּזְבֵּחַ בְּ/בֵית אֵל וַ/יִּשְׁלַח יָרָבְעָם אֶת יָד/וֹ מֵ/עַל הַ/מִּזְבֵּחַ לֵ/אמֹר תִּפְשֻׂ/הוּ וַ/תִּיבַשׁ יָד/וֹ אֲשֶׁר שָׁלַח עָלָי/ו וְ/לֹא יָכֹל לַ/הֲשִׁיבָ/הּ אֵלָי/ו
+
+Persian: چون یِرُبعامِ پادشاه سخن مرد خدا را که بر ضد مذبح بِیت‌ئیل ندا کرده بود شنید، دست خود را از مذبح دراز کرده، گفت:« او را بگیرید!» ولی دستش که آن را به سوی مرد خدا دراز کرده بود خشک شد، به گونه‌ای که نتوانست آن را باز نزد خود پس کِشَد.
+
+Original words:
+- o1: וַ/יְהִי = Hc "and" + H1961 הָיָה "to exist, i.e. be or become…" [HC/Vqw3ms]
+- o2: כִ/שְׁמֹעַ = Hk "like" + H8085 שָׁמַע "to hear intelligently (often with implication of…" [HR/Vqc]
+- o3: הַ/מֶּלֶךְ = Hd "the" + H4428 מֶלֶךְ "a king" [HTd/Ncmsa]
+- o4: אֶת = H853 אֵת "properly…" [HTo]
+- o5: דְּבַר = H1697 דָּבָר "a word…" [HNcmsc]
+- o6: אִישׁ = H376 אִישׁ "a man as an individual or a male person…" [HNcmsc]
+- o7: הָ/אֱלֹהִים = Hd "the" + H430 אֱלֹהִים "gods in the ordinary sense…" [HTd/Ncmpa]
+- o8: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o9: קָרָא = H7121 קָרָא "to call out to (i.e. properly, address by name…" [HVqp3ms]
+- o10: עַל = H5921 עַל "above, over, upon…" [HR]
+- o11: הַ/מִּזְבֵּחַ = Hd "the" + H4196 מִזְבֵּחַ "an altar" [HTd/Ncmsa]
+- o12: בְּ/בֵית = Hb "in" + H1008 בֵּית־אֵל "Beth-El, a place in Palestine" [HR/Np]
+- o13: אֵל = H1008 בֵּית־אֵל "Beth-El, a place in Palestine" [HNp]
+- o14: וַ/יִּשְׁלַח = Hc "and" + H7971 שָׁלַח "to send away, for…" [HC/Vqw3ms]
+- o15: יָרָבְעָם = H3379 יָרׇבְעָם "Jarobam, the name of two Israelite kings" [HNp]
+- o16: אֶת = H853 אֵת "properly…" [HTo]
+- o17: יָד/וֹ = H3027 יָד "a hand (the open one (indicating power, means…" [HNcbsc/Sp3ms]
+- o18: מֵ/עַל = Hm "from" + H5921 עַל "above, over, upon…" [HR/R]
+- o19: הַ/מִּזְבֵּחַ = Hd "the" + H4196 מִזְבֵּחַ "an altar" [HTd/Ncmsa]
+- o20: לֵ/אמֹר = Hl "to" + H559 אָמַר "to say (used with great latitude)" [HR/Vqc]
+- o21: תִּפְשֻׂ/הוּ = H8610 תָּפַשׂ "to manipulate, i.e. seize…" [HVqv2mp/Sp3ms]
+- o22: וַ/תִּיבַשׁ = Hc "and" + H3001 יָבֵשׁ "to be ashamed, confused or disappointed…" [HC/Vqw3fs]
+- o23: יָד/וֹ = H3027 יָד "a hand (the open one (indicating power, means…" [HNcbsc/Sp3ms]
+- o24: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o25: שָׁלַח = H7971 שָׁלַח "to send away, for…" [HVqp3ms]
+- o26: עָלָי/ו = H5921 עַל "above, over, upon…" [HR/Sp3ms]
+- o27: וְ/לֹא = Hc "and" + H3808 לֹא "not (the simple or abs. negation)…" [HC/Tn]
+- o28: יָכֹל = H3201 יָכֹל "to be able, literally (can…" [HVqp3ms]
+- o29: לַ/הֲשִׁיבָ/הּ = Hl "to" + H7725 שׁוּב "to turn back (hence…" [HR/Vhc/Sp3fs]
+- o30: אֵלָי/ו = H413 אֵל "near, with or among; often in general, to" [HR/Sp3ms]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | چون | Hk | Hk |
+|  | یِرُبعامِ | H3379 | H3379 |
+|  | پادشاه | H4428 | H4428 |
+|  | سخن | H1697 | H1697 |
+|  | مرد | H376 | H376 |
+|  | خدا | H430 | H430 |
+|  | را | H853 | H853 |
+|  | که | H834 | H834 |
+| ✱ | بر | H5921 עַל "above, over, upon…" | [بر ضد] H5921 עַל "above, over, upon…" |
+| ✱ | ضد | H5921 עַל "above, over, upon…" | [بر ضد] H5921 עַל "above, over, upon…" |
+|  | مذبح | H4196 | H4196 |
+|  | بِیت‌ئیل | H1008 | H1008 |
+|  | ندا | [ندا کرده بود] H7121 | [ندا کرده بود] H7121 |
+|  | کرده | [ندا کرده بود] H7121 | [ندا کرده بود] H7121 |
+|  | بود | [ندا کرده بود] H7121 | [ندا کرده بود] H7121 |
+|  | شنید | H8085 | H8085 |
+|  | ، |  |  |
+|  | دست | H3027 | H3027 |
+|  | خود |  |  |
+|  | را | H853 | H853 |
+| ✱ | از | Hm "from" | Hm "from"; H5921 עַל "above, over, upon…" |
+|  | مذبح | H4196 | H4196 |
+|  | دراز | [دراز کرده] H7971 | [دراز کرده] H7971 |
+|  | کرده | [دراز کرده] H7971 | [دراز کرده] H7971 |
+|  | ، |  |  |
+|  | گفت | H559 | H559 |
+|  | : |  |  |
+|  | « |  |  |
+|  | او |  |  |
+| ✱ | را | H853 אֵת "properly…" |  |
+|  | بگیرید | H8610 | H8610 |
+|  | ! |  |  |
+|  | » |  |  |
+|  | ولی | Hc | Hc |
+|  | دستش | H3027 | H3027 |
+|  | که | H834 | H834 |
+|  | آن |  |  |
+| ✱ | را | H853 אֵת "properly…" |  |
+| ✱ | به |  | [به سوی] H5921 עַל "above, over, upon…" |
+| ✱ | سوی |  | [به سوی] H5921 עַל "above, over, upon…" |
+|  | مرد | H376 | H376 |
+|  | خدا | H430 | H430 |
+|  | دراز | [دراز کرده بود] H7971 | [دراز کرده بود] H7971 |
+|  | کرده | [دراز کرده بود] H7971 | [دراز کرده بود] H7971 |
+|  | بود | [دراز کرده بود] H7971 | [دراز کرده بود] H7971 |
+|  | خشک | [خشک شد] H3001 | [خشک شد] H3001 |
+|  | شد | [خشک شد] H3001 | [خشک شد] H3001 |
+|  | ، |  |  |
+| ✱ | به | H5921 עַל "above, over, upon…" |  |
+|  | گونه‌ای |  |  |
+| ✱ | که | H834 אֲשֶׁר "who, which, what, that…" |  |
+|  | نتوانست | H3808 H3201 | H3808 H3201 |
+|  | آن |  |  |
+| ✱ | را | H853 אֵת "properly…" |  |
+|  | باز | H7725 | H7725 |
+|  | نزد | H413 | H413 |
+|  | خود |  |  |
+| ✱ | پس |  | [پس کِشَد] H7725 שׁוּב "to turn back (hence…" |
+| ✱ | کِشَد |  | [پس کِشَد] H7725 שׁוּב "to turn back (hence…" |
+|  | . |  |  |
+
+### I Kings 13:5: 2 word(s) changed
+
+Reply line 6.
+
+Original: וְ/הַ/מִּזְבֵּחַ נִקְרָע וַ/יִּשָּׁפֵךְ הַ/דֶּשֶׁן מִן הַ/מִּזְבֵּחַ כַּ/מּוֹפֵת אֲשֶׁר נָתַן אִישׁ הָ/אֱלֹהִים בִּ/דְבַר יְהוָה
+
+Persian: و مطابق با نشانی که مرد خدا به فرمان خداوند داده بود، مذبح شکافته شد، و خاکستر از روی مذبح ریخت.
+
+Original words:
+- o1: וְ/הַ/מִּזְבֵּחַ = Hc "and" + Hd "the" + H4196 מִזְבֵּחַ "an altar" [HC/Td/Ncmsa]
+- o2: נִקְרָע = H7167 קָרַע "to rend, literally or figuratively (revile…" [HVNp3ms]
+- o3: וַ/יִּשָּׁפֵךְ = Hc "and" + H8210 שָׁפַךְ "to spill forth (blood, a libation, liquid metal…" [HC/VNw3ms]
+- o4: הַ/דֶּשֶׁן = Hd "the" + H1880 דֶּשֶׁן "the fat…" [HTd/Ncmsa]
+- o5: מִן = H4480 מִן "properly, a part of…" [HR]
+- o6: הַ/מִּזְבֵּחַ = Hd "the" + H4196 מִזְבֵּחַ "an altar" [HTd/Ncmsa]
+- o7: כַּ/מּוֹפֵת = Hk "like" + H4159 מוֹפֵת "a miracle; by implication, a token or omen" [HRd/Ncmsa]
+- o8: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o9: נָתַן = H5414 נָתַן "to give…" [HVqp3ms]
+- o10: אִישׁ = H376 אִישׁ "a man as an individual or a male person…" [HNcmsc]
+- o11: הָ/אֱלֹהִים = Hd "the" + H430 אֱלֹהִים "gods in the ordinary sense…" [HTd/Ncmpa]
+- o12: בִּ/דְבַר = Hb "in" + H1697 דָּבָר "a word…" [HR/Ncmsc]
+- o13: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | و | Hc | Hc |
+| ✱ | مطابق | Hk "like" | [مطابق با] Hk "like" |
+| ✱ | با |  | [مطابق با] Hk "like" |
+|  | نشانی | H4159 | H4159 |
+|  | که | H834 | H834 |
+|  | مرد | H376 | H376 |
+|  | خدا | H430 | H430 |
+|  | به | Hb | Hb |
+|  | فرمان | H1697 | H1697 |
+|  | خداوند | H3068 | H3068 |
+|  | داده | [داده بود] H5414 | [داده بود] H5414 |
+|  | بود | [داده بود] H5414 | [داده بود] H5414 |
+|  | ، |  |  |
+|  | مذبح | H4196 | H4196 |
+|  | شکافته | [شکافته شد] H7167 | [شکافته شد] H7167 |
+|  | شد | [شکافته شد] H7167 | [شکافته شد] H7167 |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | خاکستر | H1880 | H1880 |
+|  | از | H4480 | H4480 |
+|  | روی |  |  |
+|  | مذبح | H4196 | H4196 |
+|  | ریخت | H8210 | H8210 |
+|  | . |  |  |
+
+### I Kings 13:6: 5 word(s) changed
+
+Reply line 7.
+
+Original: וַ/יַּעַן הַ/מֶּלֶךְ וַ/יֹּאמֶר אֶל אִישׁ הָ/אֱלֹהִים חַל נָא אֶת פְּנֵי יְהוָה אֱלֹהֶי/ךָ וְ/הִתְפַּלֵּל בַּעֲדִ/י וְ/תָשֹׁב יָדִ/י אֵלָ/י וַ/יְחַל אִישׁ הָ/אֱלֹהִים אֶת פְּנֵי יְהוָה וַ/תָּשָׁב יַד הַ/מֶּלֶךְ אֵלָי/ו וַ/תְּהִי כְּ/בָ/רִאשֹׁנָה
+
+Persian: پادشاه مرد خدا را گفت:« تمنا آن که نزد یهوه خدایت شفاعت کرده، برای من دعا کنی تا دستم به من باز داده شود.» پس مرد خدا نزد خداوند شفاعت کرد و دست پادشاه به او باز داده شد و به حالت نخست بازگشت.
+
+Original words:
+- o1: וַ/יַּעַן = Hc "and" + H6030 עָנָה "properly, to eye or (generally) to heed…" [HC/Vqw3ms]
+- o2: הַ/מֶּלֶךְ = Hd "the" + H4428 מֶלֶךְ "a king" [HTd/Ncmsa]
+- o3: וַ/יֹּאמֶר = Hc "and" + H559 אָמַר "to say (used with great latitude)" [HC/Vqw3ms]
+- o4: אֶל = H413 אֵל "near, with or among; often in general, to" [HR]
+- o5: אִישׁ = H376 אִישׁ "a man as an individual or a male person…" [HNcmsc]
+- o6: הָ/אֱלֹהִים = Hd "the" + H430 אֱלֹהִים "gods in the ordinary sense…" [HTd/Ncmpa]
+- o7: חַל = H2470 חָלָה "properly, to be rubbed or worn…" [HVpv2ms]
+- o8: נָא = H4994 נָא "'I pray', 'now', or 'then'…" [HTe]
+- o9: אֶת = H853 אֵת "properly…" [HTo]
+- o10: פְּנֵי = H6440 פָּנִים "the face (as the part that turns)…" [HNcbpc]
+- o11: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o12: אֱלֹהֶי/ךָ = H430 אֱלֹהִים "gods in the ordinary sense…" [HNcmpc/Sp2ms]
+- o13: וְ/הִתְפַּלֵּל = Hc "and" + H6419 פָּלַל "to judge (officially or mentally)…" [HC/Vtv2ms]
+- o14: בַּעֲדִ/י = H1157 בְּעַד "in up to or over against…" [HR/Sp1cs]
+- o15: וְ/תָשֹׁב = Hc "and" + H7725 שׁוּב "to turn back (hence…" [HC/Vqj3fs]
+- o16: יָדִ/י = H3027 יָד "a hand (the open one (indicating power, means…" [HNcbsc/Sp1cs]
+- o17: אֵלָ/י = H413 אֵל "near, with or among; often in general, to" [HR/Sp1cs]
+- o18: וַ/יְחַל = Hc "and" + H2470 חָלָה "properly, to be rubbed or worn…" [HC/Vpw3ms]
+- o19: אִישׁ = H376 אִישׁ "a man as an individual or a male person…" [HNcmsc]
+- o20: הָ/אֱלֹהִים = Hd "the" + H430 אֱלֹהִים "gods in the ordinary sense…" [HTd/Ncmpa]
+- o21: אֶת = H853 אֵת "properly…" [HTo]
+- o22: פְּנֵי = H6440 פָּנִים "the face (as the part that turns)…" [HNcbpc]
+- o23: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o24: וַ/תָּשָׁב = Hc "and" + H7725 שׁוּב "to turn back (hence…" [HC/Vqw3fs]
+- o25: יַד = H3027 יָד "a hand (the open one (indicating power, means…" [HNcbsc]
+- o26: הַ/מֶּלֶךְ = Hd "the" + H4428 מֶלֶךְ "a king" [HTd/Ncmsa]
+- o27: אֵלָי/ו = H413 אֵל "near, with or among; often in general, to" [HR/Sp3ms]
+- o28: וַ/תְּהִי = Hc "and" + H1961 הָיָה "to exist, i.e. be or become…" [HC/Vqw3fs]
+- o29: כְּ/בָ/רִאשֹׁנָה = Hk "like" + Hb "in" + H7223 רִאשׁוֹן "first, in place…" [HR/Rd/Aafsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | پادشاه | H4428 | H4428 |
+|  | مرد | H376 | H376 |
+|  | خدا | H430 | H430 |
+|  | را | H853 | H853 |
+| ✱ | گفت | H559 אָמַר "to say (used with great…" | H6030 עָנָה "properly…"; H559 אָמַר "to say (used with great…" |
+|  | : |  |  |
+|  | « |  |  |
+|  | تمنا | H4994 | H4994 |
+|  | آن |  |  |
+|  | که |  |  |
+|  | نزد | H6440 | H6440 |
+|  | یهوه | H3068 | H3068 |
+|  | خدایت | H430 | H430 |
+|  | شفاعت | [شفاعت کرده] H2470 | [شفاعت کرده] H2470 |
+|  | کرده | [شفاعت کرده] H2470 | [شفاعت کرده] H2470 |
+|  | ، |  |  |
+|  | برای | H1157 | H1157 |
+|  | من |  |  |
+|  | دعا | [دعا کنی] H6419 | [دعا کنی] H6419 |
+|  | کنی | [دعا کنی] H6419 | [دعا کنی] H6419 |
+|  | تا |  |  |
+|  | دستم | H3027 | H3027 |
+|  | به | H413 | H413 |
+|  | من |  |  |
+|  | باز | [باز داده شود] H7725 | [باز داده شود] H7725 |
+|  | داده | [باز داده شود] H7725 | [باز داده شود] H7725 |
+|  | شود | [باز داده شود] H7725 | [باز داده شود] H7725 |
+|  | . |  |  |
+|  | » |  |  |
+|  | پس | Hc | Hc |
+|  | مرد | H376 | H376 |
+|  | خدا | H430 | H430 |
+|  | نزد | H6440 | H6440 |
+|  | خداوند | H3068 | H3068 |
+|  | شفاعت | [شفاعت کرد] H2470 | [شفاعت کرد] H2470 |
+|  | کرد | [شفاعت کرد] H2470 | [شفاعت کرد] H2470 |
+|  | و | Hc | Hc |
+|  | دست | H3027 | H3027 |
+|  | پادشاه | H4428 | H4428 |
+|  | به | H413 | H413 |
+|  | او |  |  |
+| ✱ | باز | H7725 שׁוּב "to turn back (hence…" | [باز داده شد] H7725 שׁוּב "to turn back (hence…" |
+| ✱ | داده | [داده شد] H4428 מֶלֶךְ "a king" | [باز داده شد] H7725 שׁוּב "to turn back (hence…" |
+| ✱ | شد | [داده شد] H4428 מֶלֶךְ "a king" | [باز داده شد] H7725 שׁוּב "to turn back (hence…" |
+|  | و | Hc | Hc |
+|  | به | Hb | Hb |
+|  | حالت |  |  |
+|  | نخست | H7223 | H7223 |
+| ✱ | بازگشت | H7725 שׁוּב "to turn back (hence…" | H1961 הָיָה "to exist, i.e. be or become…" |
+|  | . |  |  |
+
+### I Kings 13:7: 1 word(s) changed
+
+Reply line 8.
+
+Original: וַ/יְדַבֵּר הַ/מֶּלֶךְ אֶל אִישׁ הָ/אֱלֹהִים בֹּאָ/ה אִתִּ/י הַ/בַּיְתָ/ה וּ/סְעָדָ/ה וְ/אֶתְּנָה לְ/ךָ מַתָּת
+
+Persian: آنگاه پادشاه به مرد خدا گفت:« به خانه‌ام بیا و تجدید قوا کن و تو را پاداش خواهم داد.»
+
+Original words:
+- o1: וַ/יְדַבֵּר = Hc "and" + H1696 דָבַר "perhaps properly, to arrange…" [HC/Vpw3ms]
+- o2: הַ/מֶּלֶךְ = Hd "the" + H4428 מֶלֶךְ "a king" [HTd/Ncmsa]
+- o3: אֶל = H413 אֵל "near, with or among; often in general, to" [HR]
+- o4: אִישׁ = H376 אִישׁ "a man as an individual or a male person…" [HNcmsc]
+- o5: הָ/אֱלֹהִים = Hd "the" + H430 אֱלֹהִים "gods in the ordinary sense…" [HTd/Ncmpa]
+- o6: בֹּאָ/ה = H935 בּוֹא "to go or come (in a wide variety of applications)" [HVqv2ms/Sh]
+- o7: אִתִּ/י = H854 אֵת "properly…" [HR/Sp1cs]
+- o8: הַ/בַּיְתָ/ה = Hd "the" + H1004 בַּיִת "a house (in the greatest variation of…" [HTd/Ncmsa/Sd]
+- o9: וּ/סְעָדָ/ה = Hc "and" + H5582 סָעַד "to suport (mostly figurative)" [HC/Vqv2ms/Sh]
+- o10: וְ/אֶתְּנָה = Hc "and" + H5414 נָתַן "to give…" [HC/Vqh1cs]
+- o11: לְ/ךָ = Hl "to" [HR/Sp2ms]
+- o12: מַתָּת = H4991 מַתָּת "a present" [HNcfsa]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | آنگاه | Hc | Hc |
+|  | پادشاه | H4428 | H4428 |
+|  | به | H413 | H413 |
+|  | مرد | H376 | H376 |
+|  | خدا | H430 | H430 |
+|  | گفت | H1696 | H1696 |
+|  | : |  |  |
+|  | « |  |  |
+|  | به |  |  |
+|  | خانه‌ام | H1004 | H1004 |
+| ✱ | بیا |  | H935 בּוֹא "to go or come (in a wide…" |
+|  | و | Hc | Hc |
+|  | تجدید | [تجدید قوا کن] H5582 | [تجدید قوا کن] H5582 |
+|  | قوا | [تجدید قوا کن] H5582 | [تجدید قوا کن] H5582 |
+|  | کن | [تجدید قوا کن] H5582 | [تجدید قوا کن] H5582 |
+|  | و | Hc | Hc |
+|  | تو |  |  |
+|  | را |  |  |
+|  | پاداش | H4991 | H4991 |
+|  | خواهم | [خواهم داد] H5414 | [خواهم داد] H5414 |
+|  | داد | [خواهم داد] H5414 | [خواهم داد] H5414 |
+|  | . |  |  |
+|  | » |  |  |
+
+### I Kings 13:8: 7 word(s) changed
+
+Reply line 9.
+
+Original: וַ/יֹּאמֶר אִישׁ הָ/אֱלֹהִים אֶל הַ/מֶּלֶךְ אִם תִּתֶּן לִ/י אֶת חֲצִי בֵיתֶ/ךָ לֹא אָבֹא עִמָּ/ךְ וְ/לֹא אֹכַל לֶחֶם וְ/לֹא אֶשְׁתֶּה מַּיִם בַּ/מָּקוֹם הַ/זֶּה
+
+Persian: اما مرد خدا به پادشاه پاسخ داد:« حتی اگر نیمی از خانۀ خود را به من ببخشی، همراه تو نخواهم آمد و در این مکان نه نان خواهم خورد و نه آب خواهم نوشید
+
+Original words:
+- o1: וַ/יֹּאמֶר = Hc "and" + H559 אָמַר "to say (used with great latitude)" [HC/Vqw3ms]
+- o2: אִישׁ = H376 אִישׁ "a man as an individual or a male person…" [HNcmsc]
+- o3: הָ/אֱלֹהִים = Hd "the" + H430 אֱלֹהִים "gods in the ordinary sense…" [HTd/Ncmpa]
+- o4: אֶל = H413 אֵל "near, with or among; often in general, to" [HR]
+- o5: הַ/מֶּלֶךְ = Hd "the" + H4428 מֶלֶךְ "a king" [HTd/Ncmsa]
+- o6: אִם = H518 אִם "used very widely as demonstrative, lo!…" [HC]
+- o7: תִּתֶּן = H5414 נָתַן "to give…" [HVqi2ms]
+- o8: לִ/י = Hl "to" [HR/Sp1cs]
+- o9: אֶת = H853 אֵת "properly…" [HTo]
+- o10: חֲצִי = H2677 חֵצִי "the half or middle" [HNcmsc]
+- o11: בֵיתֶ/ךָ = H1004 בַּיִת "a house (in the greatest variation of…" [HNcmsc/Sp2ms]
+- o12: לֹא = H3808 לֹא "not (the simple or abs. negation)…" [HTn]
+- o13: אָבֹא = H935 בּוֹא "to go or come (in a wide variety of applications)" [HVqi1cs]
+- o14: עִמָּ/ךְ = H5973 עִם "adverb or preposition…" [HR/Sp2fs]
+- o15: וְ/לֹא = Hc "and" + H3808 לֹא "not (the simple or abs. negation)…" [HC/Tn]
+- o16: אֹכַל = H398 אָכַל "to eat (literally or figuratively)" [HVqi1cs]
+- o17: לֶחֶם = H3899 לֶחֶם "food (for man or beast), especially bread…" [HNcbsa]
+- o18: וְ/לֹא = Hc "and" + H3808 לֹא "not (the simple or abs. negation)…" [HC/Tn]
+- o19: אֶשְׁתֶּה = H8354 שָׁתָה "to imbibe (literally or figuratively)" [HVqi1cs]
+- o20: מַּיִם = H4325 מַיִם "water; figuratively, juice…" [HNcmpa]
+- o21: בַּ/מָּקוֹם = Hb "in" + H4725 מָקוֹם "properly, a standing, i.e. a spot…" [HRd/Ncmsa]
+- o22: הַ/זֶּה = Hd "the" + H2088 זֶה "the masculine demonstrative pronoun, this or that" [HTd/Pdxms]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | اما | Hc | Hc |
+|  | مرد | H376 | H376 |
+|  | خدا | H430 | H430 |
+|  | به | H413 | H413 |
+|  | پادشاه | H4428 | H4428 |
+| ✱ | پاسخ | H559 אָמַר "to say (used with great…" | [پاسخ داد] H559 אָמַר "to say (used with great…" |
+| ✱ | داد | H559 אָמַר "to say (used with great…"; H5414 נָתַן "to give…" | [پاسخ داد] H559 אָמַר "to say (used with great…" |
+|  | : |  |  |
+|  | « |  |  |
+|  | حتی |  |  |
+|  | اگر | H518 | H518 |
+|  | نیمی | H2677 | H2677 |
+|  | از |  |  |
+|  | خانۀ | H1004 | H1004 |
+|  | خود |  |  |
+|  | را | H853 | H853 |
+|  | به | Hl | Hl |
+|  | من |  |  |
+| ✱ | ببخشی |  | H5414 נָתַן "to give…" |
+|  | ، |  |  |
+|  | همراه | H5973 | H5973 |
+|  | تو |  |  |
+| ✱ | نخواهم | [نخواهم آمد] H3808 לֹא "not (the simple or abs.…" | [نخواهم آمد] H3808 לֹא "not (the simple or abs.…"; H935 בּוֹא "to go or come (in a wide…" |
+| ✱ | آمد | [نخواهم آمد] H3808 לֹא "not (the simple or abs.…" | [نخواهم آمد] H3808 לֹא "not (the simple or abs.…"; H935 בּוֹא "to go or come (in a wide…" |
+|  | و | Hc | Hc |
+|  | در | Hb | Hb |
+|  | این | H2088 | H2088 |
+|  | مکان | H4725 | H4725 |
+|  | نه | H3808 | H3808 |
+|  | نان | H3899 | H3899 |
+| ✱ | خواهم | [خواهم خورد] H398 אָכַל "to eat (literally or…"; H3899 לֶחֶם "food (for man or beast)…" | [خواهم خورد] H398 אָכַל "to eat (literally or…" |
+| ✱ | خورد | [خواهم خورد] H398 אָכַל "to eat (literally or…"; H3899 לֶחֶם "food (for man or beast)…" | [خواهم خورد] H398 אָכַל "to eat (literally or…" |
+|  | و | Hc | Hc |
+|  | نه | H3808 | H3808 |
+|  | آب | H4325 | H4325 |
+|  | خواهم | [خواهم نوشید] H8354 | [خواهم نوشید] H8354 |
+|  | نوشید | [خواهم نوشید] H8354 | [خواهم نوشید] H8354 |
+
+### I Kings 13:9: 9 word(s) changed
+
+Reply line 10.
+
+Original: כִּי כֵן צִוָּה אֹתִ/י בִּ/דְבַר יְהוָה לֵ/אמֹר לֹא תֹאכַל לֶחֶם וְ/לֹא תִשְׁתֶּה מָּיִם וְ/לֹא תָשׁוּב בַּ/דֶּרֶךְ אֲשֶׁר הָלָכְתָּ
+
+Persian: زیرا خداوند مرا به کلام خود فرمان داده، گفت: ”نان مخور و آب منوش، و از راهی که آمده‌ای بازنگرد.“»
+
+Original words:
+- o1: כִּי = H3588 כִּי "by implication) very widely used as a relative…" [HC]
+- o2: כֵן = H3651 כֵּן "properly, set upright…" [HD]
+- o3: צִוָּה = H6680 צָוָה "(intensively) to constitute, enjoin" [HVpp3ms]
+- o4: אֹתִ/י = H853 אֵת "properly…" [HTo/Sp1cs]
+- o5: בִּ/דְבַר = Hb "in" + H1697 דָּבָר "a word…" [HR/Ncmsc]
+- o6: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o7: לֵ/אמֹר = Hl "to" + H559 אָמַר "to say (used with great latitude)" [HR/Vqc]
+- o8: לֹא = H3808 לֹא "not (the simple or abs. negation)…" [HTn]
+- o9: תֹאכַל = H398 אָכַל "to eat (literally or figuratively)" [HVqi2ms]
+- o10: לֶחֶם = H3899 לֶחֶם "food (for man or beast), especially bread…" [HNcbsa]
+- o11: וְ/לֹא = Hc "and" + H3808 לֹא "not (the simple or abs. negation)…" [HC/Tn]
+- o12: תִשְׁתֶּה = H8354 שָׁתָה "to imbibe (literally or figuratively)" [HVqi2ms]
+- o13: מָּיִם = H4325 מַיִם "water; figuratively, juice…" [HNcmpa]
+- o14: וְ/לֹא = Hc "and" + H3808 לֹא "not (the simple or abs. negation)…" [HC/Tn]
+- o15: תָשׁוּב = H7725 שׁוּב "to turn back (hence…" [HVqi2ms]
+- o16: בַּ/דֶּרֶךְ = Hb "in" + H1870 דֶּרֶךְ "a road (as trodden)…" [HRd/Ncbsa]
+- o17: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o18: הָלָכְתָּ = H1980 הָלַךְ "to walk (in a great variety of applications…" [HVqp2ms]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | زیرا | H3588 | H3588 |
+|  | خداوند | H3068 | H3068 |
+| ✱ | مرا |  | H853 אֵת "properly…" |
+|  | به | Hb | Hb |
+|  | کلام | H1697 | H1697 |
+|  | خود |  |  |
+| ✱ | فرمان | H6680 צָוָה "intensively) to constitute…" | [فرمان داده] H6680 צָוָה "intensively) to constitute…" |
+| ✱ | داده |  | [فرمان داده] H6680 צָוָה "intensively) to constitute…" |
+|  | ، |  |  |
+|  | گفت | H559 | H559 |
+|  | : |  |  |
+| ✱ | ”نان | H398 אָכַל "to eat (literally or…" | H3899 לֶחֶם "food (for man or beast)…" |
+| ✱ | مخور | H3899 לֶחֶם "food (for man or beast)…" | H3808 לֹא "not (the simple or abs.…"; H398 אָכַל "to eat (literally or…" |
+|  | و | Hc | Hc |
+| ✱ | آب | H8354 שָׁתָה "to imbibe (literally or…" | H4325 מַיִם "water; figuratively, juice…" |
+| ✱ | منوش | H8354 שָׁתָה "to imbibe (literally or…"; H4325 מַיִם "water; figuratively, juice…" | H3808 לֹא "not (the simple or abs.…"; H8354 שָׁתָה "to imbibe (literally or…" |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+| ✱ | از |  | Hb "in" |
+|  | راهی | H1870 | H1870 |
+|  | که | H834 | H834 |
+|  | آمده‌ای | H1980 | H1980 |
+| ✱ | بازنگرد | H7725 שׁוּב "to turn back (hence…" | H3808 לֹא "not (the simple or abs.…"; H7725 שׁוּב "to turn back (hence…" |
+|  | . |  |  |
+|  | “ |  |  |
+|  | » |  |  |
+
+### I Kings 13:10: 3 word(s) changed
+
+Reply line 11.
+
+Original: וַ/יֵּלֶךְ בְּ/דֶרֶךְ אַחֵר וְ/לֹא שָׁב בַּ/דֶּרֶךְ אֲשֶׁר בָּא בָ/הּ אֶל בֵּית אֵל
+
+Persian: پس راه دیگری در پیش گرفت و از راهی که به بِیت‌ئیل آمده بود، بازنگشت.
+
+Original words:
+- o1: וַ/יֵּלֶךְ = Hc "and" + H3212 יָלַךְ "to walk (literally or figuratively)…" [HC/Vqw3ms]
+- o2: בְּ/דֶרֶךְ = Hb "in" + H1870 דֶּרֶךְ "a road (as trodden)…" [HR/Ncbsa]
+- o3: אַחֵר = H312 אַחֵר "properly, hinder; generally, next, other, etc" [HAamsa]
+- o4: וְ/לֹא = Hc "and" + H3808 לֹא "not (the simple or abs. negation)…" [HC/Tn]
+- o5: שָׁב = H7725 שׁוּב "to turn back (hence…" [HVqp3ms]
+- o6: בַּ/דֶּרֶךְ = Hb "in" + H1870 דֶּרֶךְ "a road (as trodden)…" [HRd/Ncbsa]
+- o7: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o8: בָּא = H935 בּוֹא "to go or come (in a wide variety of applications)" [HVqp3ms]
+- o9: בָ/הּ = Hb "in" [HR/Sp3fs]
+- o10: אֶל = H413 אֵל "near, with or among; often in general, to" [HR]
+- o11: בֵּית = H1008 בֵּית־אֵל "Beth-El, a place in Palestine" [HNp]
+- o12: אֵל = H1008 בֵּית־אֵל "Beth-El, a place in Palestine" [HNp]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | پس | Hc | Hc |
+|  | راه | H1870 | H1870 |
+|  | دیگری | H312 | H312 |
+|  | در | Hb | Hb |
+| ✱ | پیش |  | [پیش گرفت] H3212 יָלַךְ "to walk (literally or…" |
+| ✱ | گرفت | H3212 יָלַךְ "to walk (literally or…" | [پیش گرفت] H3212 יָלַךְ "to walk (literally or…" |
+|  | و | Hc | Hc |
+|  | از | Hb | Hb |
+|  | راهی | H1870 | H1870 |
+|  | که | H834 | H834 |
+|  | به | H413 | H413 |
+|  | بِیت‌ئیل | H1008 | H1008 |
+|  | آمده | [آمده بود] H935 | [آمده بود] H935 |
+|  | بود | [آمده بود] H935 | [آمده بود] H935 |
+|  | ، |  |  |
+| ✱ | بازنگشت | H7725 שׁוּב "to turn back (hence…" | H3808 לֹא "not (the simple or abs.…"; H7725 שׁוּב "to turn back (hence…" |
+|  | . |  |  |
+
+### I Kings 13:12: 2 word(s) changed
+
+Reply line 12.
+
+Original: וַ/יְדַבֵּר אֲלֵ/הֶם אֲבִי/הֶם אֵי זֶה הַ/דֶּרֶךְ הָלָךְ וַ/יִּרְאוּ בָנָי/ו אֶת הַ/דֶּרֶךְ אֲשֶׁר הָלַךְ אִישׁ הָ/אֱלֹהִים אֲשֶׁר בָּא מִ/יהוּדָה
+
+Persian: پدرشان از ایشان پرسید:« از کدام راه رفت؟» و پسرانش راه بازگشت مرد خدا را که از یهودا آمده بود، به وی نشان دادند.
+
+Original words:
+- o1: וַ/יְדַבֵּר = Hc "and" + H1696 דָבַר "perhaps properly, to arrange…" [HC/Vpw3ms]
+- o2: אֲלֵ/הֶם = H413 אֵל "near, with or among; often in general, to" [HR/Sp3mp]
+- o3: אֲבִי/הֶם = H1 אָב "father, in a literal and immediate…" [HNcmsc/Sp3mp]
+- o4: אֵי = H335 אַי "where? hence how?" [HTi]
+- o5: זֶה = H2088 זֶה "the masculine demonstrative pronoun, this or that" [HPdxms]
+- o6: הַ/דֶּרֶךְ = Hd "the" + H1870 דֶּרֶךְ "a road (as trodden)…" [HTd/Ncbsa]
+- o7: הָלָךְ = H1980 הָלַךְ "to walk (in a great variety of applications…" [HVqp3ms]
+- o8: וַ/יִּרְאוּ = Hc "and" + H7200 רָאָה "to see…" [HC/Vqw3mp]
+- o9: בָנָי/ו = H1121 בֵּן "a son (as a builder of the family name)…" [HNcmpc/Sp3ms]
+- o10: אֶת = H853 אֵת "properly…" [HTo]
+- o11: הַ/דֶּרֶךְ = Hd "the" + H1870 דֶּרֶךְ "a road (as trodden)…" [HTd/Ncbsa]
+- o12: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o13: הָלַךְ = H1980 הָלַךְ "to walk (in a great variety of applications…" [HVqp3ms]
+- o14: אִישׁ = H376 אִישׁ "a man as an individual or a male person…" [HNcmsc]
+- o15: הָ/אֱלֹהִים = Hd "the" + H430 אֱלֹהִים "gods in the ordinary sense…" [HTd/Ncmpa]
+- o16: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o17: בָּא = H935 בּוֹא "to go or come (in a wide variety of applications)" [HVqp3ms]
+- o18: מִ/יהוּדָה = Hm "from" + H3063 יְהוּדָה "Jehudah (or Judah), the name of five Israelites…" [HR/Np]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | پدرشان | H1 | H1 |
+| ✱ | از |  | H413 אֵל "near, with or among…" |
+|  | ایشان |  |  |
+|  | پرسید | H1696 | H1696 |
+|  | : |  |  |
+|  | « |  |  |
+|  | از |  |  |
+| ✱ | کدام | H335 אַי "where? hence how?" | H335 אַי "where? hence how?"; H2088 זֶה "the masculine demonstrative…" |
+|  | راه | H1870 | H1870 |
+|  | رفت | H1980 | H1980 |
+|  | ؟ |  |  |
+|  | » |  |  |
+|  | و | Hc | Hc |
+|  | پسرانش | H1121 | H1121 |
+|  | راه | H1870 | H1870 |
+|  | بازگشت | H1980 | H1980 |
+|  | مرد | H376 | H376 |
+|  | خدا | H430 | H430 |
+|  | را | H853 | H853 |
+|  | که | H834 | H834 |
+|  | از | Hm | Hm |
+|  | یهودا | H3063 | H3063 |
+|  | آمده | [آمده بود] H935 | [آمده بود] H935 |
+|  | بود | [آمده بود] H935 | [آمده بود] H935 |
+|  | ، |  |  |
+|  | به |  |  |
+|  | وی |  |  |
+|  | نشان | [نشان دادند] H7200 | [نشان دادند] H7200 |
+|  | دادند | [نشان دادند] H7200 | [نشان دادند] H7200 |
+|  | . |  |  |
+
+### I Kings 13:14: 5 word(s) changed
+
+Reply line 13.
+
+Original: וַ/יֵּלֶךְ אַחֲרֵי אִישׁ הָ/אֱלֹהִים וַ/יִּמְצָאֵ/הוּ יֹשֵׁב תַּחַת הָ/אֵלָה וַ/יֹּאמֶר אֵלָי/ו הַ/אַתָּה אִישׁ הָ/אֱלֹהִים אֲשֶׁר בָּאתָ מִ/יהוּדָה וַ/יֹּאמֶר אָנִי
+
+Persian: و در پی مرد خدا روانه گشته، او را زیر درخت بلوطی نشسته یافت. از او پرسید:« آیا تو همان مرد خدایی که از یهودا آمده است؟» پاسخ داد:« آری، من همانم.»
+
+Original words:
+- o1: וַ/יֵּלֶךְ = Hc "and" + H3212 יָלַךְ "to walk (literally or figuratively)…" [HC/Vqw3ms]
+- o2: אַחֲרֵי = H310 אַחַר "properly, the hind part…" [HR]
+- o3: אִישׁ = H376 אִישׁ "a man as an individual or a male person…" [HNcmsc]
+- o4: הָ/אֱלֹהִים = Hd "the" + H430 אֱלֹהִים "gods in the ordinary sense…" [HTd/Ncmpa]
+- o5: וַ/יִּמְצָאֵ/הוּ = Hc "and" + H4672 מָצָא "properly, to come forth to, i.e. appear or exist…" [HC/Vqw3ms/Sp3ms]
+- o6: יֹשֵׁב = H3427 יָשַׁב "properly…" [HVqrmsa]
+- o7: תַּחַת = H8478 תַּחַת "the bottom (as depressed)…" [HR]
+- o8: הָ/אֵלָה = Hd "the" + H424 אֵלָה "an oak or other strong tree" [HTd/Ncfsa]
+- o9: וַ/יֹּאמֶר = Hc "and" + H559 אָמַר "to say (used with great latitude)" [HC/Vqw3ms]
+- o10: אֵלָי/ו = H413 אֵל "near, with or among; often in general, to" [HR/Sp3ms]
+- o11: הַ/אַתָּה = Hi "(untranslatable; interrogative particle)" + H859 אַתָּה "thou and thee, or (plural) ye and you" [HTi/Pp2ms]
+- o12: אִישׁ = H376 אִישׁ "a man as an individual or a male person…" [HNcmsc]
+- o13: הָ/אֱלֹהִים = Hd "the" + H430 אֱלֹהִים "gods in the ordinary sense…" [HTd/Ncmpa]
+- o14: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o15: בָּאתָ = H935 בּוֹא "to go or come (in a wide variety of applications)" [HVqp2ms]
+- o16: מִ/יהוּדָה = Hm "from" + H3063 יְהוּדָה "Jehudah (or Judah), the name of five Israelites…" [HR/Np]
+- o17: וַ/יֹּאמֶר = Hc "and" + H559 אָמַר "to say (used with great latitude)" [HC/Vqw3ms]
+- o18: אָנִי = H589 אֲנִי "I" [HPp1cs]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | و | Hc | Hc |
+| ✱ | در |  | [در پی] H310 אַחַר "properly, the hind part…" |
+| ✱ | پی | H310 אַחַר "properly, the hind part…" | [در پی] H310 אַחַר "properly, the hind part…" |
+|  | مرد | H376 | H376 |
+|  | خدا | H430 | H430 |
+|  | روانه | [روانه گشته] H3212 | [روانه گشته] H3212 |
+|  | گشته | [روانه گشته] H3212 | [روانه گشته] H3212 |
+|  | ، |  |  |
+|  | او |  |  |
+|  | را |  |  |
+|  | زیر | H8478 | H8478 |
+|  | درخت | [درخت بلوطی] H424 | [درخت بلوطی] H424 |
+|  | بلوطی | [درخت بلوطی] H424 | [درخت بلوطی] H424 |
+|  | نشسته | H3427 | H3427 |
+|  | یافت | H4672 | H4672 |
+|  | . |  |  |
+| ✱ | از |  | H413 אֵל "near, with or among…" |
+|  | او |  |  |
+|  | پرسید | H559 | H559 |
+|  | : |  |  |
+|  | « |  |  |
+|  | آیا | Hi | Hi |
+|  | تو | H859 | H859 |
+|  | همان |  |  |
+|  | مرد | H376 | H376 |
+|  | خدایی | H430 | H430 |
+|  | که | H834 | H834 |
+|  | از | Hm | Hm |
+|  | یهودا | H3063 | H3063 |
+|  | آمده | [آمده است] H935 | [آمده است] H935 |
+|  | است | [آمده است] H935 | [آمده است] H935 |
+|  | ؟ |  |  |
+|  | » |  |  |
+| ✱ | پاسخ | H559 אָמַר "to say (used with great…" | [پاسخ داد] H559 אָמַר "to say (used with great…" |
+| ✱ | داد | H559 אָמַר "to say (used with great…" | [پاسخ داد] H559 אָמַר "to say (used with great…" |
+|  | : |  |  |
+|  | « |  |  |
+|  | آری |  |  |
+|  | ، |  |  |
+|  | من | H589 | H589 |
+|  | همانم |  |  |
+|  | . |  |  |
+|  | » |  |  |
+
+### I Kings 13:16: 3 word(s) changed
+
+Reply line 14.
+
+Original: וַ/יֹּאמֶר לֹא אוּכַל לָ/שׁוּב אִתָּ/ךְ וְ/לָ/בוֹא אִתָּ/ךְ וְ/לֹא אֹכַל לֶחֶם וְ/לֹא אֶשְׁתֶּה אִתְּ/ךָ מַיִם בַּ/מָּקוֹם הַ/זֶּה
+
+Persian: اما مرد خدا گفت:« نمی‌توانم همراه تو بازگردم و به خانه‌ات درآیم، و در این مکان نیز نه با تو نان می‌خورم و نه آب می‌نوشم.
+
+Original words:
+- o1: וַ/יֹּאמֶר = Hc "and" + H559 אָמַר "to say (used with great latitude)" [HC/Vqw3ms]
+- o2: לֹא = H3808 לֹא "not (the simple or abs. negation)…" [HTn]
+- o3: אוּכַל = H3201 יָכֹל "to be able, literally (can…" [HVqi1cs]
+- o4: לָ/שׁוּב = Hl "to" + H7725 שׁוּב "to turn back (hence…" [HR/Vqc]
+- o5: אִתָּ/ךְ = H854 אֵת "properly…" [HR/Sp2fs]
+- o6: וְ/לָ/בוֹא = Hc "and" + Hl "to" + H935 בּוֹא "to go or come (in a wide variety of applications)" [HC/R/Vqc]
+- o7: אִתָּ/ךְ = H854 אֵת "properly…" [HR/Sp2fs]
+- o8: וְ/לֹא = Hc "and" + H3808 לֹא "not (the simple or abs. negation)…" [HC/Tn]
+- o9: אֹכַל = H398 אָכַל "to eat (literally or figuratively)" [HVqi1cs]
+- o10: לֶחֶם = H3899 לֶחֶם "food (for man or beast), especially bread…" [HNcbsa]
+- o11: וְ/לֹא = Hc "and" + H3808 לֹא "not (the simple or abs. negation)…" [HC/Tn]
+- o12: אֶשְׁתֶּה = H8354 שָׁתָה "to imbibe (literally or figuratively)" [HVqi1cs]
+- o13: אִתְּ/ךָ = H854 אֵת "properly…" [HR/Sp2ms]
+- o14: מַיִם = H4325 מַיִם "water; figuratively, juice…" [HNcmpa]
+- o15: בַּ/מָּקוֹם = Hb "in" + H4725 מָקוֹם "properly, a standing, i.e. a spot…" [HRd/Ncmsa]
+- o16: הַ/זֶּה = Hd "the" + H2088 זֶה "the masculine demonstrative pronoun, this or that" [HTd/Pdxms]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | اما | Hc | Hc |
+|  | مرد |  |  |
+|  | خدا |  |  |
+|  | گفت | H559 | H559 |
+|  | : |  |  |
+|  | « |  |  |
+| ✱ | نمی‌توانم | H3201 יָכֹל "to be able, literally (can…" | H3808 לֹא "not (the simple or abs.…"; H3201 יָכֹל "to be able, literally (can…" |
+|  | همراه | H854 | H854 |
+|  | تو |  |  |
+|  | بازگردم | H7725 | H7725 |
+|  | و | Hc | Hc |
+| ✱ | به | Hl "to" |  |
+| ✱ | خانه‌ات | H3899 לֶחֶם "food (for man or beast)…" |  |
+|  | درآیم | H935 | H935 |
+|  | ، |  |  |
+|  | و | Hc | Hc |
+|  | در | Hb | Hb |
+|  | این | H2088 | H2088 |
+|  | مکان | H4725 | H4725 |
+|  | نیز |  |  |
+|  | نه | H3808 | H3808 |
+|  | با | H854 | H854 |
+|  | تو |  |  |
+|  | نان | H3899 | H3899 |
+|  | می‌خورم | H398 | H398 |
+|  | و | Hc | Hc |
+|  | نه | H3808 | H3808 |
+|  | آب | H4325 | H4325 |
+|  | می‌نوشم | H8354 | H8354 |
+|  | . |  |  |
+
+### I Kings 13:17: 10 word(s) changed
+
+Reply line 15.
+
+Original: כִּי דָבָר אֵלַ/י בִּ/דְבַר יְהוָה לֹא תֹאכַל לֶחֶם וְ/לֹא תִשְׁתֶּה שָׁם מָיִם לֹא תָשׁוּב לָ/לֶכֶת בַּ/דֶּרֶךְ אֲשֶׁר הָלַכְתָּ בָּ/הּ
+
+Persian: زیرا به کلام خداوند به من گفته شد: ”در آنجا نان مخور و آب منوش، و از راهی که آمده‌ای بازنگرد.“»
+
+Original words:
+- o1: כִּי = H3588 כִּי "by implication) very widely used as a relative…" [HC]
+- o2: דָבָר = H1697 דָּבָר "a word…" [HNcmsa]
+- o3: אֵלַ/י = H413 אֵל "near, with or among; often in general, to" [HR/Sp1cs]
+- o4: בִּ/דְבַר = Hb "in" + H1697 דָּבָר "a word…" [HR/Ncmsc]
+- o5: יְהוָה = H3068 יְהֹוָה "Jehovah, Jewish national name of God" [HNp]
+- o6: לֹא = H3808 לֹא "not (the simple or abs. negation)…" [HTn]
+- o7: תֹאכַל = H398 אָכַל "to eat (literally or figuratively)" [HVqi2ms]
+- o8: לֶחֶם = H3899 לֶחֶם "food (for man or beast), especially bread…" [HNcbsa]
+- o9: וְ/לֹא = Hc "and" + H3808 לֹא "not (the simple or abs. negation)…" [HC/Tn]
+- o10: תִשְׁתֶּה = H8354 שָׁתָה "to imbibe (literally or figuratively)" [HVqi2ms]
+- o11: שָׁם = H8033 שָׁם "there (transferring to time) then…" [HD]
+- o12: מָיִם = H4325 מַיִם "water; figuratively, juice…" [HNcmpa]
+- o13: לֹא = H3808 לֹא "not (the simple or abs. negation)…" [HTn]
+- o14: תָשׁוּב = H7725 שׁוּב "to turn back (hence…" [HVqi2ms]
+- o15: לָ/לֶכֶת = Hl "to" + H3212 יָלַךְ "to walk (literally or figuratively)…" [HR/Vqc]
+- o16: בַּ/דֶּרֶךְ = Hb "in" + H1870 דֶּרֶךְ "a road (as trodden)…" [HRd/Ncbsa]
+- o17: אֲשֶׁר = H834 אֲשֶׁר "who, which, what, that…" [HTr]
+- o18: הָלַכְתָּ = H1980 הָלַךְ "to walk (in a great variety of applications…" [HVqp2ms]
+- o19: בָּ/הּ = Hb "in" [HR/Sp3fs]
+
+| | Persian | Now | Proposed |
+| --- | --- | --- | --- |
+|  | زیرا | H3588 | H3588 |
+| ✱ | به | H413 אֵל "near, with or among…" | Hb "in" |
+|  | کلام | H1697 | H1697 |
+|  | خداوند | H3068 | H3068 |
+| ✱ | به |  | H413 אֵל "near, with or among…" |
+|  | من |  |  |
+|  | گفته | [گفته شد] H1697 | [گفته شد] H1697 |
+|  | شد | [گفته شد] H1697 | [گفته شد] H1697 |
+|  | : |  |  |
+| ✱ | ”در | Hb "in" | [”در آنجا] H8033 שָׁם "there (transferring to time)…" |
+| ✱ | آنجا | H8033 שָׁם "there (transferring to time)…" | [”در آنجا] H8033 שָׁם "there (transferring to time)…" |
+| ✱ | نان | H398 אָכַל "to eat (literally or…" | H3899 לֶחֶם "food (for man or beast)…" |
+| ✱ | مخور | H3899 לֶחֶם "food (for man or beast)…" | H3808 לֹא "not (the simple or abs.…"; H398 אָכַל "to eat (literally or…" |
+|  | و | Hc | Hc |
+| ✱ | آب | [آب منوش] H8354 שָׁתָה "to imbibe (literally or…"; H4325 מַיִם "water; figuratively, juice…" | H4325 מַיִם "water; figuratively, juice…" |
+| ✱ | منوش | [آب منوش] H8354 שָׁתָה "to imbibe (literally or…"; H4325 מַיִם "water; figuratively, juice…" | H3808 לֹא "not (the simple or abs.…"; H8354 שָׁתָה "to imbibe (literally or…" |
+|  | ، |  |  |
+|  | و |  |  |
+| ✱ | از |  | Hb "in" |
+|  | راهی | H1870 | H1870 |
+|  | که | H834 | H834 |
+|  | آمده‌ای | H1980 | H1980 |
+| ✱ | بازنگرد | H7725 שׁוּב "to turn back (hence…"; H3212 יָלַךְ "to walk (literally or…" | H3808 לֹא "not (the simple or abs.…"; H7725 שׁוּב "to turn back (hence…"; H3212 יָלַךְ "to walk (literally or…" |
+|  | . |  |  |
+|  | “ |  |  |
+|  | » |  |  |

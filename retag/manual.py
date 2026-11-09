@@ -24,7 +24,9 @@ def detect_edits(current, grid):
     '''Keys of verses in the current sync.bible file that differ from the last machine output.'''
     baseline_path = machine_baseline_path()
     baseline = data.align_to_grid(data.load_bible(baseline_path), grid)
-    edited = sorted(k for k, verse in current.items() if k in baseline and baseline[k] != verse)
+    # Spaces versus _ or ~ inside compounds (خواهد شد / خواهد_شد) is formatting, not an edit.
+    edited = sorted(k for k, verse in current.items()
+                    if k in baseline and data.display_verse(baseline[k]) != data.display_verse(verse))
     if len(edited) > MAX_PLAUSIBLE_EDITS:
         raise SystemExit(
             f'{len(edited)} verses differ between sync.bible and {baseline_path}, which is far more '
@@ -48,13 +50,13 @@ def read_locked(grid, path=LOCKED_VERSES_FILE):
     return keys
 
 
-def record_locked(new_keys, path=LOCKED_VERSES_FILE):
+def record_locked(new_keys, path=LOCKED_VERSES_FILE, note='manual edit detected'):
     if not new_keys:
         return
     today = datetime.date.today().isoformat()
     with open(path, 'a', encoding='utf8') as f:
         for key in sorted(new_keys):
-            f.write(f'{data.reference(key)}  # manual edit detected {today}\n')
+            f.write(f'{data.reference(key)}  # {note} {today}\n')
 
 
 def locked_verses(current, grid, record=False):

@@ -58,23 +58,28 @@ class Candidates:
             self.by_key[v.key] = rows
 
 
-def gold_labels(verse):
-    '''Per-token gold tag sets from a hand-corrected sync.bible verse.'''
+def gold_labels(verse, tokens):
+    '''Per-token gold tag sets from a hand-corrected sync.bible verse with these NMV_hazm tokens.'''
     return [{original.GREEK_PRONOUN_FORMS.get(t, t) for t in data.clean_tags(tags)}
-            for tags in data.token_tags(verse)]
+            for tags in data.token_tags(verse, tokens)]
 
 
-def train(candidates, gold):
-    '''gold: {key: per-token tag sets}.'''
-    X, y = [], []
-    for key, labels in gold.items():
-        for ti, _, lemma, features in candidates.by_key.get(key, []):
-            X.append(features)
-            y.append(lemma in labels[ti])
+def train(candidates, gold, extra=None, extra_weight=0.5):
+    '''gold: {key: per-token tag sets} from hand-corrected verses. extra: the same for the
+    unchecked chat-review replies, which count extra_weight times as much as a gold verse.'''
+    X, y, w = [], [], []
+    for labels_by_key, weight in ((gold, 1.0), (extra or {}, extra_weight)):
+        for key, labels in labels_by_key.items():
+            if key in gold and labels_by_key is not gold:
+                continue
+            for ti, _, lemma, features in candidates.by_key.get(key, []):
+                X.append(features)
+                y.append(lemma in labels[ti])
+                w.append(weight)
     if not X or len(set(y)) < 2:
         raise SystemExit('Not enough hand-corrected verses to train the tagger.')
     model = GradientBoostingClassifier(n_estimators=100, max_depth=3, random_state=0)
-    return model.fit(np.array(X), np.array(y))
+    return model.fit(np.array(X), np.array(y), sample_weight=np.array(w))
 
 
 def predict(model, candidates, keys, threshold):

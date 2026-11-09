@@ -62,7 +62,71 @@ Each verse is tagged independently, so re-tagging never shifts a hand-corrected 
 The tool also fixes an old bug: the original aligner dropped the 17 verses the ESV omits
 (Matthew 17:21, Acts 8:37, Mark 9:44,46, ...), which shifted every later verse in those 16
 chapters. These verses are restored from `transformations/NMV_hazm.parquet`. Matthew 12:47 is
-tagged. The others have no text in Tischendorf's Greek, so they stay untagged.
+tagged. The others have no text in Tischendorf's Greek; they now take their Greek from
+`TR.json` (see below).
+
+## Unchecked chat-review replies (`replies.py`)
+
+Replies saved in `review_replies/pending/` and `approved/` are used before anyone checks
+them, so each verse comes from the first of these that applies:
+
+1. **Hand-corrected (locked) verses:** copied from sync.bible as above. They always win.
+2. **Chat-review replies:** every reply line that passes `python review_replies.py check`
+   is copied into the output for that verse, instead of the machine tagging. Lines with
+   problems are skipped, and the run says how many.
+3. **Machine tagging:** everything else.
+
+Reply verses also train the classifier, at half the weight of a hand-corrected verse
+(`--reply-weight`). Cross-validation still scores only the hand-corrected verses, so the
+accuracy figures stay honest. Pass `--no-replies` to ignore the replies completely.
+
+The reply versions go into `outputs/NMV_strongs_machine.json` too, so they are not taken
+for hand edits. If one of those verses is later changed in the app, it differs from that
+file, so the next run detects it, locks it and keeps your version. Deleting a reply sends
+its verse back to machine tagging, unless it was edited by hand. When a reply is checked and
+applied (`review_replies.py apply`), its verses are locked as gold verses.
+
+For the reply verses, `outputs/machine_tags_for_reply_verses.json` keeps what the machine
+tagging would have given. `review_replies.py check` shows that in its "Now" column, so the
+reports still show what each reply changes.
+
+## Compound words: spaces, not `_` or `~`
+
+The hazm tokens join the parts of a compound verb with `_` (`خواهد_شد`), and the NMV text
+marks some compounds with `~` (`فرو~گرفت`). The output always uses a space instead
+(`خواهد شد`, `فرو گرفت`), including in locked and reply verses. Only the text changes,
+never the tags. The tools compare verses word by word, so either form is read correctly,
+and a change between the two forms is not counted as a hand edit.
+
+## Greek variant readings (`variants.py`)
+
+The NMV New Testament follows a modern critical text close to NA27/UBS4. Verses found only
+in the Textus Receptus are added in square brackets (Matthew 17:21, Acts 8:37, the doxology
+of Matthew 6:13…). Tischendorf, the Greek in `accented.json`, differs from that text in a few
+hundred places, e.g. Jude 22 (ἐλέγχετε, where the Persian has ἐλεᾶτε "have mercy"),
+Acts 20:28 (κυρίου, where the Persian has θεοῦ "God"), 2 Peter 3:10, 1 Corinthians 2:1, and
+Luke 24:12, which it leaves out. A comparison at 44 well-known variant units ranked the
+Strong's-tagged Greek files in sync.bible: `WHNU.json` (Westcott-Hort with NA27/UBS4
+variants) matched the Persian at 36, `accented.json` and `MorphGNT.json` at 34,
+`grcsbl2010eb.json` at 30, the Byzantine texts at 17-23, and `TR.json` at 19.
+
+So the original text for the New Testament is `accented.json` with words merged in from:
+
+- **`WHNU.json`**, for every verse;
+- **`TR.json`**, for verses whose Persian has square brackets, and for verses neither of the
+  other files has.
+
+Only words whose Strong's number isn't already in the verse are added, inserted where they
+stand in that text. Numbers are converted to the `accented.json` conventions first: no zero
+padding; `G1473`/`G2249` and `G4771`/`G5210` for singular/plural pronouns; and `G1510` for
+TR's forms of εἰμί (`G2076`, `G2258`…). The same word under a different number (πλεῖον,
+G4183 in Tischendorf and G4119 in WHNU) or part of a word written as one (διατί) isn't
+counted as a different reading. About 350 verses get extra words: around 520 words from
+WHNU and 270 from TR. Each added word has a fourth field naming its source, e.g.
+`["ελεατε", "G1653", "V-PAM-2P", "WHNU"]`. The Old Testament is unchanged.
+
+The re-tagger, `make_review_chunks.py` and `review_replies.py` all read the original text
+this way. Each takes `--no-variants` to use `accented.json` alone.
 
 ## How tagging works
 

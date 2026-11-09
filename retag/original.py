@@ -5,6 +5,8 @@ morphemes separated by "/", e.g. ["וּ/מוּסָ֑ר", "Hc/H4148", "HC/Ncmsa"]
 with a Strong's number (including the prefixes Hc, Hl, Hb, Hm, Hk, Hd...) is an alignment
 unit. Pronominal suffixes have no Strong's number and so are never tagged.'''
 
+import bisect
+
 HEBREW_PREFIXES = {'Hc', 'Hl', 'Hb', 'Hm', 'Hk', 'Hi', 'Hs'}
 HEBREW_ARTICLE = 'Hd'
 GREEK_ARTICLE = 'G3588'
@@ -45,3 +47,20 @@ def verb_lemmas(verse):
 
 def has_lemma(verse, lemma):
     return any(l == lemma for _, l in morphemes(verse))
+
+
+def verse_order(accented):
+    '''{book: [(chapter_idx, verse_idx), ...]} for every verse of the original text, in order.'''
+    return {book: [(ci, vi) for ci, chapter in enumerate(chapters) for vi in range(len(chapter))]
+            for book, chapters in accented.items()}
+
+
+def nearby_keys(order, key, window=1):
+    '''Keys of the original verses up to `window` verses before and after `key` in the same book,
+    across chapter boundaries. Used where Persian and original verse divisions differ (e.g. the
+    Greek of Revelation 12:18 is at the start of Persian Revelation 13:1).'''
+    book, ci, vi = key
+    verses = order.get(book, [])
+    pos = bisect.bisect_left(verses, (ci, vi))
+    after = pos + 1 if pos < len(verses) and verses[pos] == (ci, vi) else pos
+    return [(book, c, v) for c, v in verses[max(0, pos - window):pos] + verses[after:after + window]]
